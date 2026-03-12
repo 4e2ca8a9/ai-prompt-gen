@@ -1,94 +1,386 @@
 category = "fabric"
 
-# Solid colors
+# === Solid Colors - Silk ===
 [[options]]
 name = "Black Silk"
 [[options]]
+name = "White Silk"
+[[options]]
+name = "Red Silk"
+[[options]]
+name = "Ivory Silk"
+[[options]]
+name = "Navy Silk"
+[[options]]
+name = "Emerald Silk"
+[[options]]
+name = "Champagne Silk"
+[[options]]
+name = "Periwinkle Silk"
+[[options]]
+name = "Wine Silk"
+[[options]]
+name = "Blush Silk"
+[[options]]
+name = "Teal Silk"
+[[options]]
+name = "Dusty Rose Silk"
+
+# === Solid Colors - Cotton ===
+[[options]]
 name = "White Cotton"
 [[options]]
-name = "Red Satin"
+name = "Black Cotton"
 [[options]]
 name = "Red Cotton"
 [[options]]
 name = "Pink Cotton"
 [[options]]
-name = "Hot Pink Satin"
-[[options]]
-name = "Blush Pink Chiffon"
-[[options]]
-name = "Coral Crepe"
-[[options]]
-name = "Peach Organza"
-[[options]]
-name = "Orange Linen"
+name = "Baby Blue Cotton"
 [[options]]
 name = "Yellow Cotton"
 [[options]]
-name = "Mustard Twill"
+name = "Orange Cotton"
 [[options]]
-name = "Gold Satin"
+name = "Lilac Cotton"
 [[options]]
-name = "Olive Twill"
-[[options]]
-name = "Forest Green Wool"
-[[options]]
-name = "Emerald Satin"
-[[options]]
-name = "Sage Linen"
-[[options]]
-name = "Mint Chiffon"
-[[options]]
-name = "Teal Crepe"
-[[options]]
-name = "Navy Linen"
-[[options]]
-name = "Navy Wool"
-[[options]]
-name = "Royal Blue Satin"
-[[options]]
-name = "Baby Blue Cotton"
-[[options]]
-name = "Sky Blue Chambray"
-[[options]]
-name = "Powder Blue Chiffon"
-[[options]]
-name = "Periwinkle Silk"
-[[options]]
-name = "Lavender Chiffon"
-[[options]]
-name = "Purple Velvet"
-[[options]]
-name = "Plum Satin"
-[[options]]
-name = "Burgundy Velvet"
-[[options]]
-name = "Maroon Wool"
-[[options]]
-name = "Wine Silk"
-[[options]]
-name = "Cream Cashmere"
-[[options]]
-name = "Ivory Lace"
-[[options]]
-name = "Ivory Silk"
-[[options]]
-name = "Beige Linen"
-[[options]]
-name = "Camel Wool"
-[[options]]
-name = "Taupe Crepe"
-[[options]]
-name = "Charcoal Wool"
+name = "Mint Cotton"
 [[options]]
 name = "Slate Grey Cotton"
 [[options]]
-name = "Heather Grey Jersey"
+name = "Olive Cotton"
+[[options]]
+name = "Coral Cotton"
+[[options]]
+name = "Tan Cotton"
+[[options]]
+name = "Sage Cotton"
+[[options]]
+name = "Rust Cotton"
+[[options]]
+name = "Mauve Cotton"
+[[options]]
+name = "Seafoam Cotton"
+[[options]]
+name = "Butter Yellow Cotton"
+[[options]]
+name = "Dusty Blue Cotton"
+
+# === Solid Colors - Satin ===
+[[options]]
+name = "Red Satin"
+[[options]]
+name = "Hot Pink Satin"
+[[options]]
+name = "Gold Satin"
+[[options]]
+name = "Emerald Satin"
+[[options]]
+name = "Royal Blue Satin"
+[[options]]
+name = "Plum Satin"
+[[options]]
+name = "Champagne Satin"
+[[options]]
+name = "Silver Satin"
+[[options]]
+name = "Black Satin"
+[[options]]
+name = "Peach Satin"
+[[options]]
+name = "Teal Satin"
+[[options]]
+name = "Copper Satin"
+[[options]]
+name = "Mauve Satin"
+
+# === Solid Colors - Chiffon ===
+[[options]]
+name = "Blush Pink Chiffon"
+[[options]]
+name = "Lavender Chiffon"
+[[options]]
+name = "Mint Chiffon"
+[[options]]
+name = "Powder Blue Chiffon"
+[[options]]
+name = "Peach Chiffon"
+[[options]]
+name = "White Chiffon"
+[[options]]
+name = "Black Chiffon"
+[[options]]
+name = "Sage Chiffon"
+[[options]]
+name = "Coral Chiffon"
+[[options]]
+name = "Champagne Chiffon"
+[[options]]
+name = "Dusty Rose Chiffon"
+[[options]]
+name = "Sky Blue Chiffon"
+
+# === Solid Colors - Linen ===
+[[options]]
+name = "White Linen"
+[[options]]
+name = "Navy Linen"
+[[options]]
+name = "Beige Linen"
+[[options]]
+name = "Sage Linen"
+[[options]]
+name = "Orange Linen"
+[[options]]
+name = "Olive Linen"
+[[options]]
+name = "Terracotta Linen"
+[[options]]
+name = "Oatmeal Linen"
+[[options]]
+name = "Charcoal Linen"
+[[options]]
+name = "Rust Linen"
+[[options]]
+name = "Sand Linen"
+[[options]]
+name = "Seafoam Linen"
+
+# === Solid Colors - Wool ===
+[[options]]
+name = "Charcoal Wool"
+[[options]]
+name = "Navy Wool"
+[[options]]
+name = "Forest Green Wool"
+[[options]]
+name = "Camel Wool"
+[[options]]
+name = "Maroon Wool"
+[[options]]
+name = "Black Wool"
+[[options]]
+name = "Heather Grey Wool"
+[[options]]
+name = "Burgundy Wool"
+[[options]]
+name = "Cream Wool"
+[[options]]
+name = "Olive Wool"
+[[options]]
+name = "Plum Wool"
+[[options]]
+name = "Rust Wool"
+
+# === Solid Colors - Velvet ===
+[[options]]
+name = "Burgundy Velvet"
+[[options]]
+name = "Purple Velvet"
+[[options]]
+name = "Black Velvet"
+[[options]]
+name = "Emerald Velvet"
+[[options]]
+name = "Navy Velvet"
+[[options]]
+name = "Teal Velvet"
+[[options]]
+name = "Plum Velvet"
+[[options]]
+name = "Ruby Velvet"
+[[options]]
+name = "Midnight Blue Velvet"
+[[options]]
+name = "Rose Velvet"
+[[options]]
+name = "Forest Green Velvet"
+[[options]]
+name = "Sapphire Velvet"
+[[options]]
+name = "Crushed Velvet"
+
+# === Solid Colors - Crepe ===
+[[options]]
+name = "Coral Crepe"
+[[options]]
+name = "Taupe Crepe"
+[[options]]
+name = "Teal Crepe"
+[[options]]
+name = "Black Crepe"
+[[options]]
+name = "Ivory Crepe"
+[[options]]
+name = "Navy Crepe"
+[[options]]
+name = "Blush Crepe"
+[[options]]
+name = "Sage Crepe"
+[[options]]
+name = "Wine Crepe"
+[[options]]
+name = "Dusty Blue Crepe"
+
+# === Solid Colors - Cashmere ===
+[[options]]
+name = "Cream Cashmere"
 [[options]]
 name = "Light Grey Cashmere"
+[[options]]
+name = "Black Cashmere"
+[[options]]
+name = "Camel Cashmere"
+[[options]]
+name = "Blush Cashmere"
+[[options]]
+name = "Navy Cashmere"
+[[options]]
+name = "Oatmeal Cashmere"
+[[options]]
+name = "Lavender Cashmere"
+[[options]]
+name = "Dusty Rose Cashmere"
 
-# Denim
+# === Solid Colors - Twill ===
+[[options]]
+name = "Olive Twill"
+[[options]]
+name = "Mustard Twill"
+[[options]]
+name = "Khaki Twill"
+[[options]]
+name = "Navy Twill"
+[[options]]
+name = "Rust Twill"
+[[options]]
+name = "Charcoal Twill"
+[[options]]
+name = "Tan Twill"
+
+# === Solid Colors - Organza ===
+[[options]]
+name = "Peach Organza"
+[[options]]
+name = "White Organza"
+[[options]]
+name = "Blush Organza"
+[[options]]
+name = "Champagne Organza"
+[[options]]
+name = "Lavender Organza"
+[[options]]
+name = "Gold Organza"
+
+# === Solid Colors - Jersey ===
+[[options]]
+name = "Heather Grey Jersey"
+[[options]]
+name = "Black Jersey"
+[[options]]
+name = "White Jersey"
+[[options]]
+name = "Navy Jersey"
+[[options]]
+name = "Charcoal Jersey"
+[[options]]
+name = "Olive Jersey"
+[[options]]
+name = "Burgundy Jersey"
+[[options]]
+name = "Dusty Pink Jersey"
+
+# === Solid Colors - Lace ===
+[[options]]
+name = "Ivory Lace"
+[[options]]
+name = "Black Lace"
+[[options]]
+name = "White Lace"
+[[options]]
+name = "Blush Lace"
+[[options]]
+name = "Red Lace"
+[[options]]
+name = "Navy Lace"
+[[options]]
+name = "Champagne Lace"
+
+# === Solid Colors - Misc Broad ===
+[[options]]
+name = "Red"
+[[options]]
+name = "Black"
+[[options]]
+name = "White"
+[[options]]
+name = "Pink"
+[[options]]
+name = "Blue"
+[[options]]
+name = "Navy"
+[[options]]
+name = "Green"
+[[options]]
+name = "Purple"
+[[options]]
+name = "Yellow"
+[[options]]
+name = "Orange"
+[[options]]
+name = "Grey"
+[[options]]
+name = "Brown"
+[[options]]
+name = "Cream"
+[[options]]
+name = "Beige"
+[[options]]
+name = "Burgundy"
+[[options]]
+name = "Olive"
+[[options]]
+name = "Teal"
+[[options]]
+name = "Coral"
+[[options]]
+name = "Lavender"
+[[options]]
+name = "Mauve"
+[[options]]
+name = "Rust"
+[[options]]
+name = "Sage"
+[[options]]
+name = "Mint"
+[[options]]
+name = "Plum"
+[[options]]
+name = "Gold"
+[[options]]
+name = "Silver"
+[[options]]
+name = "Charcoal"
+[[options]]
+name = "Tan"
+[[options]]
+name = "Ivory"
+[[options]]
+name = "Blush"
+[[options]]
+name = "Peach"
+[[options]]
+name = "Dusty Rose"
+[[options]]
+name = "Sky Blue"
+[[options]]
+name = "Lilac"
+
+# === Denim ===
 [[options]]
 name = "Light Wash Denim"
+[[options]]
+name = "Medium Wash Denim"
 [[options]]
 name = "Dark Wash Denim"
 [[options]]
@@ -97,42 +389,98 @@ name = "Black Denim"
 name = "Acid Wash Denim"
 [[options]]
 name = "Raw Denim"
+[[options]]
+name = "Stonewash Denim"
+[[options]]
+name = "Bleached Denim"
+[[options]]
+name = "White Denim"
+[[options]]
+name = "Grey Denim"
+[[options]]
+name = "Indigo Denim"
+[[options]]
+name = "Distressed Denim"
 
-# Prints & Patterns
+# === Chambray ===
+[[options]]
+name = "Sky Blue Chambray"
+[[options]]
+name = "Light Blue Chambray"
+[[options]]
+name = "Dark Chambray"
+[[options]]
+name = "White Chambray"
+
+# === Prints & Patterns ===
 [[options]]
 name = "Floral Print"
 [[options]]
 name = "Rose Print"
 [[options]]
+name = "Daisy Print"
+[[options]]
+name = "Wildflower Print"
+[[options]]
+name = "Cherry Print"
+[[options]]
 name = "Tropical Print"
+[[options]]
+name = "Palm Print"
+[[options]]
+name = "Botanical Print"
 [[options]]
 name = "Polka Dot"
 [[options]]
+name = "Micro Dot"
+[[options]]
 name = "Gingham Check"
+[[options]]
+name = "Buffalo Check"
+[[options]]
+name = "Windowpane Check"
 [[options]]
 name = "Plaid Flannel"
 [[options]]
 name = "Tartan Plaid"
 [[options]]
+name = "Madras Plaid"
+[[options]]
 name = "Houndstooth"
 [[options]]
+name = "Herringbone"
+[[options]]
 name = "Pinstripe"
+[[options]]
+name = "Chalk Stripe"
 [[options]]
 name = "Leopard Print"
 [[options]]
 name = "Zebra Print"
 [[options]]
+name = "Snakeskin Print"
+[[options]]
+name = "Cheetah Print"
+[[options]]
 name = "Camo Print"
 [[options]]
 name = "Tie-Dye"
+[[options]]
+name = "Ombré"
 [[options]]
 name = "Striped Cotton"
 [[options]]
 name = "Breton Stripe"
 [[options]]
+name = "Candy Stripe"
+[[options]]
+name = "Awning Stripe"
+[[options]]
 name = "Color Block"
 [[options]]
 name = "Abstract Print"
+[[options]]
+name = "Geometric Print"
 [[options]]
 name = "Paisley"
 [[options]]
@@ -140,25 +488,67 @@ name = "Toile"
 [[options]]
 name = "Ikat Print"
 [[options]]
-name = "Star Print"
-
-# Textures & Special Fabrics
+name = "Batik Print"
 [[options]]
-name = "Crushed Velvet"
+name = "Aztec Print"
+[[options]]
+name = "Moroccan Print"
+[[options]]
+name = "Star Print"
+[[options]]
+name = "Heart Print"
+[[options]]
+name = "Polka Dot on Red"
+[[options]]
+name = "Polka Dot on Navy"
+[[options]]
+name = "Ditsy Floral"
+[[options]]
+name = "Large Scale Floral"
+[[options]]
+name = "Watercolor Print"
+[[options]]
+name = "Chinoiserie"
+[[options]]
+name = "Damask"
+[[options]]
+name = "Greek Key"
+[[options]]
+name = "Chain Print"
+
+# === Textures & Special Fabrics ===
 [[options]]
 name = "Ribbed Knit"
 [[options]]
 name = "Cable Knit"
 [[options]]
+name = "Waffle Knit"
+[[options]]
+name = "Pointelle Knit"
+[[options]]
+name = "Fisherman Knit"
+[[options]]
+name = "Mohair"
+[[options]]
+name = "Angora"
+[[options]]
 name = "French Terry"
 [[options]]
 name = "Fleece"
 [[options]]
+name = "Sherpa"
+[[options]]
 name = "Sequin"
+[[options]]
+name = "Beaded"
 [[options]]
 name = "Metallic Gold"
 [[options]]
 name = "Metallic Silver"
+[[options]]
+name = "Metallic Rose Gold"
+[[options]]
+name = "Lamé"
 [[options]]
 name = "Sheer Mesh"
 [[options]]
@@ -166,12 +556,68 @@ name = "Tulle"
 [[options]]
 name = "Eyelet"
 [[options]]
+name = "Broderie Anglaise"
+[[options]]
 name = "Crochet"
+[[options]]
+name = "Macramé"
 [[options]]
 name = "Seersucker"
 [[options]]
 name = "Corduroy"
 [[options]]
+name = "Wide-Wale Corduroy"
+[[options]]
 name = "Tweed"
 [[options]]
+name = "Donegal Tweed"
+[[options]]
 name = "Bouclé"
+[[options]]
+name = "Terrycloth"
+[[options]]
+name = "Piqué"
+[[options]]
+name = "Poplin"
+[[options]]
+name = "Sateen"
+[[options]]
+name = "Taffeta"
+[[options]]
+name = "Moiré"
+[[options]]
+name = "Brocade"
+[[options]]
+name = "Jacquard"
+[[options]]
+name = "Burnout"
+[[options]]
+name = "Devore Velvet"
+[[options]]
+name = "Embroidered"
+[[options]]
+name = "Quilted"
+[[options]]
+name = "Neoprene"
+[[options]]
+name = "Scuba"
+[[options]]
+name = "Ponte"
+[[options]]
+name = "Spandex"
+[[options]]
+name = "Lycra"
+[[options]]
+name = "Bamboo"
+[[options]]
+name = "Hemp"
+[[options]]
+name = "Gauze"
+[[options]]
+name = "Muslin"
+[[options]]
+name = "Voile"
+[[options]]
+name = "Batiste"
+[[options]]
+name = "Dotted Swiss"

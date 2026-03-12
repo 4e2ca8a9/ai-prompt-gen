@@ -3,719 +3,908 @@
 [[matches]]
 name = "All Black Everything"
 [matches.set]
-fabric = ["Black Silk", "Black Denim", "Sheer Mesh"]
+fabric = ["Black Silk", "Black Satin", "Black Velvet", "Black Cashmere", "Black Cotton", "Black Denim", "Black Lace", "Black Chiffon", "Black Jersey", "Black Crepe", "Black Wool", "Black"]
 metal = ["Gunmetal", "Matte Black Metal"]
 leather = ["Patent Black", "Matte Black", "Black Leather"]
 
 [[matches]]
 name = "All White"
 [matches.set]
-fabric = ["White Cotton", "Ivory Lace", "Ivory Silk", "Eyelet"]
+fabric = ["White Cotton", "White Silk", "White Linen", "White Lace", "White Chiffon", "White Organza", "White Jersey", "White Chambray", "White Denim", "Ivory Lace", "Ivory Silk", "Ivory Crepe", "Eyelet", "Broderie Anglaise", "White"]
 metal = ["Polished Silver", "White Gold", "Rhodium"]
 leather = ["White Leather", "Off-White Leather", "Cream Leather"]
 
 [[matches]]
 name = "Red Hot"
 [matches.set]
-fabric = ["Red Satin", "Red Cotton"]
+fabric = ["Red Satin", "Red Cotton", "Red Silk", "Red Lace", "Ruby Velvet", "Red"]
 metal = ["Yellow Gold", "Polished Gold"]
 leather = ["Red Leather", "Patent Red"]
 
 [[matches]]
 name = "Pink Everything"
 [matches.set]
-fabric = ["Pink Cotton", "Hot Pink Satin", "Blush Pink Chiffon"]
+fabric = ["Pink Cotton", "Pink", "Hot Pink Satin", "Blush Pink Chiffon", "Blush Silk", "Blush Lace", "Blush Cashmere", "Blush Crepe", "Blush Organza", "Dusty Rose Silk", "Dusty Rose Chiffon", "Dusty Rose Cashmere", "Dusty Pink Jersey", "Dusty Rose", "Blush", "Mauve Cotton", "Mauve Satin", "Mauve"]
 metal = ["Rose Gold", "Champagne Gold"]
 leather = ["Pink Leather", "Hot Pink Leather", "Suede Blush", "Patent Nude"]
 
 [[matches]]
 name = "Navy Monochrome"
 [matches.set]
-fabric = ["Navy Linen", "Navy Wool"]
+fabric = ["Navy Linen", "Navy Wool", "Navy Silk", "Navy Cashmere", "Navy Velvet", "Navy Lace", "Navy Crepe", "Navy Jersey", "Navy Twill", "Navy"]
 metal = ["Sterling Silver", "Brushed Silver", "White Gold"]
 leather = ["Navy Leather", "Suede Navy"]
 
 [[matches]]
 name = "Forest Monochrome"
 [matches.set]
-fabric = ["Forest Green Wool", "Olive Twill", "Sage Linen"]
+fabric = ["Forest Green Wool", "Forest Green Velvet", "Olive Twill", "Olive Linen", "Olive Cotton", "Olive Wool", "Olive Jersey", "Sage Linen", "Sage Cotton", "Sage Chiffon", "Sage Crepe", "Green", "Olive", "Sage"]
 metal = ["Antique Gold", "Antique Brass", "Bronze"]
 leather = ["Forest Green Leather", "Green Leather", "Suede Olive"]
 
 [[matches]]
 name = "Burgundy Monochrome"
 [matches.set]
-fabric = ["Burgundy Velvet", "Wine Silk", "Maroon Wool"]
+fabric = ["Burgundy Velvet", "Burgundy Wool", "Burgundy Jersey", "Wine Silk", "Wine Crepe", "Maroon Wool", "Ruby Velvet", "Burgundy", "Plum Velvet", "Plum Satin", "Plum Wool", "Plum"]
 metal = ["Antique Gold", "Yellow Gold"]
 leather = ["Burgundy Leather", "Oxblood Leather", "Suede Burgundy"]
 
 [[matches]]
 name = "Lavender Dream"
 [matches.set]
-fabric = ["Lavender Chiffon", "Periwinkle Silk", "Purple Velvet"]
+fabric = ["Lavender Chiffon", "Lavender Cashmere", "Lavender Organza", "Lilac Cotton", "Lilac", "Periwinkle Silk", "Purple Velvet", "Lavender"]
 metal = ["Rose Gold", "White Gold", "Polished Silver"]
 leather = ["Lavender Leather", "Suede Blush", "Purple Leather"]
 
 [[matches]]
 name = "Grey on Grey"
 [matches.set]
-fabric = ["Charcoal Wool", "Slate Grey Cotton", "Heather Grey Jersey", "Light Grey Cashmere"]
+fabric = ["Charcoal Wool", "Charcoal Linen", "Charcoal Twill", "Charcoal Jersey", "Slate Grey Cotton", "Heather Grey Jersey", "Heather Grey Wool", "Light Grey Cashmere", "Grey Denim", "Grey", "Charcoal"]
 metal = ["Gunmetal", "Brushed Silver", "Titanium"]
 leather = ["Suede Grey", "Pebbled Black", "Matte Black"]
+
+[[matches]]
+name = "Cream & Ivory"
+[matches.set]
+fabric = ["Cream Cashmere", "Cream Wool", "Cream", "Ivory Silk", "Ivory Lace", "Ivory Crepe", "Ivory", "Oatmeal Cashmere", "Oatmeal Linen", "Champagne Silk", "Champagne Satin", "Champagne Chiffon", "Champagne Organza"]
+metal = ["Champagne Gold", "Brushed Gold", "Rose Gold"]
+leather = ["Cream Leather", "Off-White Leather", "White Leather"]
+
+[[matches]]
+name = "Brown Earth"
+[matches.set]
+fabric = ["Brown", "Tan Cotton", "Tan Twill", "Tan", "Rust Cotton", "Rust Linen", "Rust Wool", "Rust Twill", "Rust", "Camel Wool", "Camel Cashmere"]
+metal = ["Bronze", "Copper", "Antique Brass"]
+leather = ["Brown Leather", "Dark Brown Leather", "Cognac Leather", "Distressed Brown"]
+
+[[matches]]
+name = "Teal Monochrome"
+[matches.set]
+fabric = ["Teal Crepe", "Teal Silk", "Teal Satin", "Teal Velvet", "Teal"]
+metal = ["Polished Silver", "White Gold", "Sterling Silver"]
+leather = ["Suede Navy", "Navy Leather", "Forest Green Leather"]
+
+[[matches]]
+name = "Coral Monochrome"
+[matches.set]
+fabric = ["Coral Crepe", "Coral Chiffon", "Coral Cotton", "Coral", "Peach Satin", "Peach Chiffon", "Peach Organza", "Peach"]
+metal = ["Rose Gold", "Yellow Gold"]
+leather = ["Tan Leather", "Suede Tan", "Patent Nude"]
 
 # === Classic & Elegant ===
 
 [[matches]]
 name = "Classic Dark & Gold"
 [matches.set]
-fabric = ["Black Silk", "Charcoal Wool", "Black Denim"]
+fabric = ["Black Silk", "Black Satin", "Black Crepe", "Black Velvet", "Charcoal Wool", "Black Denim", "Black"]
 metal = ["Yellow Gold", "Brushed Gold", "Polished Gold"]
 leather = ["Black Leather", "Patent Black", "Croc-Embossed Black"]
 
 [[matches]]
 name = "Red Carpet"
 [matches.set]
-fabric = ["Red Satin", "Red Cotton", "Burgundy Velvet"]
+fabric = ["Red Satin", "Red Silk", "Red Cotton", "Red Lace", "Ruby Velvet", "Red", "Burgundy Velvet", "Wine Silk"]
 metal = ["Yellow Gold", "Polished Gold", "Champagne Gold"]
 leather = ["Black Leather", "Patent Black"]
 
 [[matches]]
 name = "Silver & Navy"
 [matches.set]
-fabric = ["Navy Linen", "Navy Wool", "Royal Blue Satin"]
+fabric = ["Navy Linen", "Navy Wool", "Navy Silk", "Navy Crepe", "Navy Cashmere", "Royal Blue Satin", "Navy"]
 metal = ["Sterling Silver", "Polished Silver", "White Gold"]
 leather = ["Cognac Leather", "Brown Leather", "Navy Leather"]
 
 [[matches]]
 name = "Old Hollywood"
 [matches.set]
-fabric = ["Ivory Silk", "Gold Satin", "Cream Cashmere"]
+fabric = ["Ivory Silk", "Gold Satin", "Champagne Silk", "Champagne Satin", "Champagne Chiffon", "Cream Cashmere", "Ivory Crepe", "Ivory"]
 metal = ["Yellow Gold", "Polished Gold", "Champagne Gold"]
 leather = ["Cream Leather", "White Leather", "Metallic Gold Leather"]
 
 [[matches]]
 name = "Black Tie"
 [matches.set]
-fabric = ["Black Silk", "Sequin", "Metallic Silver"]
+fabric = ["Black Silk", "Black Satin", "Black Velvet", "Sequin", "Metallic Silver", "Lamé", "Black Crepe", "Black"]
 metal = ["Polished Silver", "White Gold", "Rhodium"]
 leather = ["Patent Black", "Black Leather", "Croc-Embossed Black"]
 
 [[matches]]
 name = "Champagne Toast"
 [matches.set]
-fabric = ["Gold Satin", "Cream Cashmere", "Ivory Silk", "Sequin"]
+fabric = ["Gold Satin", "Champagne Silk", "Champagne Satin", "Champagne Chiffon", "Champagne Organza", "Cream Cashmere", "Ivory Silk", "Sequin", "Gold", "Beige"]
 metal = ["Champagne Gold", "Yellow Gold", "Rose Gold"]
 leather = ["Metallic Gold Leather", "Cream Leather", "Patent Nude"]
 
 [[matches]]
 name = "Emerald Gala"
 [matches.set]
-fabric = ["Emerald Satin", "Forest Green Wool"]
+fabric = ["Emerald Satin", "Emerald Silk", "Emerald Velvet", "Forest Green Wool", "Forest Green Velvet", "Green"]
 metal = ["Yellow Gold", "Polished Gold", "Antique Gold"]
 leather = ["Black Leather", "Forest Green Leather", "Croc-Embossed Black"]
 
 [[matches]]
 name = "Royal Ball"
 [matches.set]
-fabric = ["Royal Blue Satin", "Navy Wool", "Periwinkle Silk"]
+fabric = ["Royal Blue Satin", "Sapphire Velvet", "Navy Wool", "Navy Silk", "Midnight Blue Velvet", "Periwinkle Silk", "Blue"]
 metal = ["Polished Gold", "Yellow Gold", "White Gold"]
 leather = ["Patent Black", "Black Leather", "Navy Leather"]
 
 [[matches]]
 name = "Wine & Dine"
 [matches.set]
-fabric = ["Wine Silk", "Burgundy Velvet", "Plum Satin"]
+fabric = ["Wine Silk", "Wine Crepe", "Burgundy Velvet", "Burgundy Wool", "Plum Satin", "Plum Velvet", "Ruby Velvet", "Burgundy"]
 metal = ["Rose Gold", "Yellow Gold", "Antique Gold"]
 leather = ["Oxblood Leather", "Burgundy Leather", "Croc-Embossed Burgundy"]
 
 [[matches]]
 name = "Plum Luxe"
 [matches.set]
-fabric = ["Plum Satin", "Purple Velvet", "Wine Silk"]
+fabric = ["Plum Satin", "Plum Velvet", "Plum Wool", "Purple Velvet", "Wine Silk", "Plum"]
 metal = ["Antique Gold", "Yellow Gold", "Rose Gold"]
 leather = ["Croc-Embossed Burgundy", "Burgundy Leather", "Patent Black"]
+
+[[matches]]
+name = "Copper Satin Glow"
+[matches.set]
+fabric = ["Copper Satin", "Gold Satin", "Rust Cotton", "Rust Linen", "Terracotta Linen", "Rust"]
+metal = ["Polished Copper", "Burnished Bronze", "Antique Gold"]
+leather = ["Cognac Leather", "Saddle Leather", "Metallic Rose Gold Leather"]
+
+[[matches]]
+name = "Brocade & Jewels"
+[matches.set]
+fabric = ["Brocade", "Jacquard", "Damask", "Gold Satin", "Emerald Satin", "Ruby Velvet"]
+metal = ["Antique Gold", "Yellow Gold", "Polished Gold"]
+leather = ["Croc-Embossed Black", "Patent Black", "Metallic Gold Leather"]
 
 # === Warm & Earthy ===
 
 [[matches]]
 name = "Warm Neutrals"
 [matches.set]
-fabric = ["Cream Cashmere", "Beige Linen", "Camel Wool", "Taupe Crepe"]
+fabric = ["Cream Cashmere", "Oatmeal Cashmere", "Oatmeal Linen", "Beige Linen", "Camel Wool", "Camel Cashmere", "Taupe Crepe", "Tan Cotton", "Sand Linen", "Cream", "Beige", "Tan", "Ivory"]
 metal = ["Brushed Gold", "Champagne Gold", "Rose Gold"]
 leather = ["Brown Leather", "Tan Leather", "Cognac Leather", "Suede Camel"]
 
 [[matches]]
 name = "Olive Earth"
 [matches.set]
-fabric = ["Olive Twill", "Sage Linen", "Camo Print"]
+fabric = ["Olive Twill", "Olive Linen", "Olive Cotton", "Olive Wool", "Olive Jersey", "Sage Linen", "Sage Cotton", "Camo Print", "Olive", "Sage"]
 metal = ["Copper", "Antique Brass", "Bronze"]
 leather = ["Brown Leather", "Suede Olive", "Distressed Brown", "Waxed Brown"]
 
 [[matches]]
 name = "Desert Sand"
 [matches.set]
-fabric = ["Beige Linen", "Cream Cashmere", "Taupe Crepe", "Orange Linen"]
+fabric = ["Beige Linen", "Sand Linen", "Cream Cashmere", "Oatmeal Linen", "Taupe Crepe", "Orange Linen", "Tan Cotton", "Gauze", "Muslin", "Beige", "Tan"]
 metal = ["Brass", "Antique Brass", "Brushed Gold"]
 leather = ["Tan Leather", "Suede Tan", "Suede Camel", "Woven Raffia"]
 
 [[matches]]
 name = "Autumn Harvest"
 [matches.set]
-fabric = ["Mustard Twill", "Orange Linen", "Olive Twill", "Corduroy"]
+fabric = ["Mustard Twill", "Orange Linen", "Orange Cotton", "Rust Cotton", "Rust Linen", "Rust Wool", "Rust Twill", "Olive Twill", "Corduroy", "Wide-Wale Corduroy", "Rust", "Orange"]
 metal = ["Antique Brass", "Copper", "Bronze", "Burnished Bronze"]
 leather = ["Cognac Leather", "Saddle Leather", "Suede Brown", "Distressed Brown"]
 
 [[matches]]
 name = "Caramel Latte"
 [matches.set]
-fabric = ["Camel Wool", "Cream Cashmere", "Beige Linen"]
+fabric = ["Camel Wool", "Camel Cashmere", "Cream Cashmere", "Beige Linen", "Oatmeal Cashmere", "Tan Cotton", "Tan"]
 metal = ["Brushed Gold", "Rose Gold", "Champagne Gold"]
 leather = ["Caramel Leather", "Cognac Leather", "Tan Leather"]
 
 [[matches]]
 name = "Cognac & Cream"
 [matches.set]
-fabric = ["Cream Cashmere", "Ivory Silk", "White Cotton"]
+fabric = ["Cream Cashmere", "Cream Wool", "Ivory Silk", "White Cotton", "White Linen", "Oatmeal Cashmere", "Cream", "Ivory"]
 metal = ["Rose Gold", "Brushed Gold", "Yellow Gold"]
 leather = ["Cognac Leather", "Caramel Leather", "Saddle Leather"]
 
 [[matches]]
 name = "Rustic Warmth"
 [matches.set]
-fabric = ["Corduroy", "Plaid Flannel", "Cable Knit", "Charcoal Wool"]
+fabric = ["Corduroy", "Wide-Wale Corduroy", "Plaid Flannel", "Cable Knit", "Fisherman Knit", "Charcoal Wool", "Donegal Tweed", "Herringbone", "Brown"]
 metal = ["Copper", "Antique Brass", "Bronze"]
 leather = ["Distressed Brown", "Waxed Brown", "Suede Brown"]
 
 [[matches]]
 name = "Terracotta"
 [matches.set]
-fabric = ["Orange Linen", "Mustard Twill", "Coral Crepe"]
+fabric = ["Terracotta Linen", "Orange Linen", "Rust Linen", "Mustard Twill", "Coral Crepe", "Coral Cotton", "Rust Cotton", "Rust"]
 metal = ["Burnished Bronze", "Copper", "Antique Brass"]
 leather = ["Saddle Leather", "Tan Leather", "Suede Camel"]
 
 [[matches]]
 name = "Safari"
 [matches.set]
-fabric = ["Olive Twill", "Beige Linen", "Camel Wool"]
+fabric = ["Olive Twill", "Khaki Twill", "Beige Linen", "Sand Linen", "Camel Wool", "Tan Cotton", "Poplin", "Olive", "Tan", "Beige"]
 metal = ["Antique Brass", "Brass", "Bronze"]
 leather = ["Suede Camel", "Tan Leather", "Canvas Natural", "Woven Raffia"]
 
 [[matches]]
 name = "Cozy Cabin"
 [matches.set]
-fabric = ["Plaid Flannel", "Cable Knit", "Fleece", "Corduroy"]
+fabric = ["Plaid Flannel", "Buffalo Check", "Cable Knit", "Fisherman Knit", "Fleece", "Sherpa", "Corduroy", "Wide-Wale Corduroy"]
 metal = ["Antique Silver", "Pewter", "Copper"]
 leather = ["Distressed Brown", "Suede Brown", "Waxed Brown"]
+
+[[matches]]
+name = "Rust & Olive"
+[matches.set]
+fabric = ["Rust Cotton", "Rust Linen", "Rust Wool", "Rust Twill", "Rust", "Olive Twill", "Olive Cotton", "Olive Linen", "Olive"]
+metal = ["Antique Brass", "Copper", "Bronze"]
+leather = ["Distressed Brown", "Saddle Leather", "Suede Olive"]
 
 # === Cool & Romantic ===
 
 [[matches]]
 name = "Rose & Blush"
 [matches.set]
-fabric = ["Blush Pink Chiffon", "Pink Cotton", "Peach Organza", "Ivory Lace"]
+fabric = ["Blush Pink Chiffon", "Blush Silk", "Blush Lace", "Blush Cashmere", "Blush Crepe", "Blush Organza", "Pink Cotton", "Dusty Rose Silk", "Dusty Rose Chiffon", "Dusty Rose Cashmere", "Peach Organza", "Peach Chiffon", "Ivory Lace", "Blush", "Dusty Rose", "Pink", "Peach"]
 metal = ["Rose Gold", "Champagne Gold"]
 leather = ["Suede Blush", "Tan Leather", "Patent Nude", "Cream Leather"]
 
 [[matches]]
 name = "Ivory Romance"
 [matches.set]
-fabric = ["Ivory Lace", "Ivory Silk", "White Cotton", "Cream Cashmere"]
+fabric = ["Ivory Lace", "Ivory Silk", "Ivory Crepe", "White Cotton", "White Lace", "Cream Cashmere", "Champagne Chiffon", "Eyelet", "Broderie Anglaise", "Ivory", "Cream", "White"]
 metal = ["Rose Gold", "Yellow Gold", "Champagne Gold"]
 leather = ["White Leather", "Cream Leather", "Off-White Leather"]
 
 [[matches]]
 name = "Garden Party"
 [matches.set]
-fabric = ["Floral Print", "Rose Print", "Eyelet", "Blush Pink Chiffon"]
+fabric = ["Floral Print", "Rose Print", "Ditsy Floral", "Large Scale Floral", "Wildflower Print", "Watercolor Print", "Eyelet", "Blush Pink Chiffon", "Blush Silk"]
 metal = ["Rose Gold", "Yellow Gold", "Antique Gold"]
 leather = ["Suede Blush", "Tan Leather", "Cream Leather", "Woven Raffia"]
 
 [[matches]]
 name = "Cottage Rose"
 [matches.set]
-fabric = ["Rose Print", "Floral Print", "Toile", "Eyelet"]
+fabric = ["Rose Print", "Floral Print", "Ditsy Floral", "Toile", "Eyelet", "Broderie Anglaise", "Dusty Rose Silk", "Dusty Rose Chiffon"]
 metal = ["Antique Gold", "Rose Gold"]
 leather = ["Cream Leather", "Brown Leather", "Suede Blush"]
 
 [[matches]]
 name = "Spring Meadow"
 [matches.set]
-fabric = ["Sage Linen", "Mint Chiffon", "Floral Print", "Eyelet"]
+fabric = ["Sage Linen", "Sage Cotton", "Sage Chiffon", "Mint Chiffon", "Mint Cotton", "Floral Print", "Wildflower Print", "Eyelet", "Sage", "Mint"]
 metal = ["Brushed Gold", "Yellow Gold", "Rose Gold"]
 leather = ["Suede Tan", "Tan Leather", "White Leather"]
 
 [[matches]]
 name = "Cherry Blossom"
 [matches.set]
-fabric = ["Pink Cotton", "Blush Pink Chiffon", "Rose Print"]
+fabric = ["Pink Cotton", "Pink", "Blush Pink Chiffon", "Blush Silk", "Rose Print", "Dusty Rose Chiffon", "Dusty Rose Cashmere", "Blush Lace"]
 metal = ["Rose Gold", "Champagne Gold"]
 leather = ["Suede Blush", "Pink Leather", "Patent Nude"]
 
 [[matches]]
 name = "Peach Sorbet"
 [matches.set]
-fabric = ["Peach Organza", "Coral Crepe", "Blush Pink Chiffon"]
+fabric = ["Peach Organza", "Peach Chiffon", "Peach Satin", "Peach", "Coral Crepe", "Coral Chiffon", "Blush Pink Chiffon", "Blush Organza"]
 metal = ["Champagne Gold", "Rose Gold", "Yellow Gold"]
 leather = ["Cream Leather", "Tan Leather", "Patent Nude"]
 
 [[matches]]
 name = "Coral Sunset"
 [matches.set]
-fabric = ["Coral Crepe", "Peach Organza", "Orange Linen"]
+fabric = ["Coral Crepe", "Coral Chiffon", "Coral Cotton", "Coral", "Peach Organza", "Peach Satin", "Orange Linen", "Orange Cotton"]
 metal = ["Yellow Gold", "Rose Gold", "Brushed Gold"]
 leather = ["Tan Leather", "Cognac Leather", "Suede Tan"]
 
 [[matches]]
 name = "Mint Fresh"
 [matches.set]
-fabric = ["Mint Chiffon", "Sage Linen", "Baby Blue Cotton"]
+fabric = ["Mint Chiffon", "Mint Cotton", "Mint", "Sage Linen", "Sage Cotton", "Sage Chiffon", "Seafoam Cotton", "Seafoam Linen", "Baby Blue Cotton"]
 metal = ["Sterling Silver", "Polished Silver", "White Gold"]
 leather = ["White Leather", "Cream Leather", "Suede Tan"]
 
 [[matches]]
 name = "Powder Blue"
 [matches.set]
-fabric = ["Powder Blue Chiffon", "Baby Blue Cotton", "Sky Blue Chambray"]
+fabric = ["Powder Blue Chiffon", "Sky Blue Chiffon", "Baby Blue Cotton", "Dusty Blue Cotton", "Dusty Blue Crepe", "Sky Blue Chambray", "Light Blue Chambray", "Sky Blue"]
 metal = ["Sterling Silver", "White Gold", "Polished Silver"]
 leather = ["White Leather", "Tan Leather", "Suede Tan"]
+
+[[matches]]
+name = "Mauve Mist"
+[matches.set]
+fabric = ["Mauve Cotton", "Mauve Satin", "Mauve", "Dusty Rose Silk", "Dusty Rose Chiffon", "Dusty Rose Cashmere", "Dusty Rose", "Lilac Cotton", "Lilac", "Lavender Chiffon", "Blush Crepe"]
+metal = ["Rose Gold", "Champagne Gold", "Antique Silver"]
+leather = ["Suede Blush", "Cream Leather", "Lavender Leather"]
+
+[[matches]]
+name = "Lilac & Lavender"
+[matches.set]
+fabric = ["Lilac Cotton", "Lilac", "Lavender Chiffon", "Lavender Cashmere", "Lavender Organza", "Lavender", "Periwinkle Silk"]
+metal = ["Rose Gold", "White Gold", "Polished Silver"]
+leather = ["Lavender Leather", "Purple Leather", "Suede Blush"]
 
 # === Casual & Streetwear ===
 
 [[matches]]
 name = "Casual Denim"
 [matches.set]
-fabric = ["Light Wash Denim", "Dark Wash Denim", "White Cotton", "Striped Cotton"]
+fabric = ["Light Wash Denim", "Medium Wash Denim", "Dark Wash Denim", "Stonewash Denim", "White Cotton", "White Jersey", "Striped Cotton", "Breton Stripe"]
 metal = ["Sterling Silver", "Brushed Silver"]
 leather = ["Tan Leather", "Brown Leather", "Canvas Natural"]
 
 [[matches]]
 name = "Dark Denim"
 [matches.set]
-fabric = ["Dark Wash Denim", "Raw Denim", "Black Denim"]
+fabric = ["Dark Wash Denim", "Raw Denim", "Black Denim", "Indigo Denim", "Charcoal Jersey", "Black Jersey"]
 metal = ["Brushed Silver", "Sterling Silver", "Gunmetal"]
 leather = ["Brown Leather", "Black Leather", "Distressed Brown"]
 
 [[matches]]
 name = "Raw Denim & Leather"
 [matches.set]
-fabric = ["Raw Denim", "Dark Wash Denim", "Charcoal Wool"]
+fabric = ["Raw Denim", "Dark Wash Denim", "Indigo Denim", "Charcoal Wool", "Herringbone"]
 metal = ["Brass", "Copper", "Antique Brass"]
 leather = ["Distressed Brown", "Saddle Leather", "Waxed Brown"]
 
 [[matches]]
+name = "Double Denim"
+[matches.set]
+fabric = ["Light Wash Denim", "Medium Wash Denim", "Dark Wash Denim", "Bleached Denim", "Distressed Denim", "Stonewash Denim", "White Denim"]
+metal = ["Sterling Silver", "Brushed Silver", "Mixed Metals"]
+leather = ["Tan Leather", "Brown Leather", "Canvas Natural"]
+
+[[matches]]
 name = "Weekend Flannel"
 [matches.set]
-fabric = ["Plaid Flannel", "Heather Grey Jersey", "Light Wash Denim"]
+fabric = ["Plaid Flannel", "Buffalo Check", "Heather Grey Jersey", "Light Wash Denim", "White Jersey", "Fleece"]
 metal = ["Antique Silver", "Pewter", "Brushed Silver"]
 leather = ["Suede Brown", "Distressed Brown", "Canvas Natural"]
 
 [[matches]]
 name = "Skater Girl"
 [matches.set]
-fabric = ["Striped Cotton", "Heather Grey Jersey", "Black Denim", "Tie-Dye"]
+fabric = ["Striped Cotton", "Candy Stripe", "Heather Grey Jersey", "Black Denim", "Black Jersey", "Tie-Dye", "Graphic Print"]
 metal = ["Sterling Silver", "Mixed Metals"]
 leather = ["Vegan Black", "Canvas Black", "Vegan White"]
 
 [[matches]]
 name = "Athleisure"
 [matches.set]
-fabric = ["Heather Grey Jersey", "French Terry", "White Cotton", "Black Silk"]
+fabric = ["Heather Grey Jersey", "French Terry", "White Cotton", "White Jersey", "Black Silk", "Neoprene", "Scuba", "Ponte", "Spandex", "Lycra"]
 metal = ["Matte Silver", "Sterling Silver"]
 leather = ["Vegan White", "Vegan Black", "Canvas Black"]
 
 [[matches]]
 name = "Tie-Dye Vibes"
 [matches.set]
-fabric = ["Tie-Dye", "White Cotton", "Heather Grey Jersey"]
+fabric = ["Tie-Dye", "White Cotton", "Heather Grey Jersey", "Crochet", "Gauze"]
 metal = ["Mixed Metals", "Yellow Gold", "Sterling Silver"]
 leather = ["Canvas Natural", "Vegan White", "Suede Tan"]
 
 [[matches]]
 name = "Streetwear Edge"
 [matches.set]
-fabric = ["Black Denim", "Heather Grey Jersey", "Camo Print"]
+fabric = ["Black Denim", "Black Jersey", "Heather Grey Jersey", "Camo Print", "Neoprene", "French Terry"]
 metal = ["Gunmetal", "Matte Black Metal", "Brushed Silver"]
 leather = ["Distressed Black", "Matte Black", "Vegan Black"]
 
 [[matches]]
 name = "Camo & Combat"
 [matches.set]
-fabric = ["Camo Print", "Olive Twill", "Black Denim"]
+fabric = ["Camo Print", "Olive Twill", "Olive Cotton", "Black Denim", "Khaki Twill"]
 metal = ["Matte Black Metal", "Gunmetal", "Dark Copper"]
 leather = ["Matte Black", "Distressed Black", "Suede Olive"]
 
 [[matches]]
 name = "Breton Chic"
 [matches.set]
-fabric = ["Breton Stripe", "Navy Wool", "White Cotton", "Red Cotton"]
+fabric = ["Breton Stripe", "Navy Wool", "Navy Cotton", "White Cotton", "Red Cotton", "Navy Linen", "Navy Jersey", "Navy"]
 metal = ["Yellow Gold", "Polished Gold"]
 leather = ["Red Leather", "Navy Leather", "White Leather", "Tan Leather"]
+
+[[matches]]
+name = "Graphic & Jersey"
+[matches.set]
+fabric = ["Black Jersey", "White Jersey", "Heather Grey Jersey", "Navy Jersey", "Olive Jersey", "Dusty Pink Jersey", "French Terry"]
+metal = ["Sterling Silver", "Matte Silver", "Mixed Metals"]
+leather = ["Vegan Black", "Canvas Black", "Vegan White"]
 
 # === Bold & Trendy ===
 
 [[matches]]
 name = "Leopard & Gold"
 [matches.set]
-fabric = ["Leopard Print", "Black Silk", "Red Satin"]
+fabric = ["Leopard Print", "Cheetah Print", "Black Silk", "Black Satin", "Red Satin", "Gold Satin", "Black"]
 metal = ["Yellow Gold", "Polished Gold", "Antique Gold"]
 leather = ["Black Leather", "Patent Black", "Croc-Embossed Black"]
 
 [[matches]]
 name = "Hot Pink Pop"
 [matches.set]
-fabric = ["Hot Pink Satin", "Pink Cotton", "Red Cotton"]
+fabric = ["Hot Pink Satin", "Pink Cotton", "Pink", "Red Cotton", "Red", "Fuchsia"]
 metal = ["Polished Gold", "Yellow Gold", "Rose Gold"]
 leather = ["Hot Pink Leather", "Pink Leather", "Patent Red"]
 
 [[matches]]
 name = "Sequin Night"
 [matches.set]
-fabric = ["Sequin", "Black Silk", "Metallic Gold", "Metallic Silver"]
+fabric = ["Sequin", "Beaded", "Lamé", "Black Silk", "Black Satin", "Metallic Gold", "Metallic Silver", "Metallic Rose Gold"]
 metal = ["Yellow Gold", "Polished Gold", "Polished Silver"]
 leather = ["Patent Black", "Metallic Gold Leather", "Black Leather"]
 
 [[matches]]
 name = "Metallic Glam"
 [matches.set]
-fabric = ["Metallic Gold", "Metallic Silver", "Sequin", "Gold Satin"]
+fabric = ["Metallic Gold", "Metallic Silver", "Metallic Rose Gold", "Sequin", "Lamé", "Gold Satin", "Silver Satin", "Gold", "Silver"]
 metal = ["Yellow Gold", "Polished Gold", "Polished Silver"]
 leather = ["Metallic Gold Leather", "Metallic Silver Leather", "Patent Black"]
 
 [[matches]]
 name = "Silver Screen"
 [matches.set]
-fabric = ["Metallic Silver", "Sequin", "Black Silk", "White Cotton"]
+fabric = ["Metallic Silver", "Silver Satin", "Sequin", "Lamé", "Black Silk", "White Cotton", "Silver"]
 metal = ["Polished Silver", "Rhodium", "White Gold"]
 leather = ["Metallic Silver Leather", "Patent Black", "White Leather"]
 
 [[matches]]
 name = "Color Block Pop"
 [matches.set]
-fabric = ["Color Block", "Red Cotton", "Yellow Cotton", "Royal Blue Satin"]
+fabric = ["Color Block", "Red Cotton", "Yellow Cotton", "Royal Blue Satin", "Orange Cotton", "Red", "Yellow", "Blue"]
 metal = ["Mixed Metals", "Yellow Gold", "Polished Silver"]
 leather = ["Patent Red", "Red Leather", "White Leather"]
 
 [[matches]]
 name = "Tropical Punch"
 [matches.set]
-fabric = ["Tropical Print", "Coral Crepe", "Orange Linen", "Yellow Cotton"]
+fabric = ["Tropical Print", "Palm Print", "Coral Crepe", "Coral Cotton", "Orange Linen", "Orange Cotton", "Yellow Cotton", "Coral", "Orange"]
 metal = ["Yellow Gold", "Rose Gold", "Polished Gold"]
 leather = ["Tan Leather", "Woven Raffia", "Suede Tan"]
 
 [[matches]]
 name = "Zebra Luxe"
 [matches.set]
-fabric = ["Zebra Print", "Black Silk", "White Cotton"]
+fabric = ["Zebra Print", "Black Silk", "Black Satin", "White Cotton", "White Silk", "Black", "White"]
 metal = ["Polished Silver", "White Gold", "Gunmetal"]
 leather = ["Black Leather", "White Leather", "Patent Black"]
 
 [[matches]]
 name = "Snakeskin Queen"
 [matches.set]
-fabric = ["Black Silk", "Emerald Satin", "Gold Satin"]
+fabric = ["Black Silk", "Black Satin", "Emerald Satin", "Emerald Velvet", "Gold Satin", "Snakeskin Print"]
 metal = ["Antique Gold", "Yellow Gold", "Brushed Gold"]
 leather = ["Snakeskin Print", "Croc-Embossed Black", "Croc-Embossed Brown"]
+
+[[matches]]
+name = "Animal Kingdom"
+[matches.set]
+fabric = ["Leopard Print", "Cheetah Print", "Zebra Print", "Snakeskin Print", "Black Silk", "Black Cotton", "Black"]
+metal = ["Yellow Gold", "Antique Gold", "Polished Gold"]
+leather = ["Black Leather", "Croc-Embossed Black", "Snakeskin Print", "Patent Black"]
+
+[[matches]]
+name = "Neon Night"
+[matches.set]
+fabric = ["Hot Pink Satin", "Yellow Cotton", "Orange Cotton", "Lime", "Neoprene", "Spandex", "Lycra"]
+metal = ["Polished Silver", "Mixed Metals", "Gunmetal"]
+leather = ["Patent Red", "Hot Pink Leather", "White Leather"]
 
 # === Preppy & Classic ===
 
 [[matches]]
 name = "Prep School"
 [matches.set]
-fabric = ["Navy Wool", "White Cotton", "Striped Cotton", "Tartan Plaid"]
+fabric = ["Navy Wool", "Navy Cashmere", "White Cotton", "White Poplin", "Striped Cotton", "Tartan Plaid", "Piqué", "Navy"]
 metal = ["Yellow Gold", "Polished Gold"]
 leather = ["Cognac Leather", "Brown Leather", "Suede Brown"]
 
 [[matches]]
 name = "Country Club"
 [matches.set]
-fabric = ["Seersucker", "White Cotton", "Baby Blue Cotton", "Pink Cotton"]
+fabric = ["Seersucker", "Piqué", "White Cotton", "White Linen", "Baby Blue Cotton", "Pink Cotton", "Poplin", "White"]
 metal = ["Polished Gold", "Yellow Gold"]
 leather = ["White Leather", "Tan Leather", "Cream Leather"]
 
 [[matches]]
 name = "Gingham Picnic"
 [matches.set]
-fabric = ["Gingham Check", "White Cotton", "Red Cotton", "Baby Blue Cotton"]
+fabric = ["Gingham Check", "White Cotton", "Red Cotton", "Baby Blue Cotton", "Yellow Cotton", "Seersucker", "Eyelet"]
 metal = ["Sterling Silver", "Yellow Gold"]
 leather = ["Suede Tan", "Tan Leather", "Brown Leather", "Woven Raffia"]
 
 [[matches]]
 name = "Houndstooth Chic"
 [matches.set]
-fabric = ["Houndstooth", "Black Silk", "Charcoal Wool", "White Cotton"]
+fabric = ["Houndstooth", "Herringbone", "Black Silk", "Black Crepe", "Charcoal Wool", "White Cotton", "Black", "White"]
 metal = ["Polished Silver", "White Gold", "Yellow Gold"]
 leather = ["Black Leather", "Patent Black", "Croc-Embossed Black"]
 
 [[matches]]
 name = "Tartan Heritage"
 [matches.set]
-fabric = ["Tartan Plaid", "Charcoal Wool", "Navy Wool", "Cream Cashmere"]
+fabric = ["Tartan Plaid", "Madras Plaid", "Charcoal Wool", "Navy Wool", "Cream Cashmere", "Herringbone"]
 metal = ["Antique Gold", "Yellow Gold", "Brushed Gold"]
 leather = ["Oxblood Leather", "Brown Leather", "Cognac Leather"]
 
 [[matches]]
 name = "Tweed & Pearls"
 [matches.set]
-fabric = ["Tweed", "Bouclé", "Cream Cashmere", "Ivory Silk"]
+fabric = ["Tweed", "Donegal Tweed", "Bouclé", "Cream Cashmere", "Ivory Silk", "Ivory Crepe", "Herringbone"]
 metal = ["Champagne Gold", "Rose Gold", "Polished Gold"]
 leather = ["Cream Leather", "Cognac Leather", "Pebbled Tan"]
 
 [[matches]]
 name = "Pinstripe Power"
 [matches.set]
-fabric = ["Pinstripe", "White Cotton", "Black Silk", "Charcoal Wool"]
+fabric = ["Pinstripe", "Chalk Stripe", "White Cotton", "White Poplin", "Black Silk", "Black Crepe", "Charcoal Wool"]
 metal = ["Polished Silver", "Yellow Gold", "White Gold"]
 leather = ["Patent Black", "Black Leather", "Croc-Embossed Black"]
+
+[[matches]]
+name = "Madras Summer"
+[matches.set]
+fabric = ["Madras Plaid", "Seersucker", "White Linen", "White Cotton", "Pink Cotton", "Baby Blue Cotton", "Piqué"]
+metal = ["Yellow Gold", "Polished Gold"]
+leather = ["Tan Leather", "Suede Tan", "Woven Raffia"]
 
 # === Cozy & Winter ===
 
 [[matches]]
 name = "Fireside"
 [matches.set]
-fabric = ["Cable Knit", "Ribbed Knit", "Plaid Flannel", "Fleece"]
+fabric = ["Cable Knit", "Fisherman Knit", "Ribbed Knit", "Waffle Knit", "Plaid Flannel", "Fleece", "Sherpa"]
 metal = ["Antique Gold", "Copper", "Bronze"]
 leather = ["Suede Brown", "Suede Camel", "Distressed Brown"]
 
 [[matches]]
 name = "Charcoal Winter"
 [matches.set]
-fabric = ["Charcoal Wool", "Heather Grey Jersey", "Black Silk", "Ribbed Knit"]
+fabric = ["Charcoal Wool", "Charcoal Linen", "Charcoal Jersey", "Heather Grey Jersey", "Heather Grey Wool", "Black Silk", "Black Cashmere", "Ribbed Knit", "Charcoal"]
 metal = ["Gunmetal", "Brushed Silver", "Matte Black Metal"]
 leather = ["Black Leather", "Suede Grey", "Pebbled Black"]
 
 [[matches]]
 name = "Grey Day"
 [matches.set]
-fabric = ["Light Grey Cashmere", "Heather Grey Jersey", "Slate Grey Cotton", "Charcoal Wool"]
+fabric = ["Light Grey Cashmere", "Heather Grey Jersey", "Heather Grey Wool", "Slate Grey Cotton", "Charcoal Wool", "Grey Denim", "Grey"]
 metal = ["Sterling Silver", "Brushed Silver", "Pewter"]
 leather = ["Suede Grey", "Pebbled Black", "Black Leather"]
 
 [[matches]]
 name = "Maroon & Brown"
 [matches.set]
-fabric = ["Maroon Wool", "Burgundy Velvet", "Charcoal Wool"]
+fabric = ["Maroon Wool", "Burgundy Velvet", "Burgundy Wool", "Burgundy Jersey", "Charcoal Wool", "Burgundy"]
 metal = ["Bronze", "Copper", "Antique Gold"]
 leather = ["Dark Brown Leather", "Brown Leather", "Distressed Brown"]
 
 [[matches]]
 name = "Nordic Knit"
 [matches.set]
-fabric = ["Ribbed Knit", "Cable Knit", "Cream Cashmere", "Fleece"]
+fabric = ["Ribbed Knit", "Cable Knit", "Fisherman Knit", "Waffle Knit", "Pointelle Knit", "Cream Cashmere", "Cream Wool", "Fleece", "Mohair"]
 metal = ["Brushed Silver", "Sterling Silver", "Pewter"]
 leather = ["Suede Camel", "Brown Leather", "Suede Grey"]
 
 [[matches]]
 name = "Velvet Crush"
 [matches.set]
-fabric = ["Crushed Velvet", "Burgundy Velvet", "Purple Velvet"]
+fabric = ["Crushed Velvet", "Burgundy Velvet", "Purple Velvet", "Emerald Velvet", "Navy Velvet", "Teal Velvet", "Rose Velvet", "Sapphire Velvet", "Devore Velvet"]
 metal = ["Yellow Gold", "Antique Gold", "Rose Gold"]
 leather = ["Suede Burgundy", "Patent Black", "Croc-Embossed Burgundy"]
 
 [[matches]]
 name = "Fleece & Flannel"
 [matches.set]
-fabric = ["Fleece", "Plaid Flannel", "Corduroy", "Cable Knit"]
+fabric = ["Fleece", "Sherpa", "Plaid Flannel", "Buffalo Check", "Corduroy", "Wide-Wale Corduroy", "Cable Knit"]
 metal = ["Pewter", "Antique Silver", "Copper"]
 leather = ["Waxed Brown", "Distressed Brown", "Suede Brown"]
+
+[[matches]]
+name = "Cashmere Cloud"
+[matches.set]
+fabric = ["Cream Cashmere", "Light Grey Cashmere", "Camel Cashmere", "Blush Cashmere", "Navy Cashmere", "Black Cashmere", "Oatmeal Cashmere", "Lavender Cashmere", "Dusty Rose Cashmere"]
+metal = ["Rose Gold", "Champagne Gold", "Brushed Gold"]
+leather = ["Suede Camel", "Cream Leather", "Suede Blush"]
+
+[[matches]]
+name = "Mohair & Angora"
+[matches.set]
+fabric = ["Mohair", "Angora", "Cable Knit", "Ribbed Knit", "Cream Cashmere", "Blush Cashmere", "Lavender Cashmere"]
+metal = ["Rose Gold", "Brushed Silver", "Champagne Gold"]
+leather = ["Suede Blush", "Suede Camel", "Cream Leather"]
 
 # === Summer & Boho ===
 
 [[matches]]
 name = "Beach Day"
 [matches.set]
-fabric = ["White Cotton", "Crochet", "Eyelet", "Striped Cotton"]
+fabric = ["White Cotton", "White Linen", "Crochet", "Macramé", "Eyelet", "Striped Cotton", "Gauze", "Muslin", "Terrycloth", "White"]
 metal = ["Yellow Gold", "Mixed Metals", "Rose Gold"]
 leather = ["Woven Raffia", "Canvas Natural", "Tan Leather"]
 
 [[matches]]
 name = "Bohemian"
 [matches.set]
-fabric = ["Paisley", "Ikat Print", "Crochet", "Floral Print", "Tie-Dye"]
+fabric = ["Paisley", "Ikat Print", "Batik Print", "Aztec Print", "Moroccan Print", "Crochet", "Macramé", "Floral Print", "Tie-Dye", "Gauze", "Embroidered"]
 metal = ["Antique Brass", "Mixed Metals", "Copper", "Bronze"]
 leather = ["Suede Tan", "Suede Brown", "Woven Raffia", "Canvas Natural"]
 
 [[matches]]
 name = "Crochet & Sun"
 [matches.set]
-fabric = ["Crochet", "White Cotton", "Eyelet"]
+fabric = ["Crochet", "Macramé", "White Cotton", "White Linen", "Eyelet", "Gauze"]
 metal = ["Mixed Metals", "Yellow Gold", "Antique Brass"]
 leather = ["Suede Camel", "Woven Raffia", "Tan Leather"]
 
 [[matches]]
 name = "Mediterranean Blue"
 [matches.set]
-fabric = ["Sky Blue Chambray", "White Cotton", "Navy Linen"]
+fabric = ["Sky Blue Chambray", "Light Blue Chambray", "White Cotton", "White Linen", "Navy Linen", "Breton Stripe", "Sky Blue"]
 metal = ["Yellow Gold", "Polished Gold"]
 leather = ["Tan Leather", "Brown Leather", "Woven Raffia"]
 
 [[matches]]
 name = "Riviera"
 [matches.set]
-fabric = ["Navy Linen", "White Cotton", "Breton Stripe", "Red Cotton"]
+fabric = ["Navy Linen", "White Cotton", "White Linen", "Breton Stripe", "Red Cotton", "Awning Stripe", "Navy"]
 metal = ["Yellow Gold", "Polished Gold"]
 leather = ["White Leather", "Tan Leather", "Navy Leather"]
 
 [[matches]]
 name = "Island Vibes"
 [matches.set]
-fabric = ["Tropical Print", "Crochet", "White Cotton", "Tie-Dye"]
+fabric = ["Tropical Print", "Palm Print", "Crochet", "White Cotton", "Tie-Dye", "Gauze", "Bamboo"]
 metal = ["Rose Gold", "Yellow Gold", "Mixed Metals"]
 leather = ["Woven Raffia", "Canvas Natural", "Suede Tan"]
 
 [[matches]]
 name = "Teal Ocean"
 [matches.set]
-fabric = ["Teal Crepe", "Navy Linen", "Mint Chiffon"]
+fabric = ["Teal Crepe", "Teal Silk", "Teal Satin", "Teal Velvet", "Navy Linen", "Mint Chiffon", "Seafoam Cotton", "Seafoam Linen", "Teal"]
 metal = ["Polished Silver", "Sterling Silver", "White Gold"]
 leather = ["Suede Navy", "Navy Leather", "White Leather"]
 
 [[matches]]
 name = "Sunflower"
 [matches.set]
-fabric = ["Yellow Cotton", "Mustard Twill", "White Cotton", "Floral Print"]
+fabric = ["Yellow Cotton", "Butter Yellow Cotton", "Mustard Twill", "White Cotton", "Floral Print", "Daisy Print", "Yellow"]
 metal = ["Polished Gold", "Yellow Gold", "Brushed Gold"]
 leather = ["Brown Leather", "Tan Leather", "Suede Tan"]
+
+[[matches]]
+name = "Gauze & Linen"
+[matches.set]
+fabric = ["Gauze", "Muslin", "White Linen", "Beige Linen", "Oatmeal Linen", "Sand Linen", "Voile", "Batiste"]
+metal = ["Yellow Gold", "Antique Brass", "Mixed Metals"]
+leather = ["Suede Tan", "Woven Raffia", "Canvas Natural", "Tan Leather"]
+
+[[matches]]
+name = "Botanical"
+[matches.set]
+fabric = ["Botanical Print", "Palm Print", "Tropical Print", "Floral Print", "Wildflower Print", "Sage Linen", "Olive Linen", "Green"]
+metal = ["Yellow Gold", "Antique Gold", "Antique Brass"]
+leather = ["Tan Leather", "Suede Olive", "Woven Raffia"]
 
 # === Edgy & Alternative ===
 
 [[matches]]
 name = "Grunge"
 [matches.set]
-fabric = ["Acid Wash Denim", "Plaid Flannel", "Striped Cotton", "Black Denim"]
+fabric = ["Acid Wash Denim", "Distressed Denim", "Plaid Flannel", "Striped Cotton", "Black Denim", "Black Jersey"]
 metal = ["Oxidized Silver", "Gunmetal", "Dark Copper"]
 leather = ["Distressed Black", "Distressed Brown", "Matte Black"]
 
 [[matches]]
 name = "Gothic"
 [matches.set]
-fabric = ["Black Silk", "Crushed Velvet", "Sheer Mesh", "Ivory Lace"]
+fabric = ["Black Silk", "Black Velvet", "Black Lace", "Crushed Velvet", "Sheer Mesh", "Burnout", "Devore Velvet", "Ivory Lace", "Black"]
 metal = ["Oxidized Silver", "Gunmetal", "Matte Black Metal"]
 leather = ["Croc-Embossed Black", "Patent Black", "Matte Black"]
 
 [[matches]]
 name = "Punk Rock"
 [matches.set]
-fabric = ["Striped Cotton", "Black Denim", "Tartan Plaid", "Red Cotton"]
+fabric = ["Striped Cotton", "Candy Stripe", "Black Denim", "Black Jersey", "Tartan Plaid", "Red Cotton", "Red"]
 metal = ["Gunmetal", "Oxidized Silver", "Matte Black Metal"]
 leather = ["Matte Black", "Distressed Black", "Patent Black"]
 
 [[matches]]
 name = "Moto Chic"
 [matches.set]
-fabric = ["Black Denim", "Black Silk", "Heather Grey Jersey", "Striped Cotton"]
+fabric = ["Black Denim", "Black Silk", "Black Satin", "Black Jersey", "Heather Grey Jersey", "Striped Cotton", "Black"]
 metal = ["Brushed Silver", "Gunmetal", "Sterling Silver"]
 leather = ["Pebbled Black", "Black Leather", "Distressed Black"]
 
 [[matches]]
 name = "Dark Romance"
 [matches.set]
-fabric = ["Burgundy Velvet", "Black Silk", "Sheer Mesh", "Ivory Lace"]
+fabric = ["Burgundy Velvet", "Ruby Velvet", "Black Silk", "Black Lace", "Sheer Mesh", "Ivory Lace", "Wine Silk", "Burnout", "Devore Velvet"]
 metal = ["Oxidized Silver", "Antique Gold", "Rose Gold"]
 leather = ["Patent Black", "Croc-Embossed Black", "Burgundy Leather"]
+
+[[matches]]
+name = "Sheer & Dark"
+[matches.set]
+fabric = ["Sheer Mesh", "Black Lace", "Black Chiffon", "Burnout", "Devore Velvet", "Black Silk", "Black"]
+metal = ["Gunmetal", "Matte Black Metal", "Oxidized Silver"]
+leather = ["Patent Black", "Matte Black", "Black Leather"]
 
 # === Whimsical ===
 
 [[matches]]
 name = "Starry Night"
 [matches.set]
-fabric = ["Star Print", "Navy Wool", "Metallic Silver"]
+fabric = ["Star Print", "Navy Wool", "Navy Velvet", "Midnight Blue Velvet", "Metallic Silver", "Sequin", "Navy"]
 metal = ["Polished Silver", "White Gold"]
 leather = ["Navy Leather", "Suede Navy", "Patent Black"]
 
 [[matches]]
 name = "Abstract Art"
 [matches.set]
-fabric = ["Abstract Print", "Color Block", "Tie-Dye"]
+fabric = ["Abstract Print", "Geometric Print", "Color Block", "Tie-Dye", "Watercolor Print"]
 metal = ["Mixed Metals", "Yellow Gold", "Polished Silver"]
 leather = ["Patent Red", "Red Leather", "White Leather"]
 
 [[matches]]
 name = "Periwinkle Dreaming"
 [matches.set]
-fabric = ["Periwinkle Silk", "Lavender Chiffon", "Powder Blue Chiffon"]
+fabric = ["Periwinkle Silk", "Lavender Chiffon", "Lavender Cashmere", "Powder Blue Chiffon", "Dusty Blue Crepe", "Lilac Cotton"]
 metal = ["White Gold", "Rose Gold", "Polished Silver"]
 leather = ["Suede Blush", "Lavender Leather", "White Leather"]
 
 [[matches]]
 name = "Baby Blue"
 [matches.set]
-fabric = ["Baby Blue Cotton", "Powder Blue Chiffon", "Sky Blue Chambray", "White Cotton"]
+fabric = ["Baby Blue Cotton", "Dusty Blue Cotton", "Dusty Blue Crepe", "Powder Blue Chiffon", "Sky Blue Chambray", "Sky Blue Chiffon", "White Cotton", "Sky Blue", "Blue"]
 metal = ["Sterling Silver", "White Gold", "Polished Silver"]
 leather = ["White Leather", "Suede Tan", "Off-White Leather"]
 
 [[matches]]
 name = "Toile Garden"
 [matches.set]
-fabric = ["Toile", "Ivory Lace", "White Cotton", "Eyelet"]
+fabric = ["Toile", "Chinoiserie", "Ivory Lace", "White Cotton", "White Linen", "Eyelet", "Broderie Anglaise"]
 metal = ["Antique Silver", "Rose Gold", "Champagne Gold"]
 leather = ["Cream Leather", "White Leather", "Suede Tan"]
 
 [[matches]]
 name = "Ikat Sunset"
 [matches.set]
-fabric = ["Ikat Print", "Paisley", "Orange Linen", "Mustard Twill"]
+fabric = ["Ikat Print", "Batik Print", "Paisley", "Aztec Print", "Orange Linen", "Mustard Twill", "Terracotta Linen"]
 metal = ["Brass", "Antique Brass", "Copper"]
 leather = ["Suede Olive", "Suede Tan", "Tan Leather"]
 
 [[matches]]
 name = "Eyelet Summer"
 [matches.set]
-fabric = ["Eyelet", "White Cotton", "Floral Print", "Seersucker"]
+fabric = ["Eyelet", "Broderie Anglaise", "White Cotton", "White Linen", "Floral Print", "Seersucker", "Dotted Swiss"]
 metal = ["Rose Gold", "Yellow Gold"]
 leather = ["Suede Tan", "Tan Leather", "Woven Raffia"]
 
 [[matches]]
 name = "Tulle Princess"
 [matches.set]
-fabric = ["Tulle", "Ivory Silk", "Blush Pink Chiffon", "Sequin"]
+fabric = ["Tulle", "Taffeta", "Ivory Silk", "Blush Pink Chiffon", "Blush Organza", "Sequin", "Moiré"]
 metal = ["Rhodium", "Rose Gold", "Polished Silver"]
 leather = ["Metallic Rose Gold Leather", "Cream Leather", "Patent Nude"]
 
 [[matches]]
 name = "French Terry Casual"
 [matches.set]
-fabric = ["French Terry", "Heather Grey Jersey", "White Cotton"]
+fabric = ["French Terry", "Heather Grey Jersey", "White Cotton", "White Jersey", "Black Jersey"]
 metal = ["Matte Silver", "Sterling Silver", "Brushed Silver"]
 leather = ["Canvas Black", "Vegan Black", "Vegan White"]
 
 [[matches]]
 name = "Bouclé Brunch"
 [matches.set]
-fabric = ["Bouclé", "Tweed", "Cream Cashmere", "Ivory Silk"]
+fabric = ["Bouclé", "Tweed", "Donegal Tweed", "Cream Cashmere", "Ivory Silk", "Ivory Crepe", "Herringbone"]
 metal = ["Champagne Gold", "Rose Gold", "Polished Gold"]
 leather = ["Pebbled Tan", "Cream Leather", "Cognac Leather"]
 
 [[matches]]
 name = "Slate & Steel"
 [matches.set]
-fabric = ["Slate Grey Cotton", "Charcoal Wool", "Heather Grey Jersey"]
+fabric = ["Slate Grey Cotton", "Charcoal Wool", "Charcoal Jersey", "Heather Grey Jersey", "Heather Grey Wool", "Grey Denim", "Grey", "Charcoal"]
 metal = ["Titanium", "Gunmetal", "Brushed Silver"]
 leather = ["Pebbled Black", "Matte Black", "Suede Grey"]
 
 [[matches]]
 name = "Mesh & Metal"
 [matches.set]
-fabric = ["Sheer Mesh", "Black Silk", "Sequin", "Metallic Silver"]
+fabric = ["Sheer Mesh", "Black Silk", "Black Satin", "Sequin", "Metallic Silver", "Lamé", "Burnout"]
 metal = ["Dark Copper", "Gunmetal", "Matte Black Metal"]
 leather = ["Patent Black", "Matte Black", "Croc-Embossed Black"]
 
 [[matches]]
 name = "Taupe Elegance"
 [matches.set]
-fabric = ["Taupe Crepe", "Cream Cashmere", "Beige Linen"]
+fabric = ["Taupe Crepe", "Cream Cashmere", "Beige Linen", "Oatmeal Cashmere", "Sand Linen", "Champagne Chiffon", "Beige", "Tan"]
 metal = ["Champagne Gold", "Rose Gold", "Brushed Gold"]
 leather = ["Suede Grey", "Pebbled Tan", "Cream Leather"]
 
 [[matches]]
 name = "Polka Dot Retro"
 [matches.set]
-fabric = ["Polka Dot", "Red Cotton", "White Cotton", "Black Silk"]
+fabric = ["Polka Dot", "Micro Dot", "Polka Dot on Red", "Polka Dot on Navy", "Red Cotton", "White Cotton", "Black Silk", "Red", "White"]
 metal = ["Yellow Gold", "Polished Gold"]
 leather = ["Red Leather", "Patent Red", "Black Leather", "White Leather"]
 
 [[matches]]
 name = "Leopard & Rose Gold"
 [matches.set]
-fabric = ["Leopard Print", "Black Silk", "Cream Cashmere"]
+fabric = ["Leopard Print", "Cheetah Print", "Black Silk", "Black Satin", "Cream Cashmere", "Black"]
 metal = ["Rose Gold", "Champagne Gold"]
 leather = ["Black Leather", "Suede Camel", "Patent Black"]
+
+[[matches]]
+name = "Heart Print Sweet"
+[matches.set]
+fabric = ["Heart Print", "Red Cotton", "Pink Cotton", "White Cotton", "Red", "Pink", "White"]
+metal = ["Rose Gold", "Yellow Gold"]
+leather = ["Red Leather", "Patent Red", "Pink Leather"]
+
+[[matches]]
+name = "Watercolor Dream"
+[matches.set]
+fabric = ["Watercolor Print", "Abstract Print", "Blush Pink Chiffon", "Lavender Chiffon", "Mint Chiffon", "Dusty Rose Chiffon", "Sky Blue Chiffon"]
+metal = ["Rose Gold", "Polished Silver", "Mixed Metals"]
+leather = ["Suede Blush", "Cream Leather", "White Leather"]
+
+[[matches]]
+name = "Embroidered Folk"
+[matches.set]
+fabric = ["Embroidered", "Eyelet", "Broderie Anglaise", "White Linen", "White Cotton", "Floral Print", "Ditsy Floral"]
+metal = ["Antique Gold", "Yellow Gold", "Rose Gold"]
+leather = ["Suede Tan", "Brown Leather", "Tan Leather"]
+
+[[matches]]
+name = "Quilted Luxe"
+[matches.set]
+fabric = ["Quilted", "Sateen", "Piqué", "Cream Cashmere", "Black Silk", "Navy Wool"]
+metal = ["Champagne Gold", "Yellow Gold", "Polished Gold"]
+leather = ["Pebbled Black", "Pebbled Tan", "Cream Leather"]
+
+[[matches]]
+name = "Damask & Brocade"
+[matches.set]
+fabric = ["Damask", "Brocade", "Jacquard", "Moiré", "Taffeta", "Gold Satin", "Ivory Silk"]
+metal = ["Antique Gold", "Yellow Gold", "Polished Gold"]
+leather = ["Croc-Embossed Black", "Patent Black", "Metallic Gold Leather"]
+
+[[matches]]
+name = "Chinoiserie Garden"
+[matches.set]
+fabric = ["Chinoiserie", "Toile", "Ivory Silk", "Jade", "Navy Silk", "Red Silk", "Brocade"]
+metal = ["Yellow Gold", "Antique Gold", "Jade"]
+leather = ["Black Leather", "Red Leather", "Navy Leather"]
+
+[[matches]]
+name = "Greek Key Classic"
+[matches.set]
+fabric = ["Greek Key", "White Cotton", "Navy Linen", "Gold Satin", "White Linen", "Navy", "White"]
+metal = ["Yellow Gold", "Polished Gold", "Antique Gold"]
+leather = ["Navy Leather", "White Leather", "Tan Leather"]
+
+[[matches]]
+name = "Chain Print Luxe"
+[matches.set]
+fabric = ["Chain Print", "Black Silk", "Gold Satin", "Navy Silk", "Black"]
+metal = ["Yellow Gold", "Polished Gold", "Champagne Gold"]
+leather = ["Black Leather", "Patent Black", "Metallic Gold Leather"]
