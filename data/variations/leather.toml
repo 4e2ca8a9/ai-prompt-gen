@@ -104,6 +104,56 @@ name = "Suede Olive"
 [[options]]
 name = "Suede Burgundy"
 
+# Latex & Vinyl
+[[options]]
+name = "Black Latex"
+[[options]]
+name = "Red Latex"
+[[options]]
+name = "White Latex"
+[[options]]
+name = "Pink Latex"
+[[options]]
+name = "Purple Latex"
+[[options]]
+name = "Transparent Latex"
+[[options]]
+name = "Black Vinyl"
+[[options]]
+name = "Red Vinyl"
+[[options]]
+name = "White Vinyl"
+[[options]]
+name = "Pink Vinyl"
+
+# PVC & Wet-Look
+[[options]]
+name = "Black PVC"
+[[options]]
+name = "Red PVC"
+[[options]]
+name = "Wet-Look Black"
+[[options]]
+name = "Wet-Look Red"
+
+# Bondage / Harness
+[[options]]
+name = "Studded Black Leather"
+[[options]]
+name = "Studded Red Leather"
+[[options]]
+name = "Padded Black Leather"
+[[options]]
+name = "Padded Red Leather"
+[[options]]
+name = "Padded Pink Leather"
+[[options]]
+name = "Braided Black Leather"
+[[options]]
+name = "Braided Brown Leather"
+[[options]]
+name = "Locking Black Leather"
+
 # Vegan / Specialty
 [[options]]
 name = "Vegan Black"

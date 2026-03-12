@@ -67,3 +67,89 @@ name = "Cheer Shell Top"
 category = "top"
 slots = ["torso"]
 variations = ["fabric"]
+
+# Sexy tops
+
+[[items]]
+slug = "top.bustier"
+name = "Bustier"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.corset_top"
+name = "Corset Top"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.sheer_blouse"
+name = "Sheer Blouse"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.mesh_top"
+name = "Mesh Top"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.bandeau"
+name = "Bandeau"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.halter_top"
+name = "Halter Top"
+category = "top"
+slots = ["torso", "neck"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.backless_top"
+name = "Backless Top"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.lace_camisole"
+name = "Lace Camisole"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.keyhole_top"
+name = "Keyhole Top"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.deep_v_bodysuit"
+name = "Deep-V Bodysuit"
+category = "top"
+slots = ["torso", "crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.lace_bodysuit"
+name = "Lace Bodysuit"
+category = "top"
+slots = ["torso", "crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.sheer_bodysuit"
+name = "Sheer Bodysuit"
+category = "top"
+slots = ["torso", "crotch"]
+variations = ["fabric"]

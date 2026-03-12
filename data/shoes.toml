@@ -60,3 +60,47 @@ name = "Cheer Shoes"
 category = "shoes"
 slots = ["feet_outer"]
 variations = ["leather"]
+
+# Sexy shoes
+
+[[items]]
+slug = "shoes.thigh_high_boots"
+name = "Thigh-High Boots"
+category = "shoes"
+slots = ["feet_outer", "lower_legs", "thighs"]
+variations = ["leather"]
+
+[[items]]
+slug = "shoes.platform_stilettos"
+name = "Platform Stilettos"
+category = "shoes"
+slots = ["feet_outer"]
+variations = ["leather"]
+
+[[items]]
+slug = "shoes.lace_up_heels"
+name = "Lace-Up Heels"
+category = "shoes"
+slots = ["feet_outer"]
+variations = ["leather"]
+
+[[items]]
+slug = "shoes.peep_toe_pumps"
+name = "Peep-Toe Pumps"
+category = "shoes"
+slots = ["feet_outer"]
+variations = ["leather"]
+
+[[items]]
+slug = "shoes.clear_heels"
+name = "Clear Platform Heels"
+category = "shoes"
+slots = ["feet_outer"]
+variations = ["leather"]
+
+[[items]]
+slug = "shoes.mule_heels"
+name = "Mule Heels"
+category = "shoes"
+slots = ["feet_outer"]
+variations = ["leather"]

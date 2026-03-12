@@ -177,7 +177,7 @@ pub fn describe_outfit(
             Category::Shoes | Category::Socks => {
                 footwear.push(&d.formatted);
             }
-            Category::Accessory | Category::Jewelry => {
+            Category::Accessory | Category::Jewelry | Category::Restraints => {
                 accessories.push(&d.formatted);
             }
         }

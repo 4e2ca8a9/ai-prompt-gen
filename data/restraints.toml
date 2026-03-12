@@ -1,0 +1,292 @@
+# === Collars & Neck Restraints ===
+
+[[items]]
+slug = "restraints.collar"
+name = "Collar"
+category = "restraints"
+slots = ["collar"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.posture_collar"
+name = "Posture Collar"
+category = "restraints"
+slots = ["collar", "neck"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.collar_and_leash"
+name = "Collar & Leash"
+category = "restraints"
+slots = ["collar"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.spiked_collar"
+name = "Spiked Collar"
+category = "restraints"
+slots = ["collar"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.o_ring_collar"
+name = "O-Ring Collar"
+category = "restraints"
+slots = ["collar"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.chain_collar"
+name = "Chain Collar"
+category = "restraints"
+slots = ["collar"]
+variations = ["metal"]
+
+# === Gags ===
+
+[[items]]
+slug = "restraints.ball_gag"
+name = "Ball Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.bit_gag"
+name = "Bit Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.ring_gag"
+name = "Ring Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.panel_gag"
+name = "Panel Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.muzzle_gag"
+name = "Muzzle Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["leather"]
+
+# === Wrist Restraints ===
+
+[[items]]
+slug = "restraints.handcuffs"
+name = "Handcuffs"
+category = "restraints"
+slots = ["wrist_left", "wrist_right"]
+variations = ["metal"]
+
+[[items]]
+slug = "restraints.wrist_cuffs"
+name = "Wrist Cuffs"
+category = "restraints"
+slots = ["wrist_left", "wrist_right"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.padded_wrist_cuffs"
+name = "Padded Wrist Cuffs"
+category = "restraints"
+slots = ["wrist_left", "wrist_right"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.rope_wrist_binding"
+name = "Rope Wrist Binding"
+category = "restraints"
+slots = ["wrist_left", "wrist_right"]
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.chain_wrist_restraints"
+name = "Chain Wrist Restraints"
+category = "restraints"
+slots = ["wrist_left", "wrist_right"]
+variations = ["metal"]
+
+# === Ankle Restraints ===
+
+[[items]]
+slug = "restraints.ankle_cuffs"
+name = "Ankle Cuffs"
+category = "restraints"
+slots = ["ankles"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.padded_ankle_cuffs"
+name = "Padded Ankle Cuffs"
+category = "restraints"
+slots = ["ankles"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.ankle_spreader_bar"
+name = "Ankle Spreader Bar"
+category = "restraints"
+slots = ["ankles"]
+variations = ["metal"]
+
+[[items]]
+slug = "restraints.leg_irons"
+name = "Leg Irons"
+category = "restraints"
+slots = ["ankles"]
+variations = ["metal"]
+
+# === Arm & Upper Body Restraints ===
+
+[[items]]
+slug = "restraints.armbinder"
+name = "Armbinder"
+category = "restraints"
+slots = ["upper_arms", "wrist_left", "wrist_right", "hands"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.arm_cuffs"
+name = "Arm Cuffs"
+category = "restraints"
+slots = ["upper_arms"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.chest_harness"
+name = "Chest Harness"
+category = "restraints"
+slots = []
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.body_harness"
+name = "Body Harness"
+category = "restraints"
+slots = []
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.waist_harness"
+name = "Waist Harness"
+category = "restraints"
+slots = ["waist"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.straitjacket"
+name = "Straitjacket"
+category = "restraints"
+slots = ["torso_outer", "upper_arms", "wrist_left", "wrist_right", "hands"]
+variations = ["leather"]
+
+# === Hand Restraints ===
+
+[[items]]
+slug = "restraints.bondage_mittens"
+name = "Bondage Mittens"
+category = "restraints"
+slots = ["hands", "fingers"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.finger_traps"
+name = "Finger Traps"
+category = "restraints"
+slots = ["fingers"]
+variations = ["metal"]
+
+# === Rope & Binding ===
+
+[[items]]
+slug = "restraints.shibari_harness"
+name = "Shibari Harness"
+category = "restraints"
+slots = []
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.rope_body_binding"
+name = "Rope Body Binding"
+category = "restraints"
+slots = []
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.rope_chest_binding"
+name = "Rope Chest Binding"
+category = "restraints"
+slots = []
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.hogtie"
+name = "Hogtie"
+category = "restraints"
+slots = ["wrist_left", "wrist_right", "ankles"]
+variations = ["leather"]
+
+# === Head & Face ===
+
+[[items]]
+slug = "restraints.bondage_hood"
+name = "Bondage Hood"
+category = "restraints"
+slots = ["head", "eyes"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.blindfold_harness"
+name = "Blindfold Harness"
+category = "restraints"
+slots = ["eyes"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.head_harness"
+name = "Head Harness"
+category = "restraints"
+slots = ["head"]
+variations = ["leather"]
+
+# === Thigh & Leg ===
+
+[[items]]
+slug = "restraints.thigh_cuffs"
+name = "Thigh Cuffs"
+category = "restraints"
+slots = ["thighs"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.thigh_spreader_bar"
+name = "Thigh Spreader Bar"
+category = "restraints"
+slots = ["thighs"]
+variations = ["metal"]
+
+# === Clamps & Clips ===
+
+[[items]]
+slug = "restraints.nipple_clamps"
+name = "Nipple Clamps"
+category = "restraints"
+slots = []
+variations = ["metal"]
+
+[[items]]
+slug = "restraints.nipple_chain_clamps"
+name = "Nipple Chain Clamps"
+category = "restraints"
+slots = []
+variations = ["metal"]

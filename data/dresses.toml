@@ -32,3 +32,61 @@ name = "Turtleneck Dress"
 category = "dress"
 slots = ["torso", "legs", "neck"]
 variations = ["fabric"]
+
+# Sexy dresses
+
+[[items]]
+slug = "dress.backless_mini_dress"
+name = "Backless Mini Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "dress.latex_dress"
+name = "Latex Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["leather"]
+
+[[items]]
+slug = "dress.mesh_mini_dress"
+name = "Mesh Mini Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "dress.cutout_dress"
+name = "Cutout Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "dress.lace_slip_dress"
+name = "Lace Slip Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "dress.plunging_neckline_dress"
+name = "Plunging Neckline Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "dress.bandage_dress"
+name = "Bandage Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "dress.sheer_maxi_dress"
+name = "Sheer Maxi Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["fabric"]

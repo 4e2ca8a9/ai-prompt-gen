@@ -109,3 +109,103 @@ name = "Sweatband"
 category = "accessory"
 slots = ["head"]
 variations = ["fabric"]
+
+# Sexy accessories
+
+[[items]]
+slug = "accessory.garter_belt"
+name = "Garter Belt"
+category = "accessory"
+slots = ["thighs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.lace_garter"
+name = "Lace Garter"
+category = "accessory"
+slots = ["thighs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.body_chain"
+name = "Body Chain"
+category = "accessory"
+slots = ["waist"]
+variations = ["metal"]
+
+[[items]]
+slug = "accessory.thigh_chain"
+name = "Thigh Chain"
+category = "accessory"
+slots = ["thighs"]
+variations = ["metal"]
+
+[[items]]
+slug = "accessory.nipple_chain"
+name = "Nipple Chain"
+category = "accessory"
+slots = []
+variations = ["metal"]
+
+[[items]]
+slug = "accessory.arm_cuff"
+name = "Arm Cuff"
+category = "accessory"
+slots = ["upper_arms"]
+variations = ["metal"]
+
+[[items]]
+slug = "accessory.feather_boa"
+name = "Feather Boa"
+category = "accessory"
+slots = ["neck"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.opera_gloves"
+name = "Opera Gloves"
+category = "accessory"
+slots = ["hands"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.fingerless_gloves"
+name = "Fingerless Gloves"
+category = "accessory"
+slots = ["hands"]
+variations = ["leather"]
+
+[[items]]
+slug = "accessory.lace_gloves"
+name = "Lace Gloves"
+category = "accessory"
+slots = ["hands"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.elbow_length_gloves"
+name = "Elbow-Length Gloves"
+category = "accessory"
+slots = ["hands", "upper_arms"]
+variations = ["leather"]
+
+[[items]]
+slug = "accessory.crop_whip"
+name = "Riding Crop"
+category = "accessory"
+slots = []
+variations = ["leather"]
+
+[[items]]
+slug = "accessory.blindfold"
+name = "Blindfold"
+category = "accessory"
+slots = ["eyes"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.mask"
+name = "Masquerade Mask"
+category = "accessory"
+slots = ["eyes"]
+variations = ["fabric"]

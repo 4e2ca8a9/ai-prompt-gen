@@ -53,3 +53,75 @@ name = "High-Waist Panties"
 category = "underwear"
 slots = ["crotch"]
 variations = ["fabric"]
+
+# Sexy underwear
+
+[[items]]
+slug = "underwear.strappy_cage_bra"
+name = "Strappy Cage Bra"
+category = "underwear"
+slots = ["torso_under"]
+variations = ["fabric"]
+
+[[items]]
+slug = "underwear.cupless_bra"
+name = "Cupless Bra"
+category = "underwear"
+slots = ["torso_under"]
+variations = ["fabric"]
+
+[[items]]
+slug = "underwear.sheer_bra"
+name = "Sheer Bra"
+category = "underwear"
+slots = ["torso_under"]
+variations = ["fabric"]
+
+[[items]]
+slug = "underwear.push_up_bra"
+name = "Push-Up Bra"
+category = "underwear"
+slots = ["torso_under"]
+variations = ["fabric"]
+
+[[items]]
+slug = "underwear.quarter_cup_bra"
+name = "Quarter-Cup Bra"
+category = "underwear"
+slots = ["torso_under"]
+variations = ["fabric"]
+
+[[items]]
+slug = "underwear.pasties"
+name = "Pasties"
+category = "underwear"
+slots = ["torso_under"]
+variations = ["fabric"]
+
+[[items]]
+slug = "underwear.g_string"
+name = "G-String"
+category = "underwear"
+slots = ["crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "underwear.crotchless_panties"
+name = "Crotchless Panties"
+category = "underwear"
+slots = ["crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "underwear.sheer_panties"
+name = "Sheer Panties"
+category = "underwear"
+slots = ["crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "underwear.ruffle_panties"
+name = "Ruffle Panties"
+category = "underwear"
+slots = ["crotch"]
+variations = ["fabric"]

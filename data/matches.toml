@@ -908,3 +908,124 @@ name = "Chain Print Luxe"
 fabric = ["Chain Print", "Black Silk", "Gold Satin", "Navy Silk", "Black"]
 metal = ["Yellow Gold", "Polished Gold", "Champagne Gold"]
 leather = ["Black Leather", "Patent Black", "Metallic Gold Leather"]
+
+# === Bondage & Fetish ===
+
+[[matches]]
+name = "Classic Bondage"
+[matches.set]
+fabric = ["Black Silk", "Black Satin", "Black Lace", "Black Latex", "Sheer Mesh", "Black Rope", "Black"]
+metal = ["Gunmetal", "Matte Black Metal", "Polished Silver"]
+leather = ["Black Leather", "Patent Black", "Matte Black", "Studded Black Leather", "Padded Black Leather", "Locking Black Leather", "Black PVC", "Black Vinyl", "Black Latex"]
+
+[[matches]]
+name = "Red Room"
+[matches.set]
+fabric = ["Red Satin", "Red Silk", "Red Lace", "Red Latex", "Black Silk", "Black Lace", "Red Rope", "Red", "Black"]
+metal = ["Gunmetal", "Matte Black Metal", "Yellow Gold"]
+leather = ["Red Leather", "Patent Red", "Red Latex", "Red Vinyl", "Red PVC", "Studded Red Leather", "Padded Red Leather", "Black Leather"]
+
+[[matches]]
+name = "Latex Domme"
+[matches.set]
+fabric = ["Black Latex", "Red Latex", "Purple Latex", "Black Silk", "Black Satin", "Sheer Mesh", "Black"]
+metal = ["Gunmetal", "Matte Black Metal", "Polished Silver"]
+leather = ["Black Latex", "Red Latex", "Patent Black", "Black PVC", "Wet-Look Black", "Studded Black Leather"]
+
+[[matches]]
+name = "Rope Bunny"
+[matches.set]
+fabric = ["Natural Jute Rope", "Natural Hemp Rope", "Cotton Rope", "Black Rope", "Red Rope", "White Rope", "Silk Rope", "Pink Rope"]
+metal = ["Polished Silver", "Sterling Silver", "Rose Gold"]
+leather = ["Black Leather", "Padded Black Leather", "Suede Black", "Patent Black"]
+
+[[matches]]
+name = "Shibari Art"
+[matches.set]
+fabric = ["Natural Jute Rope", "Natural Hemp Rope", "Red Rope", "Black Rope", "Cotton Rope", "White Cotton", "Cream"]
+metal = ["Antique Gold", "Yellow Gold", "Antique Brass"]
+leather = ["Black Leather", "Brown Leather", "Cognac Leather"]
+
+[[matches]]
+name = "Pink Kink"
+[matches.set]
+fabric = ["Pink Latex", "Pink Rope", "Hot Pink Satin", "Pink Cotton", "Blush Pink Chiffon", "Black Lace", "Pink", "Blush"]
+metal = ["Rose Gold", "Polished Silver", "Champagne Gold"]
+leather = ["Pink Latex", "Pink Vinyl", "Hot Pink Leather", "Pink Leather", "Padded Pink Leather", "Patent Black"]
+
+[[matches]]
+name = "Purple Reign"
+[matches.set]
+fabric = ["Purple Latex", "Purple Velvet", "Plum Satin", "Plum Velvet", "Lavender Chiffon", "Black Lace", "Purple", "Plum"]
+metal = ["Gunmetal", "Polished Silver", "Antique Gold"]
+leather = ["Purple Latex", "Purple Leather", "Patent Black", "Matte Black", "Black Leather"]
+
+[[matches]]
+name = "Latex & Lace"
+[matches.set]
+fabric = ["Black Lace", "Black Latex", "Red Lace", "Red Latex", "Sheer Mesh", "Ivory Lace", "Black Silk"]
+metal = ["Gunmetal", "Polished Silver", "Rose Gold"]
+leather = ["Black Latex", "Patent Black", "Red Latex", "Wet-Look Black"]
+
+[[matches]]
+name = "White Bondage"
+[matches.set]
+fabric = ["White Latex", "White Lace", "White Silk", "White Rope", "White Cotton", "Sheer Mesh", "Ivory Lace", "White"]
+metal = ["Polished Silver", "White Gold", "Rhodium"]
+leather = ["White Latex", "White Vinyl", "White Leather", "Patent Nude", "Cream Leather"]
+
+[[matches]]
+name = "Dungeon Dark"
+[matches.set]
+fabric = ["Black Silk", "Black Velvet", "Black Lace", "Sheer Mesh", "Black Latex", "Black Rope", "Black Satin", "Black"]
+metal = ["Matte Black Metal", "Gunmetal", "Dark Copper", "Oxidized Silver"]
+leather = ["Matte Black", "Black Leather", "Studded Black Leather", "Locking Black Leather", "Black PVC", "Black Latex", "Padded Black Leather"]
+
+[[matches]]
+name = "Fetish Glam"
+[matches.set]
+fabric = ["Sequin", "Metallic Silver", "Metallic Gold", "Black Latex", "Black Satin", "Sheer Mesh", "Lamé"]
+metal = ["Yellow Gold", "Polished Gold", "Polished Silver"]
+leather = ["Patent Black", "Black Latex", "Metallic Gold Leather", "Metallic Silver Leather", "Wet-Look Black"]
+
+[[matches]]
+name = "Burlesque"
+[matches.set]
+fabric = ["Red Satin", "Black Lace", "Black Silk", "Sequin", "Sheer Mesh", "Red Lace", "Ivory Lace", "Red", "Black"]
+metal = ["Yellow Gold", "Polished Gold", "Rose Gold"]
+leather = ["Patent Black", "Red Leather", "Patent Red", "Black Leather"]
+
+[[matches]]
+name = "Vinyl Vixen"
+[matches.set]
+fabric = ["Black Silk", "Black Satin", "Sheer Mesh", "Black Lace", "Black Latex", "Black"]
+metal = ["Gunmetal", "Matte Black Metal", "Polished Silver"]
+leather = ["Black Vinyl", "Red Vinyl", "Black PVC", "Wet-Look Black", "Wet-Look Red", "Patent Black"]
+
+[[matches]]
+name = "Gothic Bondage"
+[matches.set]
+fabric = ["Black Velvet", "Black Lace", "Crushed Velvet", "Sheer Mesh", "Burnout", "Devore Velvet", "Black Silk", "Black Latex", "Black Rope", "Black"]
+metal = ["Oxidized Silver", "Gunmetal", "Matte Black Metal", "Dark Copper"]
+leather = ["Patent Black", "Matte Black", "Studded Black Leather", "Croc-Embossed Black", "Black Latex", "Locking Black Leather"]
+
+[[matches]]
+name = "Mistress"
+[matches.set]
+fabric = ["Black Silk", "Black Satin", "Red Satin", "Black Latex", "Red Latex", "Black Lace", "Sheer Mesh", "Black", "Red"]
+metal = ["Polished Silver", "Gunmetal", "Yellow Gold"]
+leather = ["Patent Black", "Patent Red", "Studded Black Leather", "Studded Red Leather", "Black Latex", "Red Latex", "Locking Black Leather"]
+
+[[matches]]
+name = "Pet Play"
+[matches.set]
+fabric = ["Black Latex", "Pink Latex", "Black Silk", "Pink Cotton", "Black Lace", "Sheer Mesh", "Pink", "Black"]
+metal = ["Polished Silver", "Rose Gold", "Gunmetal"]
+leather = ["Black Leather", "Pink Leather", "Patent Black", "Padded Black Leather", "Padded Pink Leather"]
+
+[[matches]]
+name = "Elegant Restraint"
+[matches.set]
+fabric = ["Black Silk", "Ivory Silk", "Gold Satin", "Champagne Silk", "Silk Rope", "Black Lace", "Ivory Lace"]
+metal = ["Yellow Gold", "Polished Gold", "Rose Gold"]
+leather = ["Black Leather", "Patent Black", "Padded Black Leather", "Cream Leather", "Metallic Gold Leather"]

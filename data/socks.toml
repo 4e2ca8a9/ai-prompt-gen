@@ -60,3 +60,40 @@ name = "Crew Socks"
 category = "socks"
 slots = ["feet_inner"]
 variations = ["fabric"]
+
+# Sexy hosiery
+
+[[items]]
+slug = "socks.seamed_stockings"
+name = "Seamed Stockings"
+category = "socks"
+slots = ["legs_under", "feet_inner"]
+variations = ["fabric"]
+
+[[items]]
+slug = "socks.lace_top_stockings"
+name = "Lace-Top Stockings"
+category = "socks"
+slots = ["legs_under", "feet_inner"]
+variations = ["fabric"]
+
+[[items]]
+slug = "socks.sheer_hold_ups"
+name = "Sheer Hold-Ups"
+category = "socks"
+slots = ["legs_under"]
+variations = ["fabric"]
+
+[[items]]
+slug = "socks.patterned_tights"
+name = "Patterned Tights"
+category = "socks"
+slots = ["legs_under", "feet_inner"]
+variations = ["fabric"]
+
+[[items]]
+slug = "socks.backseam_tights"
+name = "Backseam Tights"
+category = "socks"
+slots = ["legs_under", "feet_inner"]
+variations = ["fabric"]

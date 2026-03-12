@@ -55,6 +55,7 @@ const CATEGORY_ORDER: &[Category] = &[
     Category::Outerwear,
     Category::Accessory,
     Category::Jewelry,
+    Category::Restraints,
 ];
 
 /// Generate a random outfit from the entire wardrobe.

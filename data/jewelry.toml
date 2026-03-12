@@ -74,3 +74,33 @@ name = "Anklet"
 category = "jewelry"
 slots = ["ankles"]
 variations = ["metal"]
+
+# Sexy jewelry
+
+[[items]]
+slug = "jewelry.belly_chain"
+name = "Belly Chain"
+category = "jewelry"
+slots = []
+variations = ["metal"]
+
+[[items]]
+slug = "jewelry.slave_bracelet"
+name = "Slave Bracelet"
+category = "jewelry"
+slots = ["wrist_left", "fingers"]
+variations = ["metal"]
+
+[[items]]
+slug = "jewelry.ear_cuff"
+name = "Ear Cuff"
+category = "jewelry"
+slots = ["ears"]
+variations = ["metal"]
+
+[[items]]
+slug = "jewelry.toe_ring"
+name = "Toe Ring"
+category = "jewelry"
+slots = []
+variations = ["metal"]

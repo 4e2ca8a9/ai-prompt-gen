@@ -60,3 +60,54 @@ name = "Cheer Skirt"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]
+
+# Sexy bottoms
+
+[[items]]
+slug = "bottom.micro_mini_skirt"
+name = "Micro Mini Skirt"
+category = "bottom"
+slots = ["legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "bottom.latex_skirt"
+name = "Latex Skirt"
+category = "bottom"
+slots = ["legs"]
+variations = ["leather"]
+
+[[items]]
+slug = "bottom.leather_mini_skirt"
+name = "Leather Mini Skirt"
+category = "bottom"
+slots = ["legs"]
+variations = ["leather"]
+
+[[items]]
+slug = "bottom.slit_skirt"
+name = "High-Slit Skirt"
+category = "bottom"
+slots = ["legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "bottom.hot_pants"
+name = "Hot Pants"
+category = "bottom"
+slots = ["legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "bottom.vinyl_pants"
+name = "Vinyl Pants"
+category = "bottom"
+slots = ["legs"]
+variations = ["leather"]
+
+[[items]]
+slug = "bottom.lace_shorts"
+name = "Lace Shorts"
+category = "bottom"
+slots = ["legs"]
+variations = ["fabric"]

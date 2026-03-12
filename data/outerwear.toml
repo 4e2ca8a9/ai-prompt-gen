@@ -53,3 +53,54 @@ name = "Warm-Up Jacket"
 category = "outerwear"
 slots = ["torso_outer"]
 variations = ["fabric"]
+
+# Sexy outerwear
+
+[[items]]
+slug = "outerwear.corset"
+name = "Corset"
+category = "outerwear"
+slots = ["torso_outer"]
+variations = ["leather"]
+
+[[items]]
+slug = "outerwear.underbust_corset"
+name = "Underbust Corset"
+category = "outerwear"
+slots = ["torso_outer"]
+variations = ["leather"]
+
+[[items]]
+slug = "outerwear.sheer_robe"
+name = "Sheer Robe"
+category = "outerwear"
+slots = ["torso_outer"]
+variations = ["fabric"]
+
+[[items]]
+slug = "outerwear.lace_kimono"
+name = "Lace Kimono"
+category = "outerwear"
+slots = ["torso_outer"]
+variations = ["fabric"]
+
+[[items]]
+slug = "outerwear.latex_jacket"
+name = "Latex Jacket"
+category = "outerwear"
+slots = ["torso_outer"]
+variations = ["leather"]
+
+[[items]]
+slug = "outerwear.bolero_shrug"
+name = "Bolero Shrug"
+category = "outerwear"
+slots = ["torso_outer"]
+variations = ["fabric"]
+
+[[items]]
+slug = "outerwear.cape"
+name = "Cape"
+category = "outerwear"
+slots = ["torso_outer"]
+variations = ["fabric"]

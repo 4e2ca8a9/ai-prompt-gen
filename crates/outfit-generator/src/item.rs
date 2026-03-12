@@ -11,24 +11,29 @@ pub enum Slot {
     Hair,
     Ears,
     Eyes,
+    Mouth,
 
     // Neck / torso
     Neck,
+    Collar,
     TorsoUnder,
     Torso,
     TorsoOuter,
+
+    // Arms / hands
+    UpperArms,
+    WristLeft,
+    WristRight,
+    Hands,
+    Fingers,
 
     // Lower body
     Crotch,
     LegsUnder,
     Legs,
     LowerLegs,
+    Thighs,
     Waist,
-
-    // Hands / wrists
-    WristLeft,
-    WristRight,
-    Fingers,
 
     // Feet
     Ankles,
@@ -52,6 +57,7 @@ pub enum Category {
     Jewelry,
     Socks,
     Shoes,
+    Restraints,
 }
 
 /// A single clothing or accessory item.
