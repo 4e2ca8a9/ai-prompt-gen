@@ -10,7 +10,12 @@ fn main() {
         .load_dir(&data_dir)
         .expect("failed to load data directory");
 
-    println!("Wardrobe: {} items loaded.\n", wardrobe.items().len());
+    println!(
+        "Wardrobe: {} items, {} variation categories, {} match sets.\n",
+        wardrobe.items().len(),
+        wardrobe.variation_categories().len(),
+        wardrobe.match_sets().len(),
+    );
 
     let outfit = generate_outfit(&wardrobe);
 

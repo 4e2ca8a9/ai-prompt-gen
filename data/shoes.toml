@@ -1,39 +1,47 @@
 [[items]]
-name = "White Sneakers"
+name = "Sneakers"
 category = "shoes"
 slots = ["feet_outer"]
+variations = ["leather"]
 
 [[items]]
-name = "Black Stiletto Heels"
+name = "Stiletto Heels"
 category = "shoes"
 slots = ["feet_outer"]
+variations = ["leather"]
 
 [[items]]
 name = "Ankle Boots"
 category = "shoes"
 slots = ["feet_outer"]
+variations = ["leather"]
 
 [[items]]
 name = "Strappy Sandals"
 category = "shoes"
 slots = ["feet_outer"]
+variations = ["leather"]
 
 [[items]]
 name = "Ballet Flats"
 category = "shoes"
 slots = ["feet_outer"]
+variations = ["leather"]
 
 [[items]]
 name = "Platform Loafers"
 category = "shoes"
 slots = ["feet_outer"]
+variations = ["leather"]
 
 [[items]]
 name = "Knee-High Boots"
 category = "shoes"
 slots = ["feet_outer", "lower_legs"]
+variations = ["leather"]
 
 [[items]]
 name = "Espadrille Wedges"
 category = "shoes"
 slots = ["feet_outer"]
+variations = ["fabric"]

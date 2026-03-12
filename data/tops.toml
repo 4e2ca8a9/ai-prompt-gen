@@ -1,44 +1,53 @@
 [[items]]
-name = "White V-Neck T-Shirt"
+name = "V-Neck T-Shirt"
 category = "top"
 slots = ["torso"]
+variations = ["fabric"]
 
 [[items]]
-name = "Black Silk Blouse"
+name = "Silk Blouse"
 category = "top"
 slots = ["torso"]
+variations = ["fabric"]
 
 [[items]]
-name = "Striped Crop Top"
+name = "Crop Top"
 category = "top"
 slots = ["torso"]
+variations = ["fabric"]
 
 [[items]]
 name = "Ribbed Tank Top"
 category = "top"
 slots = ["torso"]
+variations = ["fabric"]
 
 [[items]]
-name = "Chambray Button-Down"
+name = "Button-Down Shirt"
 category = "top"
 slots = ["torso"]
+variations = ["fabric"]
 
 [[items]]
 name = "Cashmere Sweater"
 category = "top"
 slots = ["torso"]
+variations = ["fabric"]
 
 [[items]]
 name = "Graphic Tee"
 category = "top"
 slots = ["torso"]
+variations = ["fabric"]
 
 [[items]]
 name = "Off-Shoulder Top"
 category = "top"
 slots = ["torso"]
+variations = ["fabric"]
 
 [[items]]
 name = "Turtleneck"
 category = "top"
 slots = ["torso", "neck"]
+variations = ["fabric"]

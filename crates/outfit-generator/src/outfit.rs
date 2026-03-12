@@ -1,22 +1,23 @@
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
 use std::fmt;
 
 use rand::seq::SliceRandom;
 use rand::Rng;
 
 use crate::item::{Category, Item, Slot};
+use crate::variation::OutfitItem;
 use crate::wardrobe::Wardrobe;
 
-/// A generated outfit — a set of items that can all be worn together
-/// without any slot conflicts.
+/// A generated outfit — a set of items (with variations assigned) that can
+/// all be worn together without any slot conflicts.
 #[derive(Debug, Clone)]
 pub struct Outfit {
-    items: Vec<Item>,
+    items: Vec<OutfitItem>,
 }
 
 impl Outfit {
     /// The items that make up this outfit.
-    pub fn items(&self) -> &[Item] {
+    pub fn items(&self) -> &[OutfitItem] {
         &self.items
     }
 
@@ -57,12 +58,18 @@ const CATEGORY_ORDER: &[Category] = &[
 
 /// Generate a random outfit from the wardrobe.
 ///
-/// For each category (in layering order), every compatible item has a random
-/// chance of being included. Each item's slots are checked against what is
-/// already occupied — if there is a conflict it is skipped. Any slot may end
-/// up unfilled, so the result can range from fully dressed to completely nude.
+/// **Phase 1 — item selection:** For each category (in layering order), every
+/// compatible item has a random chance of being included. Slot conflicts are
+/// enforced so no two items share a body slot.
+///
+/// **Phase 2 — variation assignment:** A random match set is chosen. For each
+/// selected item, its variation categories are filled from the match set where
+/// possible; any remaining categories get a random value from that variation's
+/// option list. Items that cannot match are kept as-is.
 pub fn generate_outfit(wardrobe: &Wardrobe) -> Outfit {
     let mut rng = rand::thread_rng();
+
+    // --- Phase 1: pick items ---
     let mut occupied: HashSet<Slot> = HashSet::new();
     let mut chosen: Vec<Item> = Vec::new();
 
@@ -77,11 +84,8 @@ pub fn generate_outfit(wardrobe: &Wardrobe) -> Outfit {
 
         for item in candidates {
             if !is_compatible(item, &occupied) {
-                // A previously accepted item in this same loop iteration may
-                // have claimed a slot this candidate needs.
                 continue;
             }
-
             if rng.gen_bool(0.5) {
                 claim_slots(item, &mut occupied);
                 chosen.push(item.clone());
@@ -89,7 +93,41 @@ pub fn generate_outfit(wardrobe: &Wardrobe) -> Outfit {
         }
     }
 
-    Outfit { items: chosen }
+    // --- Phase 2: assign variations ---
+    let match_set: Option<&HashMap<String, String>> = wardrobe
+        .match_sets()
+        .choose(&mut rng)
+        .map(|ms| &ms.set);
+
+    let var_cats = wardrobe.variation_categories();
+
+    let items = chosen
+        .into_iter()
+        .map(|item| {
+            let mut assigned = HashMap::new();
+            for var_cat_name in &item.variations {
+                // Try the match set first.
+                if let Some(set) = match_set {
+                    if let Some(value) = set.get(var_cat_name) {
+                        assigned.insert(var_cat_name.clone(), value.clone());
+                        continue;
+                    }
+                }
+                // Fall back to a random option from the category.
+                if let Some(cat) = var_cats.get(var_cat_name) {
+                    if let Some(value) = cat.options.choose(&mut rng) {
+                        assigned.insert(var_cat_name.clone(), value.clone());
+                    }
+                }
+            }
+            OutfitItem {
+                name: item.name,
+                variations: assigned,
+            }
+        })
+        .collect();
+
+    Outfit { items }
 }
 
 /// Returns `true` if `candidate` can be added without conflicting with any

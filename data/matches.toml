@@ -1,0 +1,69 @@
+[[matches]]
+name = "Classic Dark & Gold"
+[matches.set]
+fabric = "Black Silk"
+metal = "Yellow Gold"
+leather = "Black Leather"
+
+[[matches]]
+name = "Silver & Navy"
+[matches.set]
+fabric = "Navy Linen"
+metal = "Sterling Silver"
+leather = "Cognac Leather"
+
+[[matches]]
+name = "Rose & Blush"
+[matches.set]
+fabric = "Blush Pink Chiffon"
+metal = "Rose Gold"
+leather = "Tan Leather"
+
+[[matches]]
+name = "Warm Neutrals"
+[matches.set]
+fabric = "Cream Cashmere"
+metal = "Brushed Gold"
+leather = "Brown Leather"
+
+[[matches]]
+name = "Burgundy Night"
+[matches.set]
+fabric = "Burgundy Velvet"
+metal = "Yellow Gold"
+leather = "Burgundy Leather"
+
+[[matches]]
+name = "Casual Denim"
+[matches.set]
+fabric = "Light Wash Denim"
+metal = "Sterling Silver"
+leather = "Tan Leather"
+
+[[matches]]
+name = "Olive Earth"
+[matches.set]
+fabric = "Olive Twill"
+metal = "Copper"
+leather = "Brown Leather"
+
+[[matches]]
+name = "Ivory Romance"
+[matches.set]
+fabric = "Ivory Lace"
+metal = "Rose Gold"
+leather = "White Leather"
+
+[[matches]]
+name = "All Black Everything"
+[matches.set]
+fabric = "Black Silk"
+metal = "Gunmetal"
+leather = "Patent Black"
+
+[[matches]]
+name = "Red Carpet"
+[matches.set]
+fabric = "Red Satin"
+metal = "Yellow Gold"
+leather = "Black Leather"

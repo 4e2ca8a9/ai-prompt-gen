@@ -1,0 +1,25 @@
+category = "metal"
+
+[[options]]
+name = "Yellow Gold"
+
+[[options]]
+name = "Rose Gold"
+
+[[options]]
+name = "Sterling Silver"
+
+[[options]]
+name = "Brushed Gold"
+
+[[options]]
+name = "Oxidized Silver"
+
+[[options]]
+name = "White Gold"
+
+[[options]]
+name = "Copper"
+
+[[options]]
+name = "Gunmetal"

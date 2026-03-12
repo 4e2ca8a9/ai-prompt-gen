@@ -1,39 +1,47 @@
 [[items]]
-name = "White Cotton Bra"
+name = "Cotton Bra"
 category = "underwear"
 slots = ["torso_under"]
+variations = ["fabric"]
 
 [[items]]
-name = "Black Lace Bra"
+name = "Lace Bra"
 category = "underwear"
 slots = ["torso_under"]
+variations = ["fabric"]
 
 [[items]]
 name = "Sports Bra"
 category = "underwear"
 slots = ["torso_under"]
+variations = ["fabric"]
 
 [[items]]
 name = "Bralette"
 category = "underwear"
 slots = ["torso_under"]
+variations = ["fabric"]
 
 [[items]]
-name = "Cotton Bikini Briefs"
+name = "Bikini Briefs"
 category = "underwear"
 slots = ["crotch"]
+variations = ["fabric"]
 
 [[items]]
-name = "Black Lace Thong"
+name = "Lace Thong"
 category = "underwear"
 slots = ["crotch"]
+variations = ["fabric"]
 
 [[items]]
 name = "Seamless Boyshorts"
 category = "underwear"
 slots = ["crotch"]
+variations = ["fabric"]
 
 [[items]]
-name = "High-Waist Cotton Panties"
+name = "High-Waist Panties"
 category = "underwear"
 slots = ["crotch"]
+variations = ["fabric"]

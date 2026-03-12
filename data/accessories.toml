@@ -2,73 +2,82 @@
 name = "Wide-Brim Sun Hat"
 category = "accessory"
 slots = ["head"]
+variations = ["fabric"]
 
 [[items]]
 name = "Knit Beanie"
 category = "accessory"
 slots = ["head"]
+variations = ["fabric"]
 
 [[items]]
 name = "Beret"
 category = "accessory"
 slots = ["head"]
+variations = ["fabric"]
 
 [[items]]
-name = "Silk Scarf"
+name = "Scarf"
 category = "accessory"
 slots = ["neck"]
+variations = ["fabric"]
 
 [[items]]
-name = "Leather Belt"
+name = "Belt"
 category = "accessory"
 slots = ["waist"]
+variations = ["leather"]
 
 [[items]]
 name = "Chain Belt"
 category = "accessory"
 slots = ["waist"]
+variations = ["metal"]
 
 [[items]]
 name = "Crossbody Bag"
 category = "accessory"
 slots = ["bag"]
+variations = ["leather"]
 
 [[items]]
 name = "Clutch Purse"
 category = "accessory"
 slots = ["bag"]
+variations = ["leather"]
 
 [[items]]
 name = "Canvas Tote"
 category = "accessory"
 slots = ["bag"]
+variations = ["fabric"]
 
 [[items]]
-name = "Cat-Eye Sunglasses"
+name = "Sunglasses"
 category = "accessory"
 slots = ["eyes"]
+variations = ["metal"]
 
 [[items]]
-name = "Aviator Sunglasses"
-category = "accessory"
-slots = ["eyes"]
-
-[[items]]
-name = "Tortoiseshell Hair Clip"
+name = "Hair Clip"
 category = "accessory"
 slots = ["hair"]
+variations = ["metal"]
 
 [[items]]
-name = "Satin Scrunchie"
+name = "Scrunchie"
 category = "accessory"
 slots = ["hair"]
+variations = ["fabric"]
 
 [[items]]
 name = "Leg Warmers"
 category = "accessory"
 slots = ["lower_legs"]
+variations = ["fabric"]
 
 [[items]]
 name = "Knit Leg Warmers"
 category = "accessory"
 slots = ["lower_legs"]
+variations = ["fabric"]

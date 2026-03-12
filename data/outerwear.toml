@@ -2,33 +2,40 @@
 name = "Denim Jacket"
 category = "outerwear"
 slots = ["torso_outer"]
+variations = ["fabric"]
 
 [[items]]
-name = "Leather Moto Jacket"
+name = "Moto Jacket"
 category = "outerwear"
 slots = ["torso_outer"]
+variations = ["leather"]
 
 [[items]]
 name = "Wool Peacoat"
 category = "outerwear"
 slots = ["torso_outer"]
+variations = ["fabric"]
 
 [[items]]
 name = "Cropped Cardigan"
 category = "outerwear"
 slots = ["torso_outer"]
+variations = ["fabric"]
 
 [[items]]
 name = "Puffer Vest"
 category = "outerwear"
 slots = ["torso_outer"]
+variations = ["fabric"]
 
 [[items]]
 name = "Trench Coat"
 category = "outerwear"
 slots = ["torso_outer"]
+variations = ["fabric"]
 
 [[items]]
 name = "Hoodie"
 category = "outerwear"
 slots = ["torso_outer"]
+variations = ["fabric"]

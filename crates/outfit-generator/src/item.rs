@@ -63,6 +63,10 @@ pub struct Item {
     pub category: Category,
     /// Body slots this item occupies. Items that share a slot conflict.
     pub slots: Vec<Slot>,
+    /// Variation categories that apply to this item (e.g. `["fabric"]`,
+    /// `["metal"]`, `["fabric", "leather"]`). Empty means no variations.
+    #[serde(default)]
+    pub variations: Vec<String>,
 }
 
 impl Item {

@@ -1,54 +1,65 @@
 [[items]]
-name = "Gold Stud Earrings"
+name = "Stud Earrings"
 category = "jewelry"
 slots = ["ears"]
+variations = ["metal"]
 
 [[items]]
-name = "Silver Hoop Earrings"
+name = "Hoop Earrings"
 category = "jewelry"
 slots = ["ears"]
+variations = ["metal"]
 
 [[items]]
 name = "Chandelier Earrings"
 category = "jewelry"
 slots = ["ears"]
+variations = ["metal"]
 
 [[items]]
-name = "Dainty Gold Necklace"
+name = "Pendant Necklace"
 category = "jewelry"
 slots = ["neck"]
+variations = ["metal"]
 
 [[items]]
-name = "Pearl Choker"
+name = "Choker"
 category = "jewelry"
 slots = ["neck"]
+variations = ["metal"]
 
 [[items]]
 name = "Layered Chain Necklace"
 category = "jewelry"
 slots = ["neck"]
+variations = ["metal"]
 
 [[items]]
-name = "Silver Cuff Bracelet"
+name = "Cuff Bracelet"
 category = "jewelry"
 slots = ["wrist_left"]
+variations = ["metal"]
 
 [[items]]
-name = "Gold Bangle Set"
+name = "Bangle Set"
 category = "jewelry"
 slots = ["wrist_right"]
+variations = ["metal"]
 
 [[items]]
-name = "Delicate Stacking Rings"
+name = "Stacking Rings"
 category = "jewelry"
 slots = ["fingers"]
+variations = ["metal"]
 
 [[items]]
-name = "Statement Cocktail Ring"
+name = "Cocktail Ring"
 category = "jewelry"
 slots = ["fingers"]
+variations = ["metal"]
 
 [[items]]
-name = "Dainty Anklet"
+name = "Anklet"
 category = "jewelry"
 slots = ["ankles"]
+variations = ["metal"]

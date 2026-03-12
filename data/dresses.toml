@@ -2,23 +2,28 @@
 name = "Little Black Dress"
 category = "dress"
 slots = ["torso", "legs"]
+variations = ["fabric"]
 
 [[items]]
-name = "Floral Sundress"
+name = "Sundress"
 category = "dress"
 slots = ["torso", "legs"]
+variations = ["fabric"]
 
 [[items]]
-name = "Knit Sweater Dress"
+name = "Sweater Dress"
 category = "dress"
 slots = ["torso", "legs"]
+variations = ["fabric"]
 
 [[items]]
 name = "Wrap Dress"
 category = "dress"
 slots = ["torso", "legs"]
+variations = ["fabric"]
 
 [[items]]
-name = "Turtleneck Sweater Dress"
+name = "Turtleneck Dress"
 category = "dress"
 slots = ["torso", "legs", "neck"]
+variations = ["fabric"]

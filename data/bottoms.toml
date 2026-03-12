@@ -1,39 +1,47 @@
 [[items]]
-name = "High-Waist Skinny Jeans"
+name = "Skinny Jeans"
 category = "bottom"
 slots = ["legs"]
+variations = ["fabric"]
 
 [[items]]
-name = "Black Mini Skirt"
+name = "Mini Skirt"
 category = "bottom"
 slots = ["legs"]
+variations = ["fabric"]
 
 [[items]]
 name = "Pleated Midi Skirt"
 category = "bottom"
 slots = ["legs"]
+variations = ["fabric"]
 
 [[items]]
 name = "Wide-Leg Trousers"
 category = "bottom"
 slots = ["legs"]
+variations = ["fabric"]
 
 [[items]]
 name = "Denim Shorts"
 category = "bottom"
 slots = ["legs"]
+variations = ["fabric"]
 
 [[items]]
-name = "Black Leggings"
+name = "Leggings"
 category = "bottom"
 slots = ["legs"]
+variations = ["fabric"]
 
 [[items]]
-name = "Corduroy A-Line Skirt"
+name = "A-Line Skirt"
 category = "bottom"
 slots = ["legs"]
+variations = ["fabric"]
 
 [[items]]
 name = "Cargo Pants"
 category = "bottom"
 slots = ["legs"]
+variations = ["fabric"]
