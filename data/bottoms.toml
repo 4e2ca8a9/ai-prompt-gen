@@ -2,40 +2,38 @@
 name = "High-Waist Skinny Jeans"
 category = "bottom"
 slots = ["legs"]
-tags = ["casual"]
 
 [[items]]
 name = "Black Mini Skirt"
 category = "bottom"
 slots = ["legs"]
-tags = ["dressy", "going_out"]
 
 [[items]]
 name = "Pleated Midi Skirt"
 category = "bottom"
 slots = ["legs"]
-tags = ["smart_casual", "formal"]
 
 [[items]]
 name = "Wide-Leg Trousers"
 category = "bottom"
 slots = ["legs"]
-tags = ["formal", "smart_casual"]
 
 [[items]]
 name = "Denim Shorts"
 category = "bottom"
 slots = ["legs"]
-tags = ["casual", "summer"]
 
 [[items]]
 name = "Black Leggings"
 category = "bottom"
 slots = ["legs"]
-tags = ["casual", "athletic"]
 
 [[items]]
 name = "Corduroy A-Line Skirt"
 category = "bottom"
 slots = ["legs"]
-tags = ["casual", "autumn"]
+
+[[items]]
+name = "Cargo Pants"
+category = "bottom"
+slots = ["legs"]

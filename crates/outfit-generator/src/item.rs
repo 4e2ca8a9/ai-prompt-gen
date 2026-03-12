@@ -19,8 +19,10 @@ pub enum Slot {
     TorsoOuter,
 
     // Lower body
+    Crotch,
     LegsUnder,
     Legs,
+    LowerLegs,
     Waist,
 
     // Hands / wrists
@@ -61,9 +63,6 @@ pub struct Item {
     pub category: Category,
     /// Body slots this item occupies. Items that share a slot conflict.
     pub slots: Vec<Slot>,
-    /// Freeform tags for filtering / theming (e.g. "casual", "formal", "summer").
-    #[serde(default)]
-    pub tags: Vec<String>,
 }
 
 impl Item {
@@ -87,7 +86,6 @@ impl fmt::Display for Item {
 /// name = "Stud Earrings"
 /// category = "jewelry"
 /// slots = ["ears"]
-/// tags = ["casual", "formal"]
 /// ```
 #[derive(Debug, Deserialize)]
 pub struct ItemFile {

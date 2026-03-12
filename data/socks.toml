@@ -2,34 +2,38 @@
 name = "White Ankle Socks"
 category = "socks"
 slots = ["feet_inner"]
-tags = ["casual", "athletic"]
 
 [[items]]
 name = "Black Sheer Tights"
 category = "socks"
-slots = ["feet_inner"]
-tags = ["formal", "dressy"]
-
-[[items]]
-name = "Knit Knee-High Socks"
-category = "socks"
-slots = ["feet_inner"]
-tags = ["winter", "casual"]
+slots = ["legs_under", "feet_inner"]
 
 [[items]]
 name = "No-Show Liner Socks"
 category = "socks"
 slots = ["feet_inner"]
-tags = ["everyday"]
 
 [[items]]
 name = "Fishnet Stockings"
 category = "socks"
-slots = ["feet_inner"]
-tags = ["edgy", "going_out"]
+slots = ["legs_under", "feet_inner"]
 
 [[items]]
 name = "Nude Tights"
 category = "socks"
+slots = ["legs_under", "feet_inner"]
+
+[[items]]
+name = "Thigh-High Stockings"
+category = "socks"
+slots = ["legs_under"]
+
+[[items]]
+name = "Knee-High Socks"
+category = "socks"
+slots = ["feet_inner", "lower_legs"]
+
+[[items]]
+name = "Ruffle-Trim Ankle Socks"
+category = "socks"
 slots = ["feet_inner"]
-tags = ["formal"]

@@ -2,34 +2,38 @@
 name = "White Cotton Bra"
 category = "underwear"
 slots = ["torso_under"]
-tags = ["everyday"]
 
 [[items]]
 name = "Black Lace Bra"
 category = "underwear"
 slots = ["torso_under"]
-tags = ["dressy"]
 
 [[items]]
 name = "Sports Bra"
 category = "underwear"
 slots = ["torso_under"]
-tags = ["athletic"]
+
+[[items]]
+name = "Bralette"
+category = "underwear"
+slots = ["torso_under"]
 
 [[items]]
 name = "Cotton Bikini Briefs"
 category = "underwear"
-slots = ["legs_under"]
-tags = ["everyday"]
+slots = ["crotch"]
 
 [[items]]
 name = "Black Lace Thong"
 category = "underwear"
-slots = ["legs_under"]
-tags = ["dressy"]
+slots = ["crotch"]
 
 [[items]]
 name = "Seamless Boyshorts"
 category = "underwear"
-slots = ["legs_under"]
-tags = ["everyday"]
+slots = ["crotch"]
+
+[[items]]
+name = "High-Waist Cotton Panties"
+category = "underwear"
+slots = ["crotch"]

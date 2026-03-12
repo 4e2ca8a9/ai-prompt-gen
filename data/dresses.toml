@@ -2,22 +2,23 @@
 name = "Little Black Dress"
 category = "dress"
 slots = ["torso", "legs"]
-tags = ["formal", "going_out"]
 
 [[items]]
 name = "Floral Sundress"
 category = "dress"
 slots = ["torso", "legs"]
-tags = ["casual", "summer"]
 
 [[items]]
 name = "Knit Sweater Dress"
 category = "dress"
 slots = ["torso", "legs"]
-tags = ["winter", "smart_casual"]
 
 [[items]]
 name = "Wrap Dress"
 category = "dress"
 slots = ["torso", "legs"]
-tags = ["smart_casual", "work"]
+
+[[items]]
+name = "Turtleneck Sweater Dress"
+category = "dress"
+slots = ["torso", "legs", "neck"]

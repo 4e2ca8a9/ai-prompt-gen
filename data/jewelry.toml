@@ -2,64 +2,53 @@
 name = "Gold Stud Earrings"
 category = "jewelry"
 slots = ["ears"]
-tags = ["casual", "formal"]
 
 [[items]]
 name = "Silver Hoop Earrings"
 category = "jewelry"
 slots = ["ears"]
-tags = ["casual", "going_out"]
 
 [[items]]
 name = "Chandelier Earrings"
 category = "jewelry"
 slots = ["ears"]
-tags = ["formal", "dressy"]
 
 [[items]]
 name = "Dainty Gold Necklace"
 category = "jewelry"
 slots = ["neck"]
-tags = ["casual", "everyday"]
 
 [[items]]
 name = "Pearl Choker"
 category = "jewelry"
 slots = ["neck"]
-tags = ["formal", "dressy"]
 
 [[items]]
 name = "Layered Chain Necklace"
 category = "jewelry"
 slots = ["neck"]
-tags = ["casual", "boho"]
 
 [[items]]
 name = "Silver Cuff Bracelet"
 category = "jewelry"
 slots = ["wrist_left"]
-tags = ["casual", "edgy"]
 
 [[items]]
 name = "Gold Bangle Set"
 category = "jewelry"
 slots = ["wrist_right"]
-tags = ["dressy", "boho"]
 
 [[items]]
 name = "Delicate Stacking Rings"
 category = "jewelry"
 slots = ["fingers"]
-tags = ["everyday", "casual"]
 
 [[items]]
 name = "Statement Cocktail Ring"
 category = "jewelry"
 slots = ["fingers"]
-tags = ["formal", "going_out"]
 
 [[items]]
 name = "Dainty Anklet"
 category = "jewelry"
 slots = ["ankles"]
-tags = ["summer", "casual"]

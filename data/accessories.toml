@@ -2,76 +2,73 @@
 name = "Wide-Brim Sun Hat"
 category = "accessory"
 slots = ["head"]
-tags = ["summer"]
 
 [[items]]
 name = "Knit Beanie"
 category = "accessory"
 slots = ["head"]
-tags = ["winter", "casual"]
-
-[[items]]
-name = "Silk Scarf"
-category = "accessory"
-slots = ["neck"]
-tags = ["dressy", "smart_casual"]
-
-[[items]]
-name = "Leather Belt"
-category = "accessory"
-slots = ["waist"]
-tags = ["casual"]
-
-[[items]]
-name = "Chain Belt"
-category = "accessory"
-slots = ["waist"]
-tags = ["dressy", "going_out"]
-
-[[items]]
-name = "Crossbody Bag"
-category = "accessory"
-slots = ["bag"]
-tags = ["casual"]
-
-[[items]]
-name = "Clutch Purse"
-category = "accessory"
-slots = ["bag"]
-tags = ["formal", "going_out"]
-
-[[items]]
-name = "Canvas Tote"
-category = "accessory"
-slots = ["bag"]
-tags = ["casual"]
-
-[[items]]
-name = "Cat-Eye Sunglasses"
-category = "accessory"
-slots = ["eyes"]
-tags = ["summer"]
-
-[[items]]
-name = "Aviator Sunglasses"
-category = "accessory"
-slots = ["eyes"]
-tags = ["casual"]
-
-[[items]]
-name = "Tortoiseshell Hair Clip"
-category = "accessory"
-slots = ["hair"]
-tags = ["casual", "dressy"]
-
-[[items]]
-name = "Satin Scrunchie"
-category = "accessory"
-slots = ["hair"]
-tags = ["casual"]
 
 [[items]]
 name = "Beret"
 category = "accessory"
 slots = ["head"]
-tags = ["smart_casual", "autumn"]
+
+[[items]]
+name = "Silk Scarf"
+category = "accessory"
+slots = ["neck"]
+
+[[items]]
+name = "Leather Belt"
+category = "accessory"
+slots = ["waist"]
+
+[[items]]
+name = "Chain Belt"
+category = "accessory"
+slots = ["waist"]
+
+[[items]]
+name = "Crossbody Bag"
+category = "accessory"
+slots = ["bag"]
+
+[[items]]
+name = "Clutch Purse"
+category = "accessory"
+slots = ["bag"]
+
+[[items]]
+name = "Canvas Tote"
+category = "accessory"
+slots = ["bag"]
+
+[[items]]
+name = "Cat-Eye Sunglasses"
+category = "accessory"
+slots = ["eyes"]
+
+[[items]]
+name = "Aviator Sunglasses"
+category = "accessory"
+slots = ["eyes"]
+
+[[items]]
+name = "Tortoiseshell Hair Clip"
+category = "accessory"
+slots = ["hair"]
+
+[[items]]
+name = "Satin Scrunchie"
+category = "accessory"
+slots = ["hair"]
+
+[[items]]
+name = "Leg Warmers"
+category = "accessory"
+slots = ["lower_legs"]
+
+[[items]]
+name = "Knit Leg Warmers"
+category = "accessory"
+slots = ["lower_legs"]
