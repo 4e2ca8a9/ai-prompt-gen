@@ -34,12 +34,12 @@ pub struct VariationOption {
 
 /// A named set of variation values that look good together.
 ///
-/// Maps variation category name → chosen value, e.g.
-/// `{ "fabric": "Black Silk", "metal": "Gold", "leather": "Black" }`.
+/// Each variation category maps to a list of compatible options.
+/// During outfit generation, one is chosen at random per item.
 #[derive(Debug, Clone, Deserialize)]
 pub struct MatchSet {
     pub name: String,
-    pub set: HashMap<String, String>,
+    pub set: HashMap<String, Vec<String>>,
 }
 
 /// TOML file containing match sets.
@@ -48,9 +48,9 @@ pub struct MatchSet {
 /// [[matches]]
 /// name = "Dark & Gold"
 /// [matches.set]
-/// fabric = "Black Silk"
-/// metal = "Gold"
-/// leather = "Black"
+/// fabric = ["Black Silk", "Black Denim", "Charcoal Wool"]
+/// metal = ["Yellow Gold", "Brushed Gold"]
+/// leather = ["Black Leather", "Patent Black"]
 /// ```
 #[derive(Debug, Deserialize)]
 pub struct MatchFile {

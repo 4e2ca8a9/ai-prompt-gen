@@ -110,7 +110,7 @@ fn build_outfit(wardrobe: &Wardrobe, preset: Option<&Preset>, omit_slots: &HashS
     }
 
     // --- Phase 2: assign variations ---
-    let match_set: Option<&HashMap<String, String>> = wardrobe
+    let match_set: Option<&HashMap<String, Vec<String>>> = wardrobe
         .match_sets()
         .choose(&mut rng)
         .map(|ms| &ms.set);
@@ -122,11 +122,13 @@ fn build_outfit(wardrobe: &Wardrobe, preset: Option<&Preset>, omit_slots: &HashS
         .map(|item| {
             let mut assigned = HashMap::new();
             for var_cat_name in &item.variations {
-                // Try the match set first.
+                // Try the match set first — pick a random option from its list.
                 if let Some(set) = match_set {
-                    if let Some(value) = set.get(var_cat_name) {
-                        assigned.insert(var_cat_name.clone(), value.clone());
-                        continue;
+                    if let Some(options) = set.get(var_cat_name) {
+                        if let Some(value) = options.choose(&mut rng) {
+                            assigned.insert(var_cat_name.clone(), value.clone());
+                            continue;
+                        }
                     }
                 }
                 // Fall back to a random option from the category.
