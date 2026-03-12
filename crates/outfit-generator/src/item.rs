@@ -57,7 +57,9 @@ pub enum Category {
 /// A single clothing or accessory item.
 #[derive(Debug, Clone, Deserialize)]
 pub struct Item {
-    /// Display name, e.g. "White Cotton Bra".
+    /// Unique identifier, e.g. `"dress.wrap_dress"`.
+    pub slug: String,
+    /// Display name, e.g. "Wrap Dress".
     pub name: String,
     /// Which broad category this item falls into.
     pub category: Category,

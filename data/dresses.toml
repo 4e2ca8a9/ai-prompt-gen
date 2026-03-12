@@ -1,28 +1,33 @@
 [[items]]
+slug = "dress.little_black_dress"
 name = "Little Black Dress"
 category = "dress"
 slots = ["torso", "legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "dress.sundress"
 name = "Sundress"
 category = "dress"
 slots = ["torso", "legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "dress.sweater_dress"
 name = "Sweater Dress"
 category = "dress"
 slots = ["torso", "legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "dress.wrap_dress"
 name = "Wrap Dress"
 category = "dress"
 slots = ["torso", "legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "dress.turtleneck_dress"
 name = "Turtleneck Dress"
 category = "dress"
 slots = ["torso", "legs", "neck"]

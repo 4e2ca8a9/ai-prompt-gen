@@ -5,6 +5,7 @@ use rand::seq::SliceRandom;
 use rand::Rng;
 
 use crate::item::{Category, Item, Slot};
+use crate::preset::Preset;
 use crate::variation::OutfitItem;
 use crate::wardrobe::Wardrobe;
 
@@ -56,18 +57,21 @@ const CATEGORY_ORDER: &[Category] = &[
     Category::Jewelry,
 ];
 
-/// Generate a random outfit from the wardrobe.
-///
-/// **Phase 1 — item selection:** For each category (in layering order), every
-/// compatible item has a random chance of being included. Slot conflicts are
-/// enforced so no two items share a body slot.
-///
-/// **Phase 2 — variation assignment:** A random match set is chosen. For each
-/// selected item, its variation categories are filled from the match set where
-/// possible; any remaining categories get a random value from that variation's
-/// option list. Items that cannot match are kept as-is.
+/// Generate a random outfit from the entire wardrobe.
 pub fn generate_outfit(wardrobe: &Wardrobe) -> Outfit {
+    build_outfit(wardrobe, None)
+}
+
+/// Generate a random outfit using only items listed in a preset.
+pub fn generate_outfit_from_preset(wardrobe: &Wardrobe, preset: &Preset) -> Outfit {
+    build_outfit(wardrobe, Some(preset))
+}
+
+fn build_outfit(wardrobe: &Wardrobe, preset: Option<&Preset>) -> Outfit {
     let mut rng = rand::thread_rng();
+
+    let allowed_slugs: Option<HashSet<&str>> =
+        preset.map(|p| p.items.iter().map(|s| s.as_str()).collect());
 
     // --- Phase 1: pick items ---
     let mut occupied: HashSet<Slot> = HashSet::new();
@@ -77,7 +81,14 @@ pub fn generate_outfit(wardrobe: &Wardrobe) -> Outfit {
         let mut candidates: Vec<&Item> = wardrobe
             .items_in(category)
             .into_iter()
-            .filter(|item| is_compatible(item, &occupied))
+            .filter(|item| {
+                if let Some(ref allowed) = allowed_slugs {
+                    if !allowed.contains(item.slug.as_str()) {
+                        return false;
+                    }
+                }
+                is_compatible(item, &occupied)
+            })
             .collect();
 
         candidates.shuffle(&mut rng);
@@ -121,6 +132,7 @@ pub fn generate_outfit(wardrobe: &Wardrobe) -> Outfit {
                 }
             }
             OutfitItem {
+                slug: item.slug,
                 name: item.name,
                 variations: assigned,
             }

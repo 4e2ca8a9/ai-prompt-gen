@@ -1,47 +1,62 @@
 [[items]]
+slug = "shoes.sneakers"
 name = "Sneakers"
 category = "shoes"
 slots = ["feet_outer"]
 variations = ["leather"]
 
 [[items]]
+slug = "shoes.stiletto_heels"
 name = "Stiletto Heels"
 category = "shoes"
 slots = ["feet_outer"]
 variations = ["leather"]
 
 [[items]]
+slug = "shoes.ankle_boots"
 name = "Ankle Boots"
 category = "shoes"
 slots = ["feet_outer"]
 variations = ["leather"]
 
 [[items]]
+slug = "shoes.strappy_sandals"
 name = "Strappy Sandals"
 category = "shoes"
 slots = ["feet_outer"]
 variations = ["leather"]
 
 [[items]]
+slug = "shoes.ballet_flats"
 name = "Ballet Flats"
 category = "shoes"
 slots = ["feet_outer"]
 variations = ["leather"]
 
 [[items]]
+slug = "shoes.platform_loafers"
 name = "Platform Loafers"
 category = "shoes"
 slots = ["feet_outer"]
 variations = ["leather"]
 
 [[items]]
+slug = "shoes.knee_high_boots"
 name = "Knee-High Boots"
 category = "shoes"
 slots = ["feet_outer", "lower_legs"]
 variations = ["leather"]
 
 [[items]]
+slug = "shoes.espadrille_wedges"
 name = "Espadrille Wedges"
 category = "shoes"
 slots = ["feet_outer"]
 variations = ["fabric"]
+
+[[items]]
+slug = "shoes.cheer_shoes"
+name = "Cheer Shoes"
+category = "shoes"
+slots = ["feet_outer"]
+variations = ["leather"]

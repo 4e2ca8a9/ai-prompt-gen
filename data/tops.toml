@@ -1,53 +1,69 @@
 [[items]]
+slug = "top.v_neck_tshirt"
 name = "V-Neck T-Shirt"
 category = "top"
 slots = ["torso"]
 variations = ["fabric"]
 
 [[items]]
+slug = "top.silk_blouse"
 name = "Silk Blouse"
 category = "top"
 slots = ["torso"]
 variations = ["fabric"]
 
 [[items]]
+slug = "top.crop_top"
 name = "Crop Top"
 category = "top"
 slots = ["torso"]
 variations = ["fabric"]
 
 [[items]]
+slug = "top.ribbed_tank_top"
 name = "Ribbed Tank Top"
 category = "top"
 slots = ["torso"]
 variations = ["fabric"]
 
 [[items]]
+slug = "top.button_down_shirt"
 name = "Button-Down Shirt"
 category = "top"
 slots = ["torso"]
 variations = ["fabric"]
 
 [[items]]
+slug = "top.cashmere_sweater"
 name = "Cashmere Sweater"
 category = "top"
 slots = ["torso"]
 variations = ["fabric"]
 
 [[items]]
+slug = "top.graphic_tee"
 name = "Graphic Tee"
 category = "top"
 slots = ["torso"]
 variations = ["fabric"]
 
 [[items]]
+slug = "top.off_shoulder_top"
 name = "Off-Shoulder Top"
 category = "top"
 slots = ["torso"]
 variations = ["fabric"]
 
 [[items]]
+slug = "top.turtleneck"
 name = "Turtleneck"
 category = "top"
 slots = ["torso", "neck"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.cheer_shell"
+name = "Cheer Shell Top"
+category = "top"
+slots = ["torso"]
 variations = ["fabric"]

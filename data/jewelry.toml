@@ -1,64 +1,75 @@
 [[items]]
+slug = "jewelry.stud_earrings"
 name = "Stud Earrings"
 category = "jewelry"
 slots = ["ears"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.hoop_earrings"
 name = "Hoop Earrings"
 category = "jewelry"
 slots = ["ears"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.chandelier_earrings"
 name = "Chandelier Earrings"
 category = "jewelry"
 slots = ["ears"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.pendant_necklace"
 name = "Pendant Necklace"
 category = "jewelry"
 slots = ["neck"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.choker"
 name = "Choker"
 category = "jewelry"
 slots = ["neck"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.layered_chain_necklace"
 name = "Layered Chain Necklace"
 category = "jewelry"
 slots = ["neck"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.cuff_bracelet"
 name = "Cuff Bracelet"
 category = "jewelry"
 slots = ["wrist_left"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.bangle_set"
 name = "Bangle Set"
 category = "jewelry"
 slots = ["wrist_right"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.stacking_rings"
 name = "Stacking Rings"
 category = "jewelry"
 slots = ["fingers"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.cocktail_ring"
 name = "Cocktail Ring"
 category = "jewelry"
 slots = ["fingers"]
 variations = ["metal"]
 
 [[items]]
+slug = "jewelry.anklet"
 name = "Anklet"
 category = "jewelry"
 slots = ["ankles"]

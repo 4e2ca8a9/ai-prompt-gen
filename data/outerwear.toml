@@ -1,41 +1,55 @@
 [[items]]
+slug = "outerwear.denim_jacket"
 name = "Denim Jacket"
 category = "outerwear"
 slots = ["torso_outer"]
 variations = ["fabric"]
 
 [[items]]
+slug = "outerwear.moto_jacket"
 name = "Moto Jacket"
 category = "outerwear"
 slots = ["torso_outer"]
 variations = ["leather"]
 
 [[items]]
+slug = "outerwear.wool_peacoat"
 name = "Wool Peacoat"
 category = "outerwear"
 slots = ["torso_outer"]
 variations = ["fabric"]
 
 [[items]]
+slug = "outerwear.cropped_cardigan"
 name = "Cropped Cardigan"
 category = "outerwear"
 slots = ["torso_outer"]
 variations = ["fabric"]
 
 [[items]]
+slug = "outerwear.puffer_vest"
 name = "Puffer Vest"
 category = "outerwear"
 slots = ["torso_outer"]
 variations = ["fabric"]
 
 [[items]]
+slug = "outerwear.trench_coat"
 name = "Trench Coat"
 category = "outerwear"
 slots = ["torso_outer"]
 variations = ["fabric"]
 
 [[items]]
+slug = "outerwear.hoodie"
 name = "Hoodie"
+category = "outerwear"
+slots = ["torso_outer"]
+variations = ["fabric"]
+
+[[items]]
+slug = "outerwear.warm_up_jacket"
+name = "Warm-Up Jacket"
 category = "outerwear"
 slots = ["torso_outer"]
 variations = ["fabric"]

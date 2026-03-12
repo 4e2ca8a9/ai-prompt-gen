@@ -1,83 +1,111 @@
 [[items]]
+slug = "accessory.wide_brim_sun_hat"
 name = "Wide-Brim Sun Hat"
 category = "accessory"
 slots = ["head"]
 variations = ["fabric"]
 
 [[items]]
+slug = "accessory.knit_beanie"
 name = "Knit Beanie"
 category = "accessory"
 slots = ["head"]
 variations = ["fabric"]
 
 [[items]]
+slug = "accessory.beret"
 name = "Beret"
 category = "accessory"
 slots = ["head"]
 variations = ["fabric"]
 
 [[items]]
+slug = "accessory.scarf"
 name = "Scarf"
 category = "accessory"
 slots = ["neck"]
 variations = ["fabric"]
 
 [[items]]
+slug = "accessory.belt"
 name = "Belt"
 category = "accessory"
 slots = ["waist"]
 variations = ["leather"]
 
 [[items]]
+slug = "accessory.chain_belt"
 name = "Chain Belt"
 category = "accessory"
 slots = ["waist"]
 variations = ["metal"]
 
 [[items]]
+slug = "accessory.crossbody_bag"
 name = "Crossbody Bag"
 category = "accessory"
 slots = ["bag"]
 variations = ["leather"]
 
 [[items]]
+slug = "accessory.clutch_purse"
 name = "Clutch Purse"
 category = "accessory"
 slots = ["bag"]
 variations = ["leather"]
 
 [[items]]
+slug = "accessory.canvas_tote"
 name = "Canvas Tote"
 category = "accessory"
 slots = ["bag"]
 variations = ["fabric"]
 
 [[items]]
+slug = "accessory.sunglasses"
 name = "Sunglasses"
 category = "accessory"
 slots = ["eyes"]
 variations = ["metal"]
 
 [[items]]
+slug = "accessory.hair_clip"
 name = "Hair Clip"
 category = "accessory"
 slots = ["hair"]
 variations = ["metal"]
 
 [[items]]
+slug = "accessory.scrunchie"
 name = "Scrunchie"
 category = "accessory"
 slots = ["hair"]
 variations = ["fabric"]
 
 [[items]]
+slug = "accessory.leg_warmers"
 name = "Leg Warmers"
 category = "accessory"
 slots = ["lower_legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "accessory.knit_leg_warmers"
 name = "Knit Leg Warmers"
 category = "accessory"
 slots = ["lower_legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.hair_bow"
+name = "Hair Bow"
+category = "accessory"
+slots = ["hair"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.sweatband"
+name = "Sweatband"
+category = "accessory"
+slots = ["head"]
 variations = ["fabric"]

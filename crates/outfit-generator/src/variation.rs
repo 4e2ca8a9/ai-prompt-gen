@@ -60,6 +60,7 @@ pub struct MatchFile {
 /// An item in a generated outfit, with its assigned variations.
 #[derive(Debug, Clone)]
 pub struct OutfitItem {
+    pub slug: String,
     pub name: String,
     /// Maps variation category → chosen value (e.g. "fabric" → "Black Silk").
     pub variations: HashMap<String, String>,

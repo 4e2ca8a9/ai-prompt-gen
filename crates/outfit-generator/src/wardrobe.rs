@@ -3,10 +3,11 @@ use std::path::Path;
 
 use crate::error::Error;
 use crate::item::{Category, Item, ItemFile};
+use crate::preset::{Preset, PresetFile};
 use crate::variation::{MatchFile, MatchSet, VariationCategory, VariationFile};
 
 /// A collection of all available clothing items, variation categories,
-/// and match sets, loaded from data files.
+/// match sets, and presets, loaded from data files.
 #[derive(Debug, Default)]
 pub struct Wardrobe {
     items: Vec<Item>,
@@ -14,6 +15,8 @@ pub struct Wardrobe {
     variation_categories: HashMap<String, VariationCategory>,
     /// Sets of variation values that look good together.
     match_sets: Vec<MatchSet>,
+    /// Named presets keyed by name.
+    presets: HashMap<String, Preset>,
 }
 
 impl Wardrobe {
@@ -55,6 +58,16 @@ impl Wardrobe {
         Ok(())
     }
 
+    /// Load a preset from a TOML file.
+    pub fn load_preset_file(&mut self, path: &Path) -> Result<(), Error> {
+        let contents = std::fs::read_to_string(path)
+            .map_err(|e| Error::Io(path.to_path_buf(), e))?;
+        let preset: PresetFile = toml::from_str(&contents)
+            .map_err(|e| Error::Parse(path.to_path_buf(), e))?;
+        self.presets.insert(preset.name.clone(), preset);
+        Ok(())
+    }
+
     /// Load an entire data directory.
     ///
     /// Expects the layout:
@@ -67,21 +80,20 @@ impl Wardrobe {
     ///   variations/          # variation category files
     ///     fabric.toml
     ///     metal.toml
-    ///     ...
+    ///   presets/             # preset files
+    ///     cheerleader.toml
     /// ```
     pub fn load_dir(&mut self, dir: &Path) -> Result<(), Error> {
-        // Load variation categories first (from variations/ subdir).
+        // Load variation categories (from variations/ subdir).
         let var_dir = dir.join("variations");
         if var_dir.is_dir() {
-            let entries = std::fs::read_dir(&var_dir)
-                .map_err(|e| Error::Io(var_dir.to_path_buf(), e))?;
-            for entry in entries {
-                let entry = entry.map_err(|e| Error::Io(var_dir.to_path_buf(), e))?;
-                let path = entry.path();
-                if path.extension().is_some_and(|ext| ext == "toml") {
-                    self.load_variations_file(&path)?;
-                }
-            }
+            load_toml_dir(&var_dir, |path| self.load_variations_file(path))?;
+        }
+
+        // Load presets (from presets/ subdir).
+        let preset_dir = dir.join("presets");
+        if preset_dir.is_dir() {
+            load_toml_dir(&preset_dir, |path| self.load_preset_file(path))?;
         }
 
         // Load top-level .toml files (items + matches).
@@ -118,6 +130,21 @@ impl Wardrobe {
             .collect()
     }
 
+    /// Look up an item by its slug.
+    pub fn item_by_slug(&self, slug: &str) -> Option<&Item> {
+        self.items.iter().find(|item| item.slug == slug)
+    }
+
+    /// Get a preset by name.
+    pub fn preset(&self, name: &str) -> Option<&Preset> {
+        self.presets.get(name)
+    }
+
+    /// All loaded presets.
+    pub fn presets(&self) -> &HashMap<String, Preset> {
+        &self.presets
+    }
+
     /// All loaded variation categories.
     pub fn variation_categories(&self) -> &HashMap<String, VariationCategory> {
         &self.variation_categories
@@ -132,4 +159,18 @@ impl Wardrobe {
     pub fn is_empty(&self) -> bool {
         self.items.is_empty()
     }
+}
+
+/// Helper: iterate all `.toml` files in a directory and call `f` on each.
+fn load_toml_dir(dir: &Path, mut f: impl FnMut(&Path) -> Result<(), Error>) -> Result<(), Error> {
+    let entries = std::fs::read_dir(dir)
+        .map_err(|e| Error::Io(dir.to_path_buf(), e))?;
+    for entry in entries {
+        let entry = entry.map_err(|e| Error::Io(dir.to_path_buf(), e))?;
+        let path = entry.path();
+        if path.extension().is_some_and(|ext| ext == "toml") {
+            f(&path)?;
+        }
+    }
+    Ok(())
 }

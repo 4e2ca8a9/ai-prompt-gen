@@ -1,47 +1,62 @@
 [[items]]
+slug = "bottom.skinny_jeans"
 name = "Skinny Jeans"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "bottom.mini_skirt"
 name = "Mini Skirt"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "bottom.pleated_midi_skirt"
 name = "Pleated Midi Skirt"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "bottom.wide_leg_trousers"
 name = "Wide-Leg Trousers"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "bottom.denim_shorts"
 name = "Denim Shorts"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "bottom.leggings"
 name = "Leggings"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "bottom.a_line_skirt"
 name = "A-Line Skirt"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "bottom.cargo_pants"
 name = "Cargo Pants"
+category = "bottom"
+slots = ["legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "bottom.cheer_skirt"
+name = "Cheer Skirt"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]

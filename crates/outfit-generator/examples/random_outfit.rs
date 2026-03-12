@@ -1,6 +1,6 @@
 use std::path::Path;
 
-use outfit_generator::{generate_outfit, Wardrobe};
+use outfit_generator::{generate_outfit, generate_outfit_from_preset, Wardrobe};
 
 fn main() {
     let data_dir = Path::new(env!("CARGO_MANIFEST_DIR")).join("../../data");
@@ -11,13 +11,29 @@ fn main() {
         .expect("failed to load data directory");
 
     println!(
-        "Wardrobe: {} items, {} variation categories, {} match sets.\n",
+        "Wardrobe: {} items, {} variation categories, {} match sets, {} presets.\n",
         wardrobe.items().len(),
         wardrobe.variation_categories().len(),
         wardrobe.match_sets().len(),
+        wardrobe.presets().len(),
     );
 
-    let outfit = generate_outfit(&wardrobe);
+    // Check if a preset name was passed as an argument.
+    let preset_name = std::env::args().nth(1);
+
+    let outfit = if let Some(ref name) = preset_name {
+        let preset = wardrobe
+            .preset(name)
+            .unwrap_or_else(|| {
+                let available: Vec<_> = wardrobe.presets().keys().collect();
+                eprintln!("Unknown preset \"{name}\". Available: {available:?}");
+                std::process::exit(1);
+            });
+        println!("Using preset: {}\n", preset.name);
+        generate_outfit_from_preset(&wardrobe, preset)
+    } else {
+        generate_outfit(&wardrobe)
+    };
 
     if outfit.is_empty() {
         println!("Generated outfit: nude!");

@@ -1,47 +1,62 @@
 [[items]]
+slug = "socks.ankle_socks"
 name = "Ankle Socks"
 category = "socks"
 slots = ["feet_inner"]
 variations = ["fabric"]
 
 [[items]]
+slug = "socks.sheer_tights"
 name = "Sheer Tights"
 category = "socks"
 slots = ["legs_under", "feet_inner"]
 variations = ["fabric"]
 
 [[items]]
+slug = "socks.no_show_liner_socks"
 name = "No-Show Liner Socks"
 category = "socks"
 slots = ["feet_inner"]
 variations = ["fabric"]
 
 [[items]]
+slug = "socks.fishnet_stockings"
 name = "Fishnet Stockings"
 category = "socks"
 slots = ["legs_under", "feet_inner"]
 variations = ["fabric"]
 
 [[items]]
+slug = "socks.tights"
 name = "Tights"
 category = "socks"
 slots = ["legs_under", "feet_inner"]
 variations = ["fabric"]
 
 [[items]]
+slug = "socks.thigh_high_stockings"
 name = "Thigh-High Stockings"
 category = "socks"
 slots = ["legs_under"]
 variations = ["fabric"]
 
 [[items]]
+slug = "socks.knee_high_socks"
 name = "Knee-High Socks"
 category = "socks"
 slots = ["feet_inner", "lower_legs"]
 variations = ["fabric"]
 
 [[items]]
+slug = "socks.ruffle_trim_ankle_socks"
 name = "Ruffle-Trim Ankle Socks"
+category = "socks"
+slots = ["feet_inner"]
+variations = ["fabric"]
+
+[[items]]
+slug = "socks.crew_socks"
+name = "Crew Socks"
 category = "socks"
 slots = ["feet_inner"]
 variations = ["fabric"]

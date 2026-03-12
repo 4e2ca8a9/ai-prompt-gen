@@ -1,0 +1,38 @@
+name = "Cheerleader"
+items = [
+    # Underwear
+    "underwear.sports_bra",
+    "underwear.bikini_briefs",
+    "underwear.seamless_boyshorts",
+
+    # Top
+    "top.cheer_shell",
+    "top.crop_top",
+    "top.ribbed_tank_top",
+
+    # Bottom
+    "bottom.cheer_skirt",
+    "bottom.mini_skirt",
+
+    # Socks
+    "socks.ankle_socks",
+    "socks.crew_socks",
+    "socks.knee_high_socks",
+
+    # Shoes
+    "shoes.sneakers",
+    "shoes.cheer_shoes",
+
+    # Outerwear
+    "outerwear.warm_up_jacket",
+    "outerwear.hoodie",
+
+    # Accessories
+    "accessory.hair_bow",
+    "accessory.scrunchie",
+    "accessory.sweatband",
+
+    # Jewelry
+    "jewelry.stud_earrings",
+    "jewelry.stacking_rings",
+]
