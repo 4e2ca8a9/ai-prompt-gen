@@ -1,6 +1,9 @@
+use std::collections::HashSet;
 use std::path::Path;
 
-use outfit_generator::{generate_outfit, generate_outfit_from_preset, Wardrobe};
+use outfit_generator::{
+    describe_outfit, generate_outfit, generate_outfit_from_preset, Slot, Wardrobe,
+};
 
 fn main() {
     let data_dir = Path::new(env!("CARGO_MANIFEST_DIR")).join("../../data");
@@ -27,23 +30,43 @@ fn main() {
     };
 
     let outfit = if let Some(ref name) = preset_name {
-        let preset = wardrobe
-            .preset(name)
-            .unwrap_or_else(|| {
-                let available: Vec<_> = wardrobe.presets().keys().collect();
-                eprintln!("Unknown preset \"{name}\". Available: {available:?}");
-                std::process::exit(1);
-            });
+        let preset = wardrobe.preset(name).unwrap_or_else(|| {
+            let available: Vec<_> = wardrobe.presets().keys().collect();
+            eprintln!("Unknown preset \"{name}\". Available: {available:?}");
+            std::process::exit(1);
+        });
         println!("Using preset: {}\n", preset.name);
         generate_outfit_from_preset(&wardrobe, preset)
     } else {
         generate_outfit(&wardrobe)
     };
 
-    if outfit.is_empty() {
-        println!("Generated outfit: nude!");
-    } else {
-        println!("Generated outfit:");
-        println!("{outfit}");
-    }
+    // All body parts visible for this example.
+    let visible: HashSet<Slot> = HashSet::from([
+        Slot::Head,
+        Slot::Hair,
+        Slot::Ears,
+        Slot::Eyes,
+        Slot::Neck,
+        Slot::TorsoUnder,
+        Slot::Torso,
+        Slot::TorsoOuter,
+        Slot::Crotch,
+        Slot::LegsUnder,
+        Slot::Legs,
+        Slot::LowerLegs,
+        Slot::Waist,
+        Slot::WristLeft,
+        Slot::WristRight,
+        Slot::Fingers,
+        Slot::Ankles,
+        Slot::FeetInner,
+        Slot::FeetOuter,
+        Slot::Bag,
+    ]);
+
+    println!("Generated outfit:");
+    println!("{outfit}");
+    println!();
+    println!("{}", describe_outfit("Amy", &outfit, &wardrobe, &visible));
 }

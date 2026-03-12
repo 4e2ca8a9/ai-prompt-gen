@@ -1,3 +1,4 @@
+pub mod describe;
 pub mod error;
 pub mod item;
 pub mod outfit;
@@ -5,6 +6,7 @@ pub mod preset;
 pub mod variation;
 pub mod wardrobe;
 
+pub use describe::describe_outfit;
 pub use error::Error;
 pub use item::{Category, Item, ItemFile, Slot};
 pub use outfit::{generate_outfit, generate_outfit_from_preset, Outfit};
