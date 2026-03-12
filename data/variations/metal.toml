@@ -1,25 +1,73 @@
 category = "metal"
 
+# Gold tones
 [[options]]
 name = "Yellow Gold"
-
 [[options]]
 name = "Rose Gold"
-
-[[options]]
-name = "Sterling Silver"
-
 [[options]]
 name = "Brushed Gold"
-
-[[options]]
-name = "Oxidized Silver"
-
 [[options]]
 name = "White Gold"
-
 [[options]]
-name = "Copper"
+name = "Champagne Gold"
+[[options]]
+name = "Antique Gold"
+[[options]]
+name = "Matte Gold"
+[[options]]
+name = "Polished Gold"
+[[options]]
+name = "Hammered Gold"
 
+# Silver tones
+[[options]]
+name = "Sterling Silver"
+[[options]]
+name = "Oxidized Silver"
+[[options]]
+name = "Brushed Silver"
+[[options]]
+name = "Polished Silver"
+[[options]]
+name = "Antique Silver"
+[[options]]
+name = "Hammered Silver"
+[[options]]
+name = "Matte Silver"
+
+# Dark metals
 [[options]]
 name = "Gunmetal"
+[[options]]
+name = "Matte Black Metal"
+[[options]]
+name = "Burnished Bronze"
+[[options]]
+name = "Dark Copper"
+
+# Warm metals
+[[options]]
+name = "Copper"
+[[options]]
+name = "Polished Copper"
+[[options]]
+name = "Brass"
+[[options]]
+name = "Antique Brass"
+[[options]]
+name = "Bronze"
+
+# Mixed & Specialty
+[[options]]
+name = "Two-Tone Gold & Silver"
+[[options]]
+name = "Mixed Metals"
+[[options]]
+name = "Iridescent"
+[[options]]
+name = "Titanium"
+[[options]]
+name = "Pewter"
+[[options]]
+name = "Rhodium"

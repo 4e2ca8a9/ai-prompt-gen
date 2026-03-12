@@ -1,37 +1,177 @@
 category = "fabric"
 
+# Solid colors
 [[options]]
 name = "Black Silk"
-
 [[options]]
 name = "White Cotton"
-
-[[options]]
-name = "Navy Linen"
-
-[[options]]
-name = "Cream Cashmere"
-
 [[options]]
 name = "Red Satin"
-
 [[options]]
-name = "Charcoal Wool"
-
+name = "Red Cotton"
+[[options]]
+name = "Pink Cotton"
+[[options]]
+name = "Hot Pink Satin"
 [[options]]
 name = "Blush Pink Chiffon"
-
+[[options]]
+name = "Coral Crepe"
+[[options]]
+name = "Peach Organza"
+[[options]]
+name = "Orange Linen"
+[[options]]
+name = "Yellow Cotton"
+[[options]]
+name = "Mustard Twill"
+[[options]]
+name = "Gold Satin"
 [[options]]
 name = "Olive Twill"
-
 [[options]]
-name = "Ivory Lace"
-
+name = "Forest Green Wool"
+[[options]]
+name = "Emerald Satin"
+[[options]]
+name = "Sage Linen"
+[[options]]
+name = "Mint Chiffon"
+[[options]]
+name = "Teal Crepe"
+[[options]]
+name = "Navy Linen"
+[[options]]
+name = "Navy Wool"
+[[options]]
+name = "Royal Blue Satin"
+[[options]]
+name = "Baby Blue Cotton"
+[[options]]
+name = "Sky Blue Chambray"
+[[options]]
+name = "Powder Blue Chiffon"
+[[options]]
+name = "Periwinkle Silk"
+[[options]]
+name = "Lavender Chiffon"
+[[options]]
+name = "Purple Velvet"
+[[options]]
+name = "Plum Satin"
 [[options]]
 name = "Burgundy Velvet"
+[[options]]
+name = "Maroon Wool"
+[[options]]
+name = "Wine Silk"
+[[options]]
+name = "Cream Cashmere"
+[[options]]
+name = "Ivory Lace"
+[[options]]
+name = "Ivory Silk"
+[[options]]
+name = "Beige Linen"
+[[options]]
+name = "Camel Wool"
+[[options]]
+name = "Taupe Crepe"
+[[options]]
+name = "Charcoal Wool"
+[[options]]
+name = "Slate Grey Cotton"
+[[options]]
+name = "Heather Grey Jersey"
+[[options]]
+name = "Light Grey Cashmere"
 
+# Denim
 [[options]]
 name = "Light Wash Denim"
+[[options]]
+name = "Dark Wash Denim"
+[[options]]
+name = "Black Denim"
+[[options]]
+name = "Acid Wash Denim"
+[[options]]
+name = "Raw Denim"
 
+# Prints & Patterns
 [[options]]
 name = "Floral Print"
+[[options]]
+name = "Rose Print"
+[[options]]
+name = "Tropical Print"
+[[options]]
+name = "Polka Dot"
+[[options]]
+name = "Gingham Check"
+[[options]]
+name = "Plaid Flannel"
+[[options]]
+name = "Tartan Plaid"
+[[options]]
+name = "Houndstooth"
+[[options]]
+name = "Pinstripe"
+[[options]]
+name = "Leopard Print"
+[[options]]
+name = "Zebra Print"
+[[options]]
+name = "Camo Print"
+[[options]]
+name = "Tie-Dye"
+[[options]]
+name = "Striped Cotton"
+[[options]]
+name = "Breton Stripe"
+[[options]]
+name = "Color Block"
+[[options]]
+name = "Abstract Print"
+[[options]]
+name = "Paisley"
+[[options]]
+name = "Toile"
+[[options]]
+name = "Ikat Print"
+[[options]]
+name = "Star Print"
+
+# Textures & Special Fabrics
+[[options]]
+name = "Crushed Velvet"
+[[options]]
+name = "Ribbed Knit"
+[[options]]
+name = "Cable Knit"
+[[options]]
+name = "French Terry"
+[[options]]
+name = "Fleece"
+[[options]]
+name = "Sequin"
+[[options]]
+name = "Metallic Gold"
+[[options]]
+name = "Metallic Silver"
+[[options]]
+name = "Sheer Mesh"
+[[options]]
+name = "Tulle"
+[[options]]
+name = "Eyelet"
+[[options]]
+name = "Crochet"
+[[options]]
+name = "Seersucker"
+[[options]]
+name = "Corduroy"
+[[options]]
+name = "Tweed"
+[[options]]
+name = "Bouclé"

@@ -1,25 +1,119 @@
 category = "leather"
 
+# Classic colors
 [[options]]
 name = "Black Leather"
-
 [[options]]
 name = "Brown Leather"
-
+[[options]]
+name = "Dark Brown Leather"
 [[options]]
 name = "Tan Leather"
-
 [[options]]
 name = "Cognac Leather"
-
+[[options]]
+name = "Saddle Leather"
+[[options]]
+name = "Caramel Leather"
 [[options]]
 name = "White Leather"
+[[options]]
+name = "Off-White Leather"
+[[options]]
+name = "Cream Leather"
 
+# Bold colors
+[[options]]
+name = "Red Leather"
 [[options]]
 name = "Burgundy Leather"
+[[options]]
+name = "Oxblood Leather"
+[[options]]
+name = "Pink Leather"
+[[options]]
+name = "Hot Pink Leather"
+[[options]]
+name = "Orange Leather"
+[[options]]
+name = "Yellow Leather"
+[[options]]
+name = "Green Leather"
+[[options]]
+name = "Forest Green Leather"
+[[options]]
+name = "Navy Leather"
+[[options]]
+name = "Royal Blue Leather"
+[[options]]
+name = "Purple Leather"
+[[options]]
+name = "Lavender Leather"
 
+# Finishes
 [[options]]
 name = "Patent Black"
+[[options]]
+name = "Patent Red"
+[[options]]
+name = "Patent Nude"
+[[options]]
+name = "Matte Black"
+[[options]]
+name = "Distressed Brown"
+[[options]]
+name = "Distressed Black"
+[[options]]
+name = "Waxed Brown"
+[[options]]
+name = "Pebbled Black"
+[[options]]
+name = "Pebbled Tan"
+[[options]]
+name = "Croc-Embossed Black"
+[[options]]
+name = "Croc-Embossed Brown"
+[[options]]
+name = "Croc-Embossed Burgundy"
+[[options]]
+name = "Snakeskin Print"
+[[options]]
+name = "Metallic Gold Leather"
+[[options]]
+name = "Metallic Silver Leather"
+[[options]]
+name = "Metallic Rose Gold Leather"
 
+# Suede
+[[options]]
+name = "Suede Black"
+[[options]]
+name = "Suede Brown"
 [[options]]
 name = "Suede Camel"
+[[options]]
+name = "Suede Tan"
+[[options]]
+name = "Suede Grey"
+[[options]]
+name = "Suede Blush"
+[[options]]
+name = "Suede Navy"
+[[options]]
+name = "Suede Olive"
+[[options]]
+name = "Suede Burgundy"
+
+# Vegan / Specialty
+[[options]]
+name = "Vegan Black"
+[[options]]
+name = "Vegan Brown"
+[[options]]
+name = "Vegan White"
+[[options]]
+name = "Canvas Natural"
+[[options]]
+name = "Canvas Black"
+[[options]]
+name = "Woven Raffia"
