@@ -1,7 +1,9 @@
 use std::collections::HashSet;
 use std::fmt;
 
-use crate::error::Error;
+use rand::seq::SliceRandom;
+use rand::Rng;
+
 use crate::item::{Category, Item, Slot};
 use crate::wardrobe::Wardrobe;
 
@@ -17,10 +19,18 @@ impl Outfit {
     pub fn items(&self) -> &[Item] {
         &self.items
     }
+
+    /// `true` when no items were selected (the person is nude).
+    pub fn is_empty(&self) -> bool {
+        self.items.is_empty()
+    }
 }
 
 impl fmt::Display for Outfit {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        if self.items.is_empty() {
+            return write!(f, "(nothing)");
+        }
         for (i, item) in self.items.iter().enumerate() {
             if i > 0 {
                 writeln!(f)?;
@@ -31,67 +41,64 @@ impl fmt::Display for Outfit {
     }
 }
 
-/// Which categories are required vs optional when building an outfit.
-struct LayerRules {
-    /// Categories where exactly one item must be picked (order matters for
-    /// slot-claiming priority: earlier categories claim slots first).
-    required: Vec<Category>,
-    /// Categories where zero or more non-conflicting items may be added.
-    optional: Vec<Category>,
-}
-
-impl Default for LayerRules {
-    fn default() -> Self {
-        Self {
-            required: vec![
-                // Undergarments first — they claim inner slots.
-                Category::Underwear,
-                // Core outfit layer.
-                Category::Top,
-                Category::Bottom,
-                // Footwear.
-                Category::Socks,
-                Category::Shoes,
-            ],
-            optional: vec![
-                Category::Dress,
-                Category::Outerwear,
-                Category::Accessory,
-                Category::Jewelry,
-            ],
-        }
-    }
-}
+/// The order in which categories are considered. Earlier categories claim
+/// slots first so inner layers beat outer layers.
+const CATEGORY_ORDER: &[Category] = &[
+    Category::Underwear,
+    Category::Socks,
+    Category::Top,
+    Category::Bottom,
+    Category::Dress,
+    Category::Shoes,
+    Category::Outerwear,
+    Category::Accessory,
+    Category::Jewelry,
+];
 
 /// Generate a random outfit from the wardrobe.
 ///
-/// The algorithm:
-/// 1. For each **required** category (underwear, top, bottom, socks, shoes),
-///    pick exactly one item at random whose slots don't conflict with anything
-///    already chosen.
-/// 2. For each **optional** category (dress, outerwear, accessories, jewelry),
-///    try to add zero or more items whose slots don't conflict.
-/// 3. A dress occupies both `Torso` and `Legs`, so picking a dress will skip
-///    the separate top + bottom requirement.
-///
-/// Returns an error if a required category cannot be satisfied.
-pub fn generate_outfit(_wardrobe: &Wardrobe) -> Result<Outfit, Error> {
-    let _rules = LayerRules::default();
-    let _occupied: HashSet<Slot> = HashSet::new();
-    // TODO: implement selection logic
-    //  - iterate required categories, pick a random compatible item
-    //  - iterate optional categories, greedily add compatible items
-    //  - handle Dress specially (it replaces Top + Bottom)
-    todo!()
+/// For each category (in layering order), every compatible item has a random
+/// chance of being included. Each item's slots are checked against what is
+/// already occupied — if there is a conflict it is skipped. Any slot may end
+/// up unfilled, so the result can range from fully dressed to completely nude.
+pub fn generate_outfit(wardrobe: &Wardrobe) -> Outfit {
+    let mut rng = rand::thread_rng();
+    let mut occupied: HashSet<Slot> = HashSet::new();
+    let mut chosen: Vec<Item> = Vec::new();
+
+    for &category in CATEGORY_ORDER {
+        let mut candidates: Vec<&Item> = wardrobe
+            .items_in(category)
+            .into_iter()
+            .filter(|item| is_compatible(item, &occupied))
+            .collect();
+
+        candidates.shuffle(&mut rng);
+
+        for item in candidates {
+            if !is_compatible(item, &occupied) {
+                // A previously accepted item in this same loop iteration may
+                // have claimed a slot this candidate needs.
+                continue;
+            }
+
+            if rng.gen_bool(0.5) {
+                claim_slots(item, &mut occupied);
+                chosen.push(item.clone());
+            }
+        }
+    }
+
+    Outfit { items: chosen }
 }
 
 /// Returns `true` if `candidate` can be added without conflicting with any
 /// already-occupied slot.
-fn _is_compatible(candidate: &Item, occupied: &HashSet<Slot>) -> bool {
+fn is_compatible(candidate: &Item, occupied: &HashSet<Slot>) -> bool {
     candidate.slots.iter().all(|s| !occupied.contains(s))
 }
 
 /// Mark all of `item`'s slots as occupied.
-fn _claim_slots(item: &Item, occupied: &mut HashSet<Slot>) {
+fn claim_slots(item: &Item, occupied: &mut HashSet<Slot>) {
     occupied.extend(item.slots.iter().copied());
 }
