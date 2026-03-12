@@ -47,10 +47,10 @@ fn main() {
     );
 
     println!("Commands:");
-    println!("  <prompt>                     - Generate a new preset from a description");
-    println!("  adjust <PresetName> <instr>  - Adjust an existing preset");
-    println!("  refresh                      - Update all existing presets with new items");
-    println!("  quit                         - Exit\n");
+    println!("  <prompt>                          - Generate a new preset from a description");
+    println!("  adjust <PresetName>: <instruction> - Adjust an existing preset");
+    println!("  refresh                           - Update all existing presets with new items");
+    println!("  quit                              - Exit\n");
 
     loop {
         print!("> ");
@@ -72,27 +72,23 @@ fn main() {
             }
             _ if input.starts_with("adjust ") => {
                 let rest = &input["adjust ".len()..];
-                // Find the preset name: try longest match against known presets.
-                let mut found: Option<(String, String)> = None;
-                for name in wardrobe.presets().keys() {
-                    if let Some(remainder) = rest.strip_prefix(name.as_str()) {
-                        let remainder = remainder.trim_start().to_string();
-                        if found.as_ref().is_none_or(|(n, _)| n.len() < name.len()) {
-                            found = Some((name.clone(), remainder));
-                        }
-                    }
-                }
-                match found {
-                    Some((preset_name, instruction)) if !instruction.is_empty() => {
+                // Split on first ':' — syntax is "adjust Preset Name: instruction"
+                if let Some((name_part, instruction)) = rest.split_once(':') {
+                    let preset_name = name_part.trim();
+                    let instruction = instruction.trim();
+                    if instruction.is_empty() {
+                        eprintln!("Usage: adjust <PresetName>: <instruction>");
+                    } else if wardrobe.preset(preset_name).is_some() {
+                        let preset_name = preset_name.to_string();
+                        let instruction = instruction.to_string();
                         adjust_preset(&config, &mut wardrobe, &data_dir, &preset_name, &instruction);
-                    }
-                    Some((_, _)) => {
-                        eprintln!("Usage: adjust <PresetName> <instruction>");
-                    }
-                    None => {
+                    } else {
                         let available: Vec<_> = wardrobe.presets().keys().collect();
-                        eprintln!("Unknown preset. Available: {available:?}");
+                        eprintln!("Unknown preset \"{preset_name}\". Available: {available:?}");
                     }
+                } else {
+                    eprintln!("Usage: adjust <PresetName>: <instruction>");
+                    eprintln!("  (use a colon to separate the preset name from the instruction)");
                 }
             }
             prompt => {
