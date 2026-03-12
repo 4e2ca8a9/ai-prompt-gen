@@ -29,6 +29,8 @@ fn main() {
         Some(args.join(" "))
     };
 
+    let omit_slots = HashSet::new();
+
     let outfit = if let Some(ref name) = preset_name {
         let preset = wardrobe.preset(name).unwrap_or_else(|| {
             let available: Vec<_> = wardrobe.presets().keys().collect();
@@ -36,9 +38,9 @@ fn main() {
             std::process::exit(1);
         });
         println!("Using preset: {}\n", preset.name);
-        generate_outfit_from_preset(&wardrobe, preset)
+        generate_outfit_from_preset(&wardrobe, preset, &omit_slots)
     } else {
-        generate_outfit(&wardrobe)
+        generate_outfit(&wardrobe, &omit_slots)
     };
 
     // All body parts visible for this example.

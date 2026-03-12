@@ -58,23 +58,28 @@ const CATEGORY_ORDER: &[Category] = &[
 ];
 
 /// Generate a random outfit from the entire wardrobe.
-pub fn generate_outfit(wardrobe: &Wardrobe) -> Outfit {
-    build_outfit(wardrobe, None)
+pub fn generate_outfit(wardrobe: &Wardrobe, omit_slots: &HashSet<Slot>) -> Outfit {
+    build_outfit(wardrobe, None, omit_slots)
 }
 
 /// Generate a random outfit using only items listed in a preset.
-pub fn generate_outfit_from_preset(wardrobe: &Wardrobe, preset: &Preset) -> Outfit {
-    build_outfit(wardrobe, Some(preset))
+pub fn generate_outfit_from_preset(
+    wardrobe: &Wardrobe,
+    preset: &Preset,
+    omit_slots: &HashSet<Slot>,
+) -> Outfit {
+    build_outfit(wardrobe, Some(preset), omit_slots)
 }
 
-fn build_outfit(wardrobe: &Wardrobe, preset: Option<&Preset>) -> Outfit {
+fn build_outfit(wardrobe: &Wardrobe, preset: Option<&Preset>, omit_slots: &HashSet<Slot>) -> Outfit {
     let mut rng = rand::thread_rng();
 
     let allowed_slugs: Option<HashSet<&str>> =
         preset.map(|p| p.items.iter().map(|s| s.as_str()).collect());
 
     // --- Phase 1: pick items ---
-    let mut occupied: HashSet<Slot> = HashSet::new();
+    // Pre-occupy omitted slots so items requiring them are excluded.
+    let mut occupied: HashSet<Slot> = omit_slots.clone();
     let mut chosen: Vec<Item> = Vec::new();
 
     for &category in CATEGORY_ORDER {
