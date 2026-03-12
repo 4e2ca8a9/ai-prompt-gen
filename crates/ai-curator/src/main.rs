@@ -47,9 +47,10 @@ fn main() {
     );
 
     println!("Commands:");
-    println!("  <prompt>  - Generate a new preset from a description");
-    println!("  refresh   - Update all existing presets with new items");
-    println!("  quit      - Exit\n");
+    println!("  <prompt>                     - Generate a new preset from a description");
+    println!("  adjust <PresetName> <instr>  - Adjust an existing preset");
+    println!("  refresh                      - Update all existing presets with new items");
+    println!("  quit                         - Exit\n");
 
     loop {
         print!("> ");
@@ -68,6 +69,31 @@ fn main() {
             "quit" | "exit" => break,
             "refresh" => {
                 refresh_all_presets(&config, &mut wardrobe, &data_dir);
+            }
+            _ if input.starts_with("adjust ") => {
+                let rest = &input["adjust ".len()..];
+                // Find the preset name: try longest match against known presets.
+                let mut found: Option<(String, String)> = None;
+                for name in wardrobe.presets().keys() {
+                    if let Some(remainder) = rest.strip_prefix(name.as_str()) {
+                        let remainder = remainder.trim_start().to_string();
+                        if found.as_ref().is_none_or(|(n, _)| n.len() < name.len()) {
+                            found = Some((name.clone(), remainder));
+                        }
+                    }
+                }
+                match found {
+                    Some((preset_name, instruction)) if !instruction.is_empty() => {
+                        adjust_preset(&config, &mut wardrobe, &data_dir, &preset_name, &instruction);
+                    }
+                    Some((_, _)) => {
+                        eprintln!("Usage: adjust <PresetName> <instruction>");
+                    }
+                    None => {
+                        let available: Vec<_> = wardrobe.presets().keys().collect();
+                        eprintln!("Unknown preset. Available: {available:?}");
+                    }
+                }
             }
             prompt => {
                 generate_preset(&config, &mut wardrobe, &data_dir, prompt);
@@ -175,6 +201,131 @@ fn generate_preset(config: &AiConfig, wardrobe: &mut Wardrobe, data_dir: &Path, 
         preset.items.len(),
         preset_path.display(),
     );
+}
+
+/// Adjust an existing preset based on a user instruction.
+fn adjust_preset(
+    config: &AiConfig,
+    wardrobe: &mut Wardrobe,
+    data_dir: &Path,
+    preset_name: &str,
+    instruction: &str,
+) {
+    let preset = match wardrobe.preset(preset_name) {
+        Some(p) => p.clone(),
+        None => {
+            eprintln!("Preset \"{preset_name}\" not found.");
+            return;
+        }
+    };
+
+    println!("Adjusting \"{}\" with: \"{instruction}\"...\n", preset.name);
+
+    let system = prompts::system_prompt();
+    let user_msg = prompts::adjust_preset_prompt(wardrobe, &preset, instruction);
+
+    let response_text = match client::chat_completion(config, &system, &user_msg) {
+        Ok(text) => text,
+        Err(e) => {
+            eprintln!("AI request failed: {e}");
+            return;
+        }
+    };
+
+    let response = match prompts::parse_adjust_response(&response_text) {
+        Ok(r) => r,
+        Err(e) => {
+            eprintln!("{e}");
+            return;
+        }
+    };
+
+    // --- Create new items ---
+    let mut new_items_by_category: HashMap<String, Vec<Item>> = HashMap::new();
+    let mut all_new_items: Vec<Item> = Vec::new();
+    let mut new_slugs: Vec<String> = Vec::new();
+
+    for new in &response.new_items {
+        match prompts::new_item_to_item(new) {
+            Ok(item) => {
+                if wardrobe.item_by_slug(&item.slug).is_some() {
+                    println!("  Skipping {} (slug already exists)", item.slug);
+                    continue;
+                }
+                let cat_key = new.category.clone();
+                println!("  New item: {} ({})", item.name, item.slug);
+                new_items_by_category
+                    .entry(cat_key)
+                    .or_default()
+                    .push(item.clone());
+                new_slugs.push(item.slug.clone());
+                all_new_items.push(item);
+            }
+            Err(e) => {
+                eprintln!("  Warning: {e}");
+            }
+        }
+    }
+
+    // Append new items to category files.
+    for (category, items) in &new_items_by_category {
+        let file_path = category_file_path(data_dir, category);
+        append_items_to_file(&file_path, items);
+    }
+    wardrobe.add_items(all_new_items);
+
+    // --- Apply additions and removals ---
+    let mut updated = preset.clone();
+
+    // Remove slugs.
+    for slug in &response.remove_slugs {
+        if updated.items.contains(slug) {
+            println!("  Removed: {slug}");
+            updated.items.retain(|s| s != slug);
+        }
+    }
+
+    // Add existing slugs.
+    for slug in &response.add_slugs {
+        if wardrobe.item_by_slug(slug).is_none() {
+            eprintln!("  Warning: slug \"{slug}\" not found, skipping");
+            continue;
+        }
+        if !updated.items.contains(slug) {
+            println!("  Added: {slug}");
+            updated.items.push(slug.clone());
+        }
+    }
+
+    // Add newly created item slugs.
+    for slug in &new_slugs {
+        if !updated.items.contains(slug) {
+            updated.items.push(slug.clone());
+        }
+    }
+
+    updated.items.sort();
+    updated.items.dedup();
+
+    // Write updated preset.
+    let filename = preset.name.to_lowercase().replace(' ', "_");
+    let preset_path = data_dir
+        .join("presets")
+        .join(format!("{filename}.toml"));
+
+    write_preset_file(&preset_path, &updated);
+
+    println!(
+        "\nUpdated \"{}\" ({} → {} items)",
+        updated.name,
+        preset.items.len(),
+        updated.items.len(),
+    );
+
+    // Reload wardrobe.
+    let mut new_wardrobe = Wardrobe::new();
+    new_wardrobe.load_dir(data_dir).expect("failed to reload wardrobe");
+    *wardrobe = new_wardrobe;
 }
 
 /// Refresh all existing presets by asking the AI if new items should be added.

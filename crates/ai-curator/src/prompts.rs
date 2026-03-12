@@ -114,6 +114,68 @@ pub struct RefreshResponse {
     pub add_slugs: Vec<String>,
 }
 
+/// Build the user prompt for adjusting an existing preset.
+pub fn adjust_preset_prompt(wardrobe: &Wardrobe, preset: &Preset, instruction: &str) -> String {
+    let items_json = serde_json::to_string_pretty(wardrobe.items()).unwrap();
+    let current_slugs = serde_json::to_string_pretty(&preset.items).unwrap();
+    let prompt_text = preset.prompt.as_deref().unwrap_or(&preset.name);
+
+    format!(
+        r#"Here are all items in the wardrobe:
+
+{items_json}
+
+Here is an existing preset called "{name}" (original prompt: "{prompt_text}").
+Its current items are:
+
+{current_slugs}
+
+The user wants to adjust this preset with the following instruction:
+"{instruction}"
+
+Respond with a JSON object:
+{{
+  "add_slugs": ["slug1", "slug2"],
+  "remove_slugs": ["slug3"],
+  "new_items": [
+    {{
+      "slug": "category.snake_case_name",
+      "name": "Display Name",
+      "category": "category",
+      "slots": ["slot1"],
+      "variations": ["fabric"]
+    }}
+  ]
+}}
+
+Rules:
+- "add_slugs" lists existing wardrobe item slugs to ADD to the preset (not already in it)
+- "remove_slugs" lists slugs to REMOVE from the preset
+- "new_items" lists brand-new items to create and add (slugs must not collide with existing items)
+- New items should have appropriate slots and variations
+- Use empty arrays for any field that doesn't apply
+- Follow the user's instruction precisely"#,
+        name = preset.name,
+    )
+}
+
+/// Parsed response from the AI for preset adjustment.
+#[derive(Debug, Deserialize)]
+pub struct AdjustResponse {
+    #[serde(default)]
+    pub add_slugs: Vec<String>,
+    #[serde(default)]
+    pub remove_slugs: Vec<String>,
+    #[serde(default)]
+    pub new_items: Vec<NewItem>,
+}
+
+/// Try to parse an AdjustResponse from the AI's text output.
+pub fn parse_adjust_response(text: &str) -> Result<AdjustResponse, String> {
+    let json = extract_json(text);
+    serde_json::from_str(json).map_err(|e| format!("Failed to parse AI response: {e}\n\nRaw:\n{text}"))
+}
+
 /// Try to parse a GenerateResponse from the AI's text output.
 /// Handles cases where the AI wraps JSON in markdown fences.
 pub fn parse_generate_response(text: &str) -> Result<GenerateResponse, String> {
