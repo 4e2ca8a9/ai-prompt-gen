@@ -1,0 +1,47 @@
+[[items]]
+name = "White Sneakers"
+category = "shoes"
+slots = ["feet_outer"]
+tags = ["casual"]
+
+[[items]]
+name = "Black Stiletto Heels"
+category = "shoes"
+slots = ["feet_outer"]
+tags = ["formal", "going_out"]
+
+[[items]]
+name = "Ankle Boots"
+category = "shoes"
+slots = ["feet_outer"]
+tags = ["casual", "autumn"]
+
+[[items]]
+name = "Strappy Sandals"
+category = "shoes"
+slots = ["feet_outer"]
+tags = ["summer", "casual"]
+
+[[items]]
+name = "Ballet Flats"
+category = "shoes"
+slots = ["feet_outer"]
+tags = ["smart_casual", "everyday"]
+
+[[items]]
+name = "Platform Loafers"
+category = "shoes"
+slots = ["feet_outer"]
+tags = ["smart_casual", "preppy"]
+
+[[items]]
+name = "Knee-High Boots"
+category = "shoes"
+slots = ["feet_outer"]
+tags = ["winter", "dressy"]
+
+[[items]]
+name = "Espadrille Wedges"
+category = "shoes"
+slots = ["feet_outer"]
+tags = ["summer", "smart_casual"]

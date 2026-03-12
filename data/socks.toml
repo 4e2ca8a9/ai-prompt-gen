@@ -1,0 +1,35 @@
+[[items]]
+name = "White Ankle Socks"
+category = "socks"
+slots = ["feet_inner"]
+tags = ["casual", "athletic"]
+
+[[items]]
+name = "Black Sheer Tights"
+category = "socks"
+slots = ["feet_inner"]
+tags = ["formal", "dressy"]
+
+[[items]]
+name = "Knit Knee-High Socks"
+category = "socks"
+slots = ["feet_inner"]
+tags = ["winter", "casual"]
+
+[[items]]
+name = "No-Show Liner Socks"
+category = "socks"
+slots = ["feet_inner"]
+tags = ["everyday"]
+
+[[items]]
+name = "Fishnet Stockings"
+category = "socks"
+slots = ["feet_inner"]
+tags = ["edgy", "going_out"]
+
+[[items]]
+name = "Nude Tights"
+category = "socks"
+slots = ["feet_inner"]
+tags = ["formal"]

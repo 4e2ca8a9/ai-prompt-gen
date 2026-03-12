@@ -1,0 +1,41 @@
+[[items]]
+name = "White V-Neck T-Shirt"
+category = "top"
+slots = ["torso"]
+tags = ["casual", "summer"]
+
+[[items]]
+name = "Black Silk Blouse"
+category = "top"
+slots = ["torso"]
+tags = ["formal", "dressy"]
+
+[[items]]
+name = "Striped Crop Top"
+category = "top"
+slots = ["torso"]
+tags = ["casual", "summer"]
+
+[[items]]
+name = "Ribbed Tank Top"
+category = "top"
+slots = ["torso"]
+tags = ["casual", "summer"]
+
+[[items]]
+name = "Chambray Button-Down"
+category = "top"
+slots = ["torso"]
+tags = ["casual", "smart_casual"]
+
+[[items]]
+name = "Cashmere Sweater"
+category = "top"
+slots = ["torso"]
+tags = ["winter", "smart_casual"]
+
+[[items]]
+name = "Graphic Tee"
+category = "top"
+slots = ["torso"]
+tags = ["casual", "fun"]
