@@ -5,6 +5,13 @@ use crate::item::{Category, Slot};
 use crate::outfit::Outfit;
 use crate::wardrobe::Wardrobe;
 
+/// Whether the description is from the front or back.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum ViewSide {
+    Front,
+    Back,
+}
+
 /// Generate a natural-English description of an outfit.
 ///
 /// - `name`: the person's name (e.g., "Amy")
@@ -12,11 +19,13 @@ use crate::wardrobe::Wardrobe;
 /// - `wardrobe`: used to look up item metadata (category, slots)
 /// - `visible`: set of body slots that are visible; items on non-visible slots are omitted,
 ///   and nakedness is only mentioned for visible areas
+/// - `side`: front or back — determines which exposed body parts are mentioned
 pub fn describe_outfit(
     name: &str,
     outfit: &Outfit,
     wardrobe: &Wardrobe,
     visible: &HashSet<Slot>,
+    side: ViewSide,
 ) -> String {
     // Resolve each outfit item to its category and slots.
     struct Described {
@@ -47,10 +56,17 @@ pub fn describe_outfit(
         }
     }
 
-    // Determine which slots are occupied by non-underwear items (for coverage).
+    // Track which slots are occupied by non-underwear items (for coverage).
     let outer_slots: HashSet<Slot> = all_items
         .iter()
         .filter(|d| d.category != Category::Underwear)
+        .flat_map(|d| d.slots.iter().copied())
+        .collect();
+
+    // Track which slots are occupied by underwear (for body-part exposure).
+    let underwear_slots: HashSet<Slot> = all_items
+        .iter()
+        .filter(|d| d.category == Category::Underwear)
         .flat_map(|d| d.slots.iter().copied())
         .collect();
 
@@ -110,6 +126,40 @@ pub fn describe_outfit(
     let barefoot = feet_visible && !has_shoes;
     let nude = topless && bottomless;
 
+    // Determine exposed body parts based on view side and underwear coverage.
+    let has_bra = underwear_slots.contains(&Slot::TorsoUnder);
+    let has_panties = underwear_slots.contains(&Slot::Crotch);
+
+    let mut exposed: Vec<&str> = Vec::new();
+    if topless && torso_visible {
+        match side {
+            ViewSide::Front => {
+                if !has_bra {
+                    exposed.push("nipples");
+                }
+            }
+            ViewSide::Back => {
+                if !has_bra {
+                    exposed.push("back");
+                }
+            }
+        }
+    }
+    if bottomless && legs_visible {
+        match side {
+            ViewSide::Front => {
+                if !has_panties {
+                    exposed.push("genitals");
+                }
+            }
+            ViewSide::Back => {
+                if !has_panties {
+                    exposed.push("butt");
+                }
+            }
+        }
+    }
+
     // Group items by role.
     let mut clothing: Vec<&str> = Vec::new();
     let mut footwear: Vec<&str> = Vec::new();
@@ -135,7 +185,9 @@ pub fn describe_outfit(
 
     // Completely nude with nothing at all.
     if nude && clothing.is_empty() && footwear.is_empty() && accessories.is_empty() {
-        return format!("{name} is nude.");
+        let mut s = format!("{name} is nude.");
+        append_exposed(&mut s, name, &exposed);
+        return s;
     }
 
     let mut result = String::new();
@@ -234,12 +286,28 @@ pub fn describe_outfit(
         .unwrap();
     }
 
+    // Exposed body parts sentence.
     if result.is_empty() {
-        // Nothing visible at all.
-        format!("{name} is nude.")
-    } else {
-        result
+        result = format!("{name} is nude.");
     }
+    append_exposed(&mut result, name, &exposed);
+
+    result
+}
+
+/// Append an "exposed body parts" sentence if any are exposed.
+fn append_exposed(result: &mut String, name: &str, exposed: &[&str]) {
+    if exposed.is_empty() {
+        return;
+    }
+    let parts: Vec<String> = exposed.iter().map(|s| s.to_string()).collect();
+    write!(
+        result,
+        " {name}'s {} {} visible.",
+        join_natural(&parts),
+        if exposed.len() == 1 { "are" } else { "are" }
+    )
+    .unwrap();
 }
 
 /// Format an item name with an article ("a"/"an" for singular, none for plural).

@@ -2,7 +2,7 @@ use std::collections::HashSet;
 use std::path::Path;
 
 use outfit_generator::{
-    describe_outfit, generate_outfit, generate_outfit_from_preset, Slot, Wardrobe,
+    describe_outfit, generate_outfit, generate_outfit_from_preset, Slot, ViewSide, Wardrobe,
 };
 
 fn main() {
@@ -70,5 +70,9 @@ fn main() {
     println!("Generated outfit:");
     println!("{outfit}");
     println!();
-    println!("{}", describe_outfit("Amy", &outfit, &wardrobe, &visible));
+    println!("Front:");
+    println!("{}", describe_outfit("Amy", &outfit, &wardrobe, &visible, ViewSide::Front));
+    println!();
+    println!("Back:");
+    println!("{}", describe_outfit("Amy", &outfit, &wardrobe, &visible, ViewSide::Back));
 }
