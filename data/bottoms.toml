@@ -111,3 +111,45 @@ name = "Lace Shorts"
 category = "bottom"
 slots = ["legs"]
 variations = ["fabric"]
+
+[[items]]
+slug = "bottom.latex_leggings"
+name = "Latex Leggings"
+category = "bottom"
+slots = ["legs"]
+variations = ["leather"]
+
+[[items]]
+slug = "bottom.micro_bikini_bottom"
+name = "Micro Bikini Bottom"
+category = "bottom"
+slots = ["legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "bottom.chain_skirt"
+name = "Chain Skirt"
+category = "bottom"
+slots = ["legs"]
+variations = ["metal"]
+
+[[items]]
+slug = "bottom.pencil_skirt"
+name = "Pencil Skirt"
+category = "bottom"
+slots = ["legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "bottom.sheer_skirt"
+name = "Sheer Skirt"
+category = "bottom"
+slots = ["legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "bottom.wrap_skirt"
+name = "Wrap Skirt"
+category = "bottom"
+slots = ["legs"]
+variations = ["fabric"]

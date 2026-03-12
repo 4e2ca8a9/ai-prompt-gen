@@ -144,7 +144,7 @@ variations = ["metal"]
 slug = "accessory.nipple_chain"
 name = "Nipple Chain"
 category = "accessory"
-slots = []
+slots = ["nipples"]
 variations = ["metal"]
 
 [[items]]
@@ -193,7 +193,7 @@ variations = ["leather"]
 slug = "accessory.crop_whip"
 name = "Riding Crop"
 category = "accessory"
-slots = []
+slots = ["held"]
 variations = ["leather"]
 
 [[items]]
@@ -209,3 +209,115 @@ name = "Masquerade Mask"
 category = "accessory"
 slots = ["eyes"]
 variations = ["fabric"]
+
+[[items]]
+slug = "accessory.nipple_tassels"
+name = "Nipple Tassels"
+category = "accessory"
+slots = ["nipples"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.nipple_covers"
+name = "Nipple Covers"
+category = "accessory"
+slots = ["nipples"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.nipple_rings"
+name = "Nipple Rings"
+category = "accessory"
+slots = ["nipples"]
+variations = ["metal"]
+
+[[items]]
+slug = "accessory.chest_harness_fashion"
+name = "Fashion Chest Harness"
+category = "accessory"
+slots = ["chest"]
+variations = ["leather"]
+
+[[items]]
+slug = "accessory.waist_cincher"
+name = "Waist Cincher"
+category = "accessory"
+slots = ["waist"]
+variations = ["leather"]
+
+[[items]]
+slug = "accessory.lace_choker"
+name = "Lace Choker"
+category = "accessory"
+slots = ["neck"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.ribbon_choker"
+name = "Ribbon Choker"
+category = "accessory"
+slots = ["neck"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.cat_ears_headband"
+name = "Cat Ears Headband"
+category = "accessory"
+slots = ["head"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.bunny_ears_headband"
+name = "Bunny Ears Headband"
+category = "accessory"
+slots = ["head"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.devil_horns_headband"
+name = "Devil Horns Headband"
+category = "accessory"
+slots = ["head"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.fox_tail_plug"
+name = "Fox Tail"
+category = "accessory"
+slots = ["crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.bunny_tail"
+name = "Bunny Tail"
+category = "accessory"
+slots = ["crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.fan"
+name = "Feather Fan"
+category = "accessory"
+slots = ["held"]
+variations = ["fabric"]
+
+[[items]]
+slug = "accessory.cigarette_holder"
+name = "Cigarette Holder"
+category = "accessory"
+slots = ["held"]
+variations = ["metal"]
+
+[[items]]
+slug = "accessory.toe_rings"
+name = "Toe Rings"
+category = "accessory"
+slots = ["toes"]
+variations = ["metal"]
+
+[[items]]
+slug = "accessory.ankle_chain"
+name = "Ankle Chain"
+category = "accessory"
+slots = ["ankles"]
+variations = ["metal"]

@@ -153,3 +153,59 @@ name = "Sheer Bodysuit"
 category = "top"
 slots = ["torso", "crotch"]
 variations = ["fabric"]
+
+[[items]]
+slug = "top.latex_bodysuit"
+name = "Latex Bodysuit"
+category = "top"
+slots = ["torso", "crotch"]
+variations = ["leather"]
+
+[[items]]
+slug = "top.cutout_bodysuit"
+name = "Cutout Bodysuit"
+category = "top"
+slots = ["torso", "crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.harness_bra_top"
+name = "Harness Bra Top"
+category = "top"
+slots = ["torso"]
+variations = ["leather"]
+
+[[items]]
+slug = "top.latex_crop_top"
+name = "Latex Crop Top"
+category = "top"
+slots = ["torso"]
+variations = ["leather"]
+
+[[items]]
+slug = "top.chain_mail_top"
+name = "Chain Mail Top"
+category = "top"
+slots = ["torso"]
+variations = ["metal"]
+
+[[items]]
+slug = "top.micro_bikini_top"
+name = "Micro Bikini Top"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.tube_top"
+name = "Tube Top"
+category = "top"
+slots = ["torso"]
+variations = ["fabric"]
+
+[[items]]
+slug = "top.vinyl_crop_top"
+name = "Vinyl Crop Top"
+category = "top"
+slots = ["torso"]
+variations = ["leather"]

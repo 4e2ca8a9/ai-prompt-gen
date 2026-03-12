@@ -90,3 +90,45 @@ name = "Sheer Maxi Dress"
 category = "dress"
 slots = ["torso", "legs"]
 variations = ["fabric"]
+
+[[items]]
+slug = "dress.latex_catsuit"
+name = "Latex Catsuit"
+category = "dress"
+slots = ["torso", "legs", "crotch"]
+variations = ["leather"]
+
+[[items]]
+slug = "dress.fishnet_dress"
+name = "Fishnet Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["fabric"]
+
+[[items]]
+slug = "dress.vinyl_mini_dress"
+name = "Vinyl Mini Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["leather"]
+
+[[items]]
+slug = "dress.chain_mail_dress"
+name = "Chain Mail Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["metal"]
+
+[[items]]
+slug = "dress.cage_dress"
+name = "Cage Dress"
+category = "dress"
+slots = ["torso", "legs"]
+variations = ["leather"]
+
+[[items]]
+slug = "dress.halter_mini_dress"
+name = "Halter Mini Dress"
+category = "dress"
+slots = ["torso", "legs", "neck"]
+variations = ["fabric"]

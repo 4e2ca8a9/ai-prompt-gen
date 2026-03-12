@@ -166,14 +166,14 @@ variations = ["leather"]
 slug = "restraints.chest_harness"
 name = "Chest Harness"
 category = "restraints"
-slots = []
+slots = ["chest"]
 variations = ["leather"]
 
 [[items]]
 slug = "restraints.body_harness"
 name = "Body Harness"
 category = "restraints"
-slots = []
+slots = ["chest", "waist"]
 variations = ["leather"]
 
 [[items]]
@@ -212,21 +212,21 @@ variations = ["metal"]
 slug = "restraints.shibari_harness"
 name = "Shibari Harness"
 category = "restraints"
-slots = []
+slots = ["chest", "waist"]
 variations = ["fabric"]
 
 [[items]]
 slug = "restraints.rope_body_binding"
 name = "Rope Body Binding"
 category = "restraints"
-slots = []
+slots = ["chest", "waist", "upper_arms"]
 variations = ["fabric"]
 
 [[items]]
 slug = "restraints.rope_chest_binding"
 name = "Rope Chest Binding"
 category = "restraints"
-slots = []
+slots = ["chest"]
 variations = ["fabric"]
 
 [[items]]
@@ -281,12 +281,252 @@ variations = ["metal"]
 slug = "restraints.nipple_clamps"
 name = "Nipple Clamps"
 category = "restraints"
-slots = []
+slots = ["nipples"]
 variations = ["metal"]
 
 [[items]]
 slug = "restraints.nipple_chain_clamps"
 name = "Nipple Chain Clamps"
 category = "restraints"
-slots = []
+slots = ["nipples"]
 variations = ["metal"]
+
+# === Additional Gags ===
+
+[[items]]
+slug = "restraints.spider_gag"
+name = "Spider Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["metal"]
+
+[[items]]
+slug = "restraints.tape_gag"
+name = "Tape Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.cleave_gag"
+name = "Cleave Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.inflatable_gag"
+name = "Inflatable Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.funnel_gag"
+name = "Funnel Gag"
+category = "restraints"
+slots = ["mouth"]
+variations = ["leather"]
+
+# === Additional Collars ===
+
+[[items]]
+slug = "restraints.bell_collar"
+name = "Bell Collar"
+category = "restraints"
+slots = ["collar"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.locking_collar"
+name = "Locking Collar"
+category = "restraints"
+slots = ["collar"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.shock_collar"
+name = "Shock Collar"
+category = "restraints"
+slots = ["collar"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.ribbon_collar"
+name = "Ribbon Collar"
+category = "restraints"
+slots = ["collar"]
+variations = ["fabric"]
+
+# === Additional Wrist / Arm ===
+
+[[items]]
+slug = "restraints.monoglove"
+name = "Monoglove"
+category = "restraints"
+slots = ["upper_arms", "wrist_left", "wrist_right", "hands"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.silk_wrist_ties"
+name = "Silk Wrist Ties"
+category = "restraints"
+slots = ["wrist_left", "wrist_right"]
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.behind_back_cuffs"
+name = "Behind-the-Back Cuffs"
+category = "restraints"
+slots = ["wrist_left", "wrist_right"]
+variations = ["metal"]
+
+# === Additional Ankle / Leg ===
+
+[[items]]
+slug = "restraints.rope_ankle_binding"
+name = "Rope Ankle Binding"
+category = "restraints"
+slots = ["ankles"]
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.ballet_boots_restraint"
+name = "Ballet Boot Restraints"
+category = "restraints"
+slots = ["feet_outer", "ankles"]
+variations = ["leather"]
+
+# === Additional Body ===
+
+[[items]]
+slug = "restraints.crotch_rope"
+name = "Crotch Rope"
+category = "restraints"
+slots = ["crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.karada"
+name = "Karada"
+category = "restraints"
+slots = ["chest", "waist", "crotch"]
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.breast_bondage"
+name = "Breast Bondage"
+category = "restraints"
+slots = ["chest", "nipples"]
+variations = ["fabric"]
+
+[[items]]
+slug = "restraints.suspension_harness"
+name = "Suspension Harness"
+category = "restraints"
+slots = ["chest", "waist", "thighs"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.slave_harness"
+name = "Slave Harness"
+category = "restraints"
+slots = ["chest", "waist", "collar"]
+variations = ["leather"]
+
+# === Held Items ===
+
+[[items]]
+slug = "restraints.flogger"
+name = "Flogger"
+category = "restraints"
+slots = ["held"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.paddle"
+name = "Paddle"
+category = "restraints"
+slots = ["held"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.whip"
+name = "Whip"
+category = "restraints"
+slots = ["held"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.cane"
+name = "Cane"
+category = "restraints"
+slots = ["held"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.leash"
+name = "Leash"
+category = "restraints"
+slots = ["held"]
+variations = ["leather"]
+
+# === Additional Clamps & Accessories ===
+
+[[items]]
+slug = "restraints.nipple_shields"
+name = "Nipple Shields"
+category = "restraints"
+slots = ["nipples"]
+variations = ["metal"]
+
+[[items]]
+slug = "restraints.nipple_bells"
+name = "Nipple Bells"
+category = "restraints"
+slots = ["nipples"]
+variations = ["metal"]
+
+[[items]]
+slug = "restraints.labia_clamps"
+name = "Labia Clamps"
+category = "restraints"
+slots = ["crotch"]
+variations = ["metal"]
+
+[[items]]
+slug = "restraints.chastity_belt"
+name = "Chastity Belt"
+category = "restraints"
+slots = ["crotch", "waist"]
+variations = ["metal"]
+
+# === Head / Face ===
+
+[[items]]
+slug = "restraints.open_mouth_hood"
+name = "Open-Mouth Hood"
+category = "restraints"
+slots = ["head", "eyes"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.sensory_deprivation_hood"
+name = "Sensory Deprivation Hood"
+category = "restraints"
+slots = ["head", "eyes", "ears", "mouth"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.pony_bridle"
+name = "Pony Bridle"
+category = "restraints"
+slots = ["head", "mouth"]
+variations = ["leather"]
+
+[[items]]
+slug = "restraints.blindfold_mask"
+name = "Blindfold Mask"
+category = "restraints"
+slots = ["eyes"]
+variations = ["leather"]

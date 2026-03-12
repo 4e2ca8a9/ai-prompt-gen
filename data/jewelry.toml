@@ -81,7 +81,7 @@ variations = ["metal"]
 slug = "jewelry.belly_chain"
 name = "Belly Chain"
 category = "jewelry"
-slots = []
+slots = ["waist"]
 variations = ["metal"]
 
 [[items]]
@@ -102,5 +102,47 @@ variations = ["metal"]
 slug = "jewelry.toe_ring"
 name = "Toe Ring"
 category = "jewelry"
-slots = []
+slots = ["toes"]
+variations = ["metal"]
+
+[[items]]
+slug = "jewelry.collar_necklace"
+name = "Collar Necklace"
+category = "jewelry"
+slots = ["collar"]
+variations = ["metal"]
+
+[[items]]
+slug = "jewelry.body_chain_harness"
+name = "Body Chain Harness"
+category = "jewelry"
+slots = ["chest"]
+variations = ["metal"]
+
+[[items]]
+slug = "jewelry.hand_chain"
+name = "Hand Chain"
+category = "jewelry"
+slots = ["hands", "fingers"]
+variations = ["metal"]
+
+[[items]]
+slug = "jewelry.upper_arm_band"
+name = "Upper Arm Band"
+category = "jewelry"
+slots = ["upper_arms"]
+variations = ["metal"]
+
+[[items]]
+slug = "jewelry.thigh_chain"
+name = "Thigh Chain"
+category = "jewelry"
+slots = ["thighs"]
+variations = ["metal"]
+
+[[items]]
+slug = "jewelry.waist_chain"
+name = "Waist Chain"
+category = "jewelry"
+slots = ["waist"]
 variations = ["metal"]

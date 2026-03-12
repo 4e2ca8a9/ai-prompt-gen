@@ -16,6 +16,8 @@ pub enum Slot {
     // Neck / torso
     Neck,
     Collar,
+    Nipples,
+    Chest,
     TorsoUnder,
     Torso,
     TorsoOuter,
@@ -37,11 +39,13 @@ pub enum Slot {
 
     // Feet
     Ankles,
+    Toes,
     FeetInner,
     FeetOuter,
 
-    // Carried
+    // Carried / held
     Bag,
+    Held,
 }
 
 /// The broad category an item belongs to.
