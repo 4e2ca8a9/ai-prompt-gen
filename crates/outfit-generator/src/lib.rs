@@ -6,7 +6,7 @@ pub mod variation;
 pub mod wardrobe;
 
 pub use error::Error;
-pub use item::{Category, Item, Slot};
+pub use item::{Category, Item, ItemFile, Slot};
 pub use outfit::{generate_outfit, generate_outfit_from_preset, Outfit};
 pub use preset::Preset;
 pub use variation::{MatchSet, OutfitItem, VariationCategory};

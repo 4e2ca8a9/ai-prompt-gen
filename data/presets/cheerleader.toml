@@ -1,4 +1,5 @@
 name = "Cheerleader"
+prompt = "cheerleader"
 items = [
     # Underwear
     "underwear.sports_bra",

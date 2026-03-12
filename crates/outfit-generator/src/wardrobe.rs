@@ -155,6 +155,11 @@ impl Wardrobe {
         &self.match_sets
     }
 
+    /// Add items programmatically.
+    pub fn add_items(&mut self, items: Vec<Item>) {
+        self.items.extend(items);
+    }
+
     /// Returns `true` if the wardrobe has no items.
     pub fn is_empty(&self) -> bool {
         self.items.is_empty()

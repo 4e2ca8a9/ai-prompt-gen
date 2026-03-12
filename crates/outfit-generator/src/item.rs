@@ -1,9 +1,9 @@
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use std::fmt;
 
 /// A slot on the body that an item can occupy.
 /// Two items conflict if they share any slot.
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Deserialize)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum Slot {
     // Head / face
@@ -40,7 +40,7 @@ pub enum Slot {
 }
 
 /// The broad category an item belongs to.
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Deserialize)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum Category {
     Underwear,
@@ -55,7 +55,7 @@ pub enum Category {
 }
 
 /// A single clothing or accessory item.
-#[derive(Debug, Clone, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Item {
     /// Unique identifier, e.g. `"dress.wrap_dress"`.
     pub slug: String,
@@ -93,7 +93,7 @@ impl fmt::Display for Item {
 /// category = "jewelry"
 /// slots = ["ears"]
 /// ```
-#[derive(Debug, Deserialize)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct ItemFile {
     pub items: Vec<Item>,
 }
