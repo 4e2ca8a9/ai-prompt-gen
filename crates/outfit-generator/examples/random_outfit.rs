@@ -18,8 +18,13 @@ fn main() {
         wardrobe.presets().len(),
     );
 
-    // Check if a preset name was passed as an argument.
-    let preset_name = std::env::args().nth(1);
+    // Check if a preset name was passed as an argument (supports spaces).
+    let args: Vec<String> = std::env::args().skip(1).collect();
+    let preset_name = if args.is_empty() {
+        None
+    } else {
+        Some(args.join(" "))
+    };
 
     let outfit = if let Some(ref name) = preset_name {
         let preset = wardrobe
